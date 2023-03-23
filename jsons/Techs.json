@@ -190,16 +190,17 @@
 				"quote": "'With artificial intelligence, we are summoning the demon. You know all those stories where there's the guy with the pentagram and the holy water, and he's like, yeah, he's sure he can control the demon? Doesn't work out.' - Elon Musk"
 			},
 			{
-				"name": "Stealth",
+				"name": "Artificial Intelligence",
 				"row": 7,
 				"prerequisites": ["Robotics","The Internet"],
-				"quote": "'Be extremely subtle, even to the point of formlessness, be extremely mysterious, even to the point of soundlessness. Thereby you can be the director of the opponent's fate.' - Sun Tzu"
-			}
+				"quote": "tThere is always room, if only in one’s own soul, to create a spot of Paradise, crazy though it may sound.' - Henry Miller"
+			},
+			
 		]
 	},
 	{
 		"columnNumber": 17,
-		"era": "Future era",
+		"era": "Extracolonial era",
 		"techCost": 9200,
 		"buildingCost": 1000,
 		"wonderCost": 2020,
@@ -217,28 +218,28 @@
 				"quote": "'Nanotechnology will let us build computers that are incredibly powerful. We'll have more power in the volume of a sugar cube than exists in the entire world today.' - Ralph Merkle"
 			},
 			{
-				"name": "Artificial Intelligence",
+				"name": "Stealth",
 				"row": 6,
 				"prerequisites": ["Lasers"],
-				"quote": "tThere is always room, if only in one’s own soul, to create a spot of Paradise, crazy though it may sound.' - Henry Miller"
-			},
+				"quote": "'Be extremely subtle, even to the point of formlessness, be extremely mysterious, even to the point of soundlessness. Thereby you can be the director of the opponent's fate.' - Sun Tzu"
+			}
 			{
 				"name": "Automation",
 				"row": 7,
-				"prerequisites": ["Lasers","Stealth"],
+				"prerequisites": ["Lasers","Artificial Intelligence"],
 				"quote": "'I visualize a time when we will be to robots what dogs are to humans, and I'm rooting for the machines.' - Claude Shannon"
 			}
 		]
 	},
 	{
 		"columnNumber": 18,
-		"era": "Future era",
+		"era": "Extracolonial era",
 		"techCost": 11000,
 		"buildingCost": 1120,
 		"wonderCost": 2360,
 		"techs": [
 			{
-				"name": "Metagenetics",
+				"name": "Biological Integration",
 				"row": 1,
 				"prerequisites": ["Enhancing"],
 				"quote": "'Neuroscience is a baby science, a mere century old, and our scientific understanding of the brain is nowhere near where we'd like it to be. We know more about the moons of Jupiter than what is inside of our skulls.' - Matt Haig"
@@ -252,50 +253,138 @@
 			{
 				"name": "Clean Energy",
 				"row": 5,
-				"prerequisites": ["Nanotechnology","Artificial Intelligence"],
+				"prerequisites": ["Nanotechnology","Stealth"],
 				"uniques": ["+3 Power to Buildings that provide it"]
 				"quote": "'For an impenetrable shield, stand inside yourself.' - Henry David"
 			},
 			{
 				"name": "Spaceflight",
-				"row": 7,
-				"prerequisites": ["Artificial Intelligence","Automation"],
+				"row": 9,
+				"prerequisites": ["Stealth","Automation"],
 				"quote": "'Space is to place as eternity is to time.' - Joseph Joubert"
 			}
 			{
 				"name": "Nuclear Fusion",
-				"row": 9,
+				"row": 7,
 				"prerequisites": ["Automation"],
 				"quote": "'The release of atomic energy has not created a new problem. It has readily made more urgent the necessity of solving an existing one.' - Albert Einstein"
 			},
 		]
 	}
-	{
+{
 		"columnNumber": 19,
-		"era": "Beyond the Future",
-		"techCost": 20000,
-		"buildingCost": 2000,
-		"wonderCost": 3120,
+		"era": "Homodeistic era",
+		"techCost": 11000,
+		"buildingCost": 1120,
+		"wonderCost": 2360,
 		"techs": [
 			{
-				"name": "World Alliance",
+				"name": "Metagenetics",
 				"row": 2,
-				"prerequisites": ["Metagenetics","Terraforming"],
-				"quote": "'A real friend is one who walks in when the rest of the world walks out.' - Walter Winchell"
+				"prerequisites": ["Biological Integration","Terraforming"],
+				"quote": "'Neuroscience is a baby science, a mere century old, and our scientific understanding of the brain is nowhere near where we'd like it to be. We know more about the moons of Jupiter than what is inside of our skulls.' - Matt Haig"
 			},
 			{
-				"name": "Future Tech",
-				"row": 5,
-				"prerequisites": ["Metagenetics","Terraforming","Clean Energy","Spaceflight","Nuclear Fusion"],
-				"uniques": ["Go beyond the Future", "Can be continually researched"],
-				"quote": "'But to understand the future. We have to go back in time' - Pitbull"
-			}
+				"name": "Aquatic Colonization",
+				"row": 4,
+				"prerequisites": ["Terraforming","Clean Energy"],
+				"quote": "'How inappropriate to call this planet Earth when it is quite clearly Ocean.' - Arthur C. Clarke"
+			},
+			{
+				"name": "Futuristic Infrastructure",
+				"row": 6,
+				"prerequisites": ["Clean Energy","Nuclear Fusion"],
+				"uniques": ["+3 Power to Buildings that provide it"]
+				"quote": "'For an impenetrable shield, stand inside yourself.' - Henry David"
+			},
 			{
 				"name": "Particle Physics",
 				"row": 8,
 				"prerequisites": ["Spaceflight","Nuclear Fusion"],
 				"quote": "'Every particle of matter is attracted by or gravitates to every other particle of matter with a force inversely proportional to the squares of their distances.' - Isaac Newton"
 			}
+			
+		]
+	}
+{
+		"columnNumber": 20,
+		"era": "Homodeistic era",
+		"techCost": 11000,
+		"buildingCost": 1120,
+		"wonderCost": 2360,
+		"techs": [
+			{
+				"name": "Immortality",
+				"row": 3,
+				"prerequisites": ["Aquatic Colonization","Metagenetics"],
+				"quote": "'Neuroscience is a baby science, a mere century old, and our scientific understanding of the brain is nowhere near where we'd like it to be. We know more about the moons of Jupiter than what is inside of our skulls.' - Matt Haig"
+			},
+			{
+				"name": "Meteorical Sustenance",
+				"row": 5,
+				"prerequisites": ["Aquatic Colonization","Futuristic Infrastructure"],
+				"quote": "'How inappropriate to call this planet Earth when it is quite clearly Ocean.' - Arthur C. Clarke"
+			},
+			{
+				"name": "Gravitational Distortion",
+				"row": 6,
+				"prerequisites": ["Futuristic Infrastructure","Particle Physics"],
+				"uniques": ["+3 Power to Buildings that provide it"]
+				"quote": "'For an impenetrable shield, stand inside yourself.' - Henry David"
+			},
+			{
+				"name": "Determinism",
+				"row": 7,
+				"prerequisites": ["Particle Physics"],
+				"quote": "'Every particle of matter is attracted by or gravitates to every other particle of matter with a force inversely proportional to the squares of their distances.' - Isaac Newton"
+			},
+			{
+				"name": "Antimatter",
+				"row": 8,
+				"prerequisites": ["Particle Physics"],
+				"quote": "'Every particle of matter is attracted by or gravitates to every other particle of matter with a force inversely proportional to the squares of their distances.' - Isaac Newton"
+			}
+			
+		]
+	}
+	{
+		"columnNumber": 21,
+		"era": "Transcendence",
+		"techCost": 20000,
+		"buildingCost": 2000,
+		"wonderCost": 3120,
+		"techs": [
+			{
+				"name": "World Alliance",
+				"row": 4,
+				"prerequisites": ["Immortality","Meteorical Sustenance"],
+				"quote": "'A real friend is one who walks in when the rest of the world walks out.' - Walter Winchell"
+			},
+			{
+				"name": "Stargates",
+				"row": 7,
+				"prerequisites": ["Determinism","Antimatter","Gravitational Distortion"],
+				"quote": "'Every particle of matter is attracted by or gravitates to every other particle of matter with a force inversely proportional to the squares of their distances.' - Isaac Newton"
+			},
+			
+		]
+	}
+{
+		"columnNumber": 22,
+		"era": "Transcendence",
+		"techCost": 20000,
+		"buildingCost": 2000,
+		"wonderCost": 3120,
+		"techs": [
+			
+			{
+				"name": "Future Tech",
+				"row": 5,
+				"prerequisites": ["World Alliance","Stargates"],
+				"uniques": ["Go beyond the Future", "Can be continually researched"],
+				"quote": "'But to understand the future. We have to go back in time' - Pitbull"
+			}
+			
 		]
 	}
 ]
