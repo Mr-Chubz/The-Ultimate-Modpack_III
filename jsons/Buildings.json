@@ -400,6 +400,13 @@
 		"requiredTech": "Clean Energy",
 		"uniques": ["Consumes [3] [Power]","Population loss from nuclear attacks [-25]% [in this city]","All newly-trained [Military] units [in this city] receive the [Energy Shield] promotion","Only available <in cities without a [Adaptive Base]>","Destroyed when the city is captured"],
 	},
+{
+		"name": "Mind Driver",
+		"isWonder": true,
+		"cost": 2600,
+		"requiredTech": "Determinism",
+		"quote": "'If I could teleport, I'd probably still be late.' - Anonymous"
+	},
   //Specialist
  {
 		"name": "Museum",
@@ -804,6 +811,19 @@
 		"[+50]% Great Person generation [in this city]"],
 		"quote": "'It takes a planet to explore the universe.' - Dylan Taylor"
 	},
+{
+		"name": "Helios Alpha",
+		"isWonder": true,
+		"cost": 2600,
+		"requiredTech": "Spaceflight",
+		"greatPersonPoints": {"Great Spacefarer": 2},
+		"uniques": ["Space",
+		"[+25]% Strength <for [Space] units>",
+		"[+2 Culture] from every specialist [in all cities]",
+	    "[+50]% Great Person generation [in all cities]"	
+		"[+50]% Great Person generation [in this city]"],
+		"quote": "'It takes a planet to explore the universe.' - Dylan Taylor"
+	},
 	{
 		"name": "World Alliance",
 		"isWonder": true,
@@ -822,6 +842,20 @@
 		"[Future Soldier] units gain the [Teleportation] promotion"
 		"[Giant Death Robot] units gain the [Teleportation] promotion",
 		"[Stealth Hacker] units gain the [Teleportation] promotion"],
+		"quote": "'If I could teleport, I'd probably still be late.' - Anonymous"
+	},
+	{
+		"name": "Hive Mind",
+		"isWonder": true,
+		"cost": 2600,
+		"requiredTech": "Immortality",
+		"quote": "'If I could teleport, I'd probably still be late.' - Anonymous"
+	},
+{
+		"name": "Weather Control Device",
+		"isWonder": true,
+		"cost": 2600,
+		"requiredTech": "Immortality",
 		"quote": "'If I could teleport, I'd probably still be late.' - Anonymous"
 	},
 	//Coorparations
