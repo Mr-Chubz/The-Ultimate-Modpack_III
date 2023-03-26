@@ -402,7 +402,6 @@
 	},
 {
 		"name": "Mind Driver",
-		"isWonder": true,
 		"cost": 2600,
 		"requiredTech": "Determinism",
 		"quote": "'If I could teleport, I'd probably still be late.' - Anonymous"
@@ -855,7 +854,7 @@
 		"name": "Weather Control Device",
 		"isWonder": true,
 		"cost": 2600,
-		"requiredTech": "Immortality",
+		"requiredTech": "Meteorical Endurance",
 		"quote": "'If I could teleport, I'd probably still be late.' - Anonymous"
 	},
 	//Coorparations
