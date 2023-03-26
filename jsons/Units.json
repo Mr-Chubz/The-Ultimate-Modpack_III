@@ -3659,7 +3659,7 @@
 //Homodeistic Era
 {
 "name": "Orbital Gunship",
-"unitType": "Helicopter",
+"unitType": "Air Helicopter",
 "movement": 5,
 "strength": 85,
 "interceptRange": 1,
@@ -3691,14 +3691,14 @@
 },
 {
 		"name": "Starcruiser",
-		"unitType": "Meteorical Endurance",
+		"unitType": "Land Carrier",
 		"movement": 3,
 		"range": 2,
 		"interceptRange": 2,
 		"strength": 125,
 		"rangedStrength": 125,
 		"cost": 750,
-		"requiredTech": "Clean Energy",
+		"requiredTech": "Meteorical Endurance",
 		"requiredResource": "Composites",
 		"uniques": ["Cyber","Space","Consumes [3] [Composites]","No defensive terrain bonus","Can move after attacking","All tiles cost 1 movement","Ignores Zone of Control","Can carry [2] [Aircraft] units","[100]% chance to intercept air attacks","[+25]% Strength <vs [Air] units>","Never appears as a Barbarian unit"],
 		"promotions": ["In Orbit","Amphibious"]
