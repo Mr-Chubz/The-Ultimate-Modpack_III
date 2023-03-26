@@ -357,7 +357,7 @@
 			{
 				"name": "World Alliance",
 				"row": 4,
-				"prerequisites": ["Immortality","Meteorical Sustenance"],
+				"prerequisites": ["Immortality","Meteorical Endurance"],
 				"quote": "'A real friend is one who walks in when the rest of the world walks out.' - Walter Winchell"
 			},
 			{
