@@ -3371,7 +3371,7 @@
 		"uniques": ["Damage taken from interception reduced by [100]%", "Cannot be carried by [Naval Carrier] units", "[+4] Sight", "Can see over obstacles", "Consumes [1] [Oil]", "Consumes [1] [Aluminum]"],
 		"attackSound": "bombing"
 	},
-	//Future
+	//Extracolonial Era
 	{
 		"name": "Enhanced Infantry",
 		"unitType": "Infantry",
@@ -3597,7 +3597,7 @@
 		"movement": 4,
 		"strength": 160,
 		"cost": 750,
-		"requiredTech": "Nuclear Fusion",
+		"requiredTech": "Futuristic Infrastructure",
 		"requiredResource": "Titanium",
 		"uniques": ["Armored","Consumes [2] [Uranium]","Cyber","Can move after attacking","Can carry [2] [Air Missile] units","Never appears as a Barbarian unit"],
 		"promotions": ["Scan Visor","Amphibious","Gravity Generator"]
@@ -3656,7 +3656,54 @@
 		"uniques": ["Nuclear weapon of Strength [2]","Only available <if [Nuclear Testing Site] is constructed>","Blast radius [3]"],
 		"attackSound": "nuke"
 	},
-
+//Homodeistic Era
+{
+"name": "Orbital Gunship",
+"unitType": "Helicopter",
+"movement": 5,
+"strength": 85,
+"interceptRange": 1,
+"range": 1,
+"rangedStrength": 85,
+"cost": 475,
+"requiredTech": "Gravitational Distortion",
+"uniques": ["Never appears as a Barbarian unit","No defensive terrain bonus","Ignores zone of control",
+		"All tiles cost 1 movement",
+		"Can carry [1] [Guided Missile] units",
+		"[25]% chance to intercept air attacks",
+		"No defensive terrain bonus"],
+"promotions": ["Indirect Fire"]
+"requiredResource": "Fuel"
+	},
+{
+"name": "Orbital Seahunter,
+"unitType": "Air Helicopter",
+"movement": 6,
+"strength": 75,
+"cost": 450,
+"requiredTech": "Gravitational Distortion",
+"uniques": ["Never appears as a Barbarian unit","No defensive terrain bonus","Ignores zone of control",
+		"All tiles cost 1 movement",
+		"[+40%] strength <vs [Water] units>",
+		"Defense bonus when embarked"],
+"promotions": ["Amphibious"],
+"requiredResource": "Fuel"
+},
+{
+		"name": "Starcruiser",
+		"unitType": "Meteorical Endurance",
+		"movement": 3,
+		"range": 2,
+		"interceptRange": 2,
+		"strength": 125,
+		"rangedStrength": 125,
+		"cost": 750,
+		"requiredTech": "Clean Energy",
+		"requiredResource": "Composites",
+		"uniques": ["Cyber","Space","Consumes [3] [Composites]","No defensive terrain bonus","Can move after attacking","All tiles cost 1 movement","Ignores Zone of Control","Can carry [2] [Aircraft] units","[100]% chance to intercept air attacks","[+25]% Strength <vs [Air] units>","Never appears as a Barbarian unit"],
+		"promotions": ["In Orbit","Amphibious"]
+		"attackSound": "energyshot"
+	},
 	/* Great people */
 
 	{
