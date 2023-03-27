@@ -364,7 +364,7 @@
 	{
 		"name": "Energy Reactor",
 		"cost": 1000,
-		"requiredTech": "Nuclear Fusion",
+		"requiredTech": "Particle Physics",
 		"maintenance": 5,
 		"uniques": ["Provides [10] [Power]","Provides [3] [Power] <after discovering [Clean Energy]>","Provides [10] [Power] <if [Electrical Corporation] is constructed>","Only available <in cities without a [Coal Plant]>","Only available <in cities without a [Nuclear Plant]>"]
 	},
@@ -412,6 +412,16 @@
 		"requiredTech": "Antimatter",
 		"maintenance": 5,
 		"uniques": ["Provides [10] [Power]","Provides [3] [Power] <after discovering [Clean Energy]>","Provides [10] [Power] <if [Electrical Corporation] is constructed>","Only available <in cities without a [Coal Plant]>","Only available <in cities without a [Nuclear Plant]>"]
+	},
+{
+		"name": "Space Elevator",
+		"cost": 2600,
+		"requiredTech": "Meteorical Endurance",
+		"greatPersonPoints": {"Great Spacefarer": 2},
+		"uniques": ["Space",
+		"[+2 Culture] from every specialist [in all cities]",	
+		"[+50]% Great Person generation [in this city]"],
+		"quote": "'It takes a planet to explore the universe.' - Dylan Taylor"
 	},
   //Specialist
  {
@@ -815,19 +825,6 @@
 		"[+25]% Production when constructing [Bio] units [in all cities]",
 		"[+25]% [Food] from every [Adaptive Base]"],
 		"quote": "'Its alive! Its alive!' - Víctor Frankenstein"
-	},
-	{
-		"name": "Space Elevator",
-		"isWonder": true,
-		"cost": 2600,
-		"requiredTech": "Spaceflight",
-		"greatPersonPoints": {"Great Spacefarer": 2},
-		"uniques": ["Space",
-		"[+25]% Strength <for [Space] units>",
-		"[+2 Culture] from every specialist [in all cities]",
-	    "[+50]% Great Person generation [in all cities]"	
-		"[+50]% Great Person generation [in this city]"],
-		"quote": "'It takes a planet to explore the universe.' - Dylan Taylor"
 	},
 {
 		"name": "Helios Alpha",
