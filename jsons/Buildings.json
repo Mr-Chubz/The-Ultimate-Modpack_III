@@ -406,6 +406,13 @@
 		"requiredTech": "Determinism",
 		"quote": "'If I could teleport, I'd probably still be late.' - Anonymous"
 	},
+{
+		"name": "Antimatter Reactor",
+		"cost": 1000,
+		"requiredTech": "Antimatter",
+		"maintenance": 5,
+		"uniques": ["Provides [10] [Power]","Provides [3] [Power] <after discovering [Clean Energy]>","Provides [10] [Power] <if [Electrical Corporation] is constructed>","Only available <in cities without a [Coal Plant]>","Only available <in cities without a [Nuclear Plant]>"]
+	},
   //Specialist
  {
 		"name": "Museum",
@@ -596,6 +603,18 @@
 		"Only available <in cities without a [Bio Facility]>",
 		"Only available <in cities without a [Composite Factory]>"],
 		
+	},
+{
+		"name": "Gantry",
+		"cost": 360,
+		"production": 4,
+		"percentStatBonus": {"production": 5},
+		"specialistSlots": {"Engineer": 2},
+		"requiredBuilding": "Workshop",
+		"maintenance": 3,
+		"hurryCostModifier": 0,
+		"requiredTech": "Futuristic Infrastructure"
+		"uniques": ["[+15]% [Production] [in this city] <with [Power]>"],
 	},
   //National Wonder
   {
