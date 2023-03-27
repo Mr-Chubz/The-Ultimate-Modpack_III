@@ -852,7 +852,7 @@
 		"name": "Teleport Station",
 		"isWonder": true,
 		"cost": 2600,
-		"requiredTech": "Particle Physics",
+		"requiredTech": "Stargates",
 		"uniques": ["[Energy Infantry] units gain the [Teleportation] promotion",
 		"[Future Soldier] units gain the [Teleportation] promotion"
 		"[Giant Death Robot] units gain the [Teleportation] promotion",
