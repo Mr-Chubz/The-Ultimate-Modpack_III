@@ -873,6 +873,13 @@
 		"requiredTech": "Meteorical Endurance",
 		"quote": "'If I could teleport, I'd probably still be late.' - Anonymous"
 	},
+{
+		"name": "The Looking Glass",
+		"isWonder": true,
+		"cost": 2600,
+		"requiredTech": "Determinism",
+		"quote": "'If I could teleport, I'd probably still be late.' - Anonymous"
+	},
 	//Coorparations
   {
 		"name": "Electrical Corporation",
