@@ -3652,7 +3652,7 @@
 		"rangedStrength": 500,
 		"range": 18,
 		"cost": 2000,
-		"requiredTech": "Particle Physics",
+		"requiredTech": "Meteorical Endurance",
 		"uniques": ["Nuclear weapon of Strength [2]","Only available <if [Nuclear Testing Site] is constructed>","Blast radius [3]"],
 		"attackSound": "nuke"
 	},
@@ -3671,7 +3671,7 @@
 		"attackSound": "tankshot"
 	},
 {
-		"name": "Terminators",
+		"name": "Terminator",
 		"unitType": "Siege Melee",
 		"movement": 2,
 		"strength": 85,
@@ -3690,7 +3690,7 @@
 		"range": 3,
 		"rangedStrength": 100,
 		"cost": 530,
-		"requiredTech": "Automation",
+		"requiredTech": "Immortality",
 		"requiredResource": "Composites",
 		"uniques": ["Cyber","[+75]% Strength <when attacking>","Can move after attacking","[+1] Sight","Can carry [2] [Air Missile] units","Ignores Zone of Control","Never appears as a Barbarian unit"],
 		"attackSound": "torpedo"
