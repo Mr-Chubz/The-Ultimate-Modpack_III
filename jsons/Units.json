@@ -3658,6 +3658,59 @@
 	},
 //Homodeistic Era
 {
+		"name": "Stealth Hovercraft",
+		"unitType": "Heavy Cavalry",
+		"movement": 5,
+		"strength": 80,
+		"rangedStrength": 110,
+		"range": 1,
+		"cost": 525,
+		"requiredTech": "Particle Physics",
+		"requiredResource": "Aluminum",
+		"uniques": ["Armored","Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit", "Invisible to non-adjacent units", "Consumes [1] [Secret Project]", "Will not be displayed in Civilopedia", "Only available <with [Secret Project]>"],
+		"attackSound": "tankshot"
+	},
+{
+		"name": "Terminators",
+		"unitType": "Siege Melee",
+		"movement": 2,
+		"strength": 85,
+		"cost": 500,
+		"requiredTech": "Particle Physics",
+		"uniques": ["May Paradrop up to [40] tiles from inside friendly territory", "No movement cost to pillage",
+		"Never appears as a Barbarian unit"],
+		"promotions": ["Skirmish","Rocket Launcher"]
+		"attackSound": "energyshot"
+	},
+{
+		"name": "Kaiju",
+		"unitType": "Naval Submarine",
+		"movement": 6,
+		"strength": 65,
+		"range": 3,
+		"rangedStrength": 100,
+		"cost": 530,
+		"requiredTech": "Automation",
+		"requiredResource": "Composites",
+		"uniques": ["Cyber","[+75]% Strength <when attacking>","Can move after attacking","[+1] Sight","Can carry [2] [Air Missile] units","Ignores Zone of Control","Never appears as a Barbarian unit"],
+		"attackSound": "torpedo"
+	},
+{
+		"name": "Atlantis",
+		"unitType": "Naval Submarine",
+		"movement": 6,
+		"strength": 50,
+		"range": 3,
+		"rangedStrength": 85,
+		"cost": 500,
+		"requiredTech": "Aquatic Colonization",
+		"requiredResource": "Uranium",
+		"uniques": ["[+75]% Strength <when attacking>", "Invisible to others", 
+			"Can only attack [Water] tiles", "Can attack submarines", "Can enter ice tiles", "[+1] Sight", "Can carry [2] [Air] units", 
+			   "Never appears as a Barbarian unit"],
+		"attackSound": "torpedo"
+	},
+{
 "name": "Orbital Gunship",
 "unitType": "Air Helicopter",
 "movement": 5,
