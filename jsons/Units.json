@@ -3359,6 +3359,21 @@
 		"uniques": ["Only available <if [Apollo Program] is constructed>", "Consumes [3] [Fuel]", "Consumes [5] [Aluminum]", "Consumes [1] [Secret Project]", "Will not be displayed in Civilopedia", "Only available <with [Secret Project]>", "Only available <if [Spaceship Factory] is constructed>"],
 		"attackSound": "gdrAttack"
 	},
+{
+		"name": "Stealth Fighter",
+		"unitType": "Air Close Air Support",
+		"movement": 1,
+		"strength": 68,
+		"rangedStrength": 75,
+		"range": 10,
+		"interceptRange": 10,
+		"cost": 425,
+		"requiredTech": "Stealth",
+		"requiredResource": "Oil",
+		"uniques": ["[80]% chance to intercept air attacks", "[+50]% Strength <vs [Armored] units>","[+150]% Strength <vs [Air Helicopter] units>"],
+		"upgradesTo": "Orbital Jet",
+		"attackSound": "jetgun"
+	},
 	{
 		"name": "Stealth Bomber",
 		"unitType": "Air Bomber",
