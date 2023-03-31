@@ -3361,16 +3361,16 @@
 	},
 {
 		"name": "Stealth Fighter",
-		"unitType": "Air Close Air Support",
+		"unitType": "Air Fighter",
 		"movement": 1,
-		"strength": 68,
+		"strength": 72,
 		"rangedStrength": 75,
 		"range": 10,
 		"interceptRange": 10,
 		"cost": 425,
 		"requiredTech": "Stealth",
 		"requiredResource": "Oil",
-		"uniques": ["[80]% chance to intercept air attacks", "[+50]% Strength <vs [Armored] units>","[+150]% Strength <vs [Air Helicopter] units>"],
+		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Air Bomber] units>", "[+150]% Strength <vs [Air Atomic Bomber] units>", "[+50]% Strength <vs [Air Close Air Support] units>", "[+150]% Strength <vs [Air Helicopter] units>","Consumes [1] [Aluminum]"],
 		"upgradesTo": "Orbital Jet",
 		"attackSound": "jetgun"
 	},
@@ -3583,9 +3583,12 @@
 		"uniques":[
 		"Cyber",
 		"Space",
-		"[100]% chance to intercept air attacks",
+		"[100]% chance to intercept air attacks", 
 		"[+150]% Strength <vs [Air Bomber] units>", 
-		"[+50]% Strength <vs [Air Helicopter] units>"],
+		"[+150]% Strength <vs [Air Atomic Bomber] units>", 
+		"[+50]% Strength <vs [Air Close Air Support] units>", 
+		"[+150]% Strength <vs [Air Helicopter] units>"],
+],
 		"promotions": ["Heat Sensor","In Orbit"]
 		"attackSound": "jetgun"
 	},
@@ -3781,7 +3784,7 @@
 		"cost": 425,
 		"requiredTech": "Antimatter",
 		"requiredResource": "Composites",
-		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Air Bomber] units>", "[+150]% Strength <vs [Air Atomic Bomber] units>", "[+50]% Strength <vs [Air Close Air Support] units>", "[+150]% Strength <vs [Air Helicopter] units>"],
+		"uniques": ["Cyber","[100]% chance to intercept air attacks", "[+150]% Strength <vs [Air Bomber] units>", "[+150]% Strength <vs [Air Atomic Bomber] units>", "[+50]% Strength <vs [Air Close Air Support] units>", "[+150]% Strength <vs [Air Helicopter] units>"],
 		"attackSound": "jetgun"
 	},
 {
