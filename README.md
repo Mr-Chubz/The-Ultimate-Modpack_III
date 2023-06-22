@@ -20,6 +20,10 @@ V:1.1
         -Clean upgrades as much as possible (Complete!) (Upgrades can be further cleaned once the future eras are complete)
         -Update: The Barbarians -Add Wayfinder + Suicider, Increase Barbarian difficulty -- (Complete!)
         -Update: The Future -- Add Stealth Fighter, Separate Pathways
-    
+
+    The future eras are incomplete. 
+        -Units need stats
+        -Units need models
+        -Wonder effects must be determined
     
     ... Enjoy!
