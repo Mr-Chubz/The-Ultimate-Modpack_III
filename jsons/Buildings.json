@@ -821,7 +821,7 @@
 		"isWonder": true,
 		"cost": 2600,
 		"requiredTech": "Metagenetics",
-		"uniques": ["[+25]% Strength <for [Bio] units>",
+		"uniques": ["[+15]% Strength <for [Bio] units>",
 		"[+25]% Production when constructing [Bio] units [in all cities]",
 		"[+25]% [Food] from every [Adaptive Base]"],
 		"quote": "'Its alive! Its alive!' - Víctor Frankenstein"
@@ -835,7 +835,7 @@
 		"uniques": ["Space",
 		"[+25]% Strength <for [Space] units>",
 		"[+2 Culture] from every specialist [in all cities]",
-	    "[+50]% Great Person generation [in all cities]"	
+	    	"[+50]% Great Person generation [in all cities]"	
 		"[+50]% Great Person generation [in this city]"],
 		"quote": "'It takes a planet to explore the universe.' - Dylan Taylor"
 	},
@@ -856,6 +856,7 @@
 		"uniques": ["[Energy Infantry] units gain the [Teleportation] promotion",
 		"[Future Soldier] units gain the [Teleportation] promotion"
 		"[Giant Death Robot] units gain the [Teleportation] promotion",
+		"[Ultraheavy Death Robot] units gain the [Teleportation] promotion",
 		"[Stealth Hacker] units gain the [Teleportation] promotion"],
 		"quote": "'If I could teleport, I'd probably still be late.' - Anonymous"
 	},
@@ -864,6 +865,10 @@
 		"isWonder": true,
 		"cost": 2600,
 		"requiredTech": "Immortality",
+		"uniques": ["[+25]% Strength <for [Bio] units>",
+		"[+25]% Production when constructing [Bio] units [in all cities]",
+		"[+35]% [Food] from every [Adaptive Base]"
+		"New [Bio] units start with [15] Experience [in this city]",],
 		"quote": "'If I could teleport, I'd probably still be late.' - Anonymous"
 	},
 {
@@ -871,6 +876,8 @@
 		"isWonder": true,
 		"cost": 2600,
 		"requiredTech": "Meteorical Endurance",
+		"uniques": ["[+1 Food] from every specialist [in all cities]","[+1 Production] from every specialist [in all cities]",
+		"+1 Power to Buildings that provide it",]
 		"quote": "'If I could teleport, I'd probably still be late.' - Anonymous"
 	},
 {
@@ -878,6 +885,7 @@
 		"isWonder": true,
 		"cost": 2600,
 		"requiredTech": "Determinism",
+		"uniques": ["[+20]% [Science] in all cities",]
 		"quote": "'If I could teleport, I'd probably still be late.' - Anonymous"
 	},
 	//Coorparations
