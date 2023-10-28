@@ -274,9 +274,9 @@
 {
 		"columnNumber": 19,
 		"era": "Homodeistic era",
-		"techCost": 11000,
-		"buildingCost": 1120,
-		"wonderCost": 2360,
+		"techCost": 13500,
+		"buildingCost": 1260,
+		"wonderCost": 2760,
 		"techs": [
 			{
 				"name": "Metagenetics",
@@ -309,9 +309,9 @@
 {
 		"columnNumber": 20,
 		"era": "Homodeistic era",
-		"techCost": 11000,
-		"buildingCost": 1120,
-		"wonderCost": 2360,
+		"techCost": 16200,
+		"buildingCost": 1400,
+		"wonderCost": 2860,
 		"techs": [
 			{
 				"name": "Immortality",
@@ -336,7 +336,7 @@
 				"name": "Determinism",
 				"row": 7,
 				"prerequisites": ["Particle Physics"],
-				"quote": "'Every particle of matter is attracted by or gravitates to every other particle of matter with a force inversely proportional to the squares of their distances.' - Isaac Newton"
+				"quote": "'The assumption of an absolute determinism is the foundation of every scientific inquiry.' - Max Planc"
 			},
 			{
 				"name": "Antimatter",
