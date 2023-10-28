@@ -3588,7 +3588,6 @@
 		"[+150]% Strength <vs [Air Atomic Bomber] units>", 
 		"[+50]% Strength <vs [Air Close Air Support] units>", 
 		"[+150]% Strength <vs [Air Helicopter] units>"],
-],
 		"promotions": ["Heat Sensor","In Orbit"]
 		"attackSound": "jetgun"
 	},
