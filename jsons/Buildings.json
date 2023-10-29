@@ -404,6 +404,7 @@
 		"name": "Mind Driver",
 		"cost": 2600,
 		"requiredTech": "Determinism",
+		"uniques": ["[+50]% [Happiness]","Rebel units may spawn",]
 		"quote": "'If I could teleport, I'd probably still be late.' - Anonymous"
 	},
 {
