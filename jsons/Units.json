@@ -1774,6 +1774,7 @@
 		"requiredTech": "Rifling",
 		"uniques": ["No movement cost to pillage","[+20]% Strength <vs [Mounted] units>","Can move immediately once bought", "Earn [100]% of the damage done to [cities] as [Gold]","[+20]% Strength in foreign land tiles", "[+50]% Strength <vs cities>"],
 		"obsoleteTech": "Replaceable Parts",
+		"upgradesTo": "Modern Mercenaries",
 		"attackSound": "metalhit"
 	},
 	{
