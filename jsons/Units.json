@@ -823,7 +823,7 @@
 		"strength": 15,
 		"cost": 90,
 		"requiredTech": "Civil Service",
-		"uniques": ["No movement cost to pillage","[+20]% Strength <vs [Mounted] units>","Can move immediately once bought", "Earn [100]% of the damage done to [cities] as [Gold]","[+20]% Strength in foreign land tiles", "[+50]% Strength <vs cities>"],
+		"uniques": ["Unbuildable","No movement cost to pillage","[+20]% Strength <vs [Mounted] units>","Can move immediately once bought", "Earn [100]% of the damage done to [cities] as [Gold]","[+20]% Strength in foreign land tiles", "[+50]% Strength <vs cities>"],
 		"upgradesTo": "Free Company",
 		"obsoleteTech": "Gunpowder",
 		"attackSound": "metalhit"
@@ -1374,7 +1374,7 @@
 		"strength": 21,
 		"cost": 170,
 		"requiredTech": "Gunpowder",
-		"uniques": ["No movement cost to pillage","[+20]% Strength <vs [Mounted] units>","Can move immediately once bought", "Earn [100]% of the damage done to [cities] as [Gold]","[+20]% Strength in foreign land tiles", "[+50]% Strength <vs cities>"],
+		"uniques": ["Unbuildable","No movement cost to pillage","[+20]% Strength <vs [Mounted] units>","Can move immediately once bought", "Earn [100]% of the damage done to [cities] as [Gold]","[+20]% Strength in foreign land tiles", "[+50]% Strength <vs cities>"],
 		"upgradesTo": "Mercenaries",
 		"obsoleteTech": "Rifling",
 		"attackSound": "metalhit"
@@ -1508,7 +1508,7 @@
 		"requiredTech": "Metallurgy",
 		"requiredResource": "Horses",
 		"uniques": ["Mounted","No defensive terrain bonus","[-33]% Strength <vs cities>","Never appears as a Barbarian unit", "[+50]% Strength <vs [Mounted] units>"],
-		"upgradesTo": "Anti-Tank Gun",
+		"upgradesTo": "Tank Destroyer",
 		"obsoleteTech": "Combined Arms",
 		"attackSound": "horse"
 	},
@@ -1772,7 +1772,7 @@
 		"strength": 36,
 		"cost": 225,
 		"requiredTech": "Rifling",
-		"uniques": ["No movement cost to pillage","[+20]% Strength <vs [Mounted] units>","Can move immediately once bought", "Earn [100]% of the damage done to [cities] as [Gold]","[+20]% Strength in foreign land tiles", "[+50]% Strength <vs cities>"],
+		"uniques": ["Unbuildable","No movement cost to pillage","[+20]% Strength <vs [Mounted] units>","Can move immediately once bought", "Earn [100]% of the damage done to [cities] as [Gold]","[+20]% Strength in foreign land tiles", "[+50]% Strength <vs cities>"],
 		"obsoleteTech": "Replaceable Parts",
 		"upgradesTo": "Modern Mercenaries",
 		"attackSound": "metalhit"
@@ -2437,7 +2437,8 @@
 		"cost": 375,
 		"requiredTech": "Nuclear Fission",
 		"requiredResource": "Uranium",
-		"uniques": ["Cannot attack", "Can carry [3] [Aircraft] units", "Can carry [2] [Air Missile] units", "[70]% chance to intercept air attacks", "Never appears as a Barbarian unit"]
+		"ugradesTo": "Atlantis",
+		"uniques": ["Cannot attack", "Can carry [3] [Aircraft] units", "Can carry [2] [Air Missile] units", "[70]% chance to intercept air attacks", "Never appears as a Barbarian unit","Provides [1] [Uranium]",]
 	},
 	{
 		"name": "Commando",
@@ -2913,10 +2914,11 @@
 		"strength": 65,
 		"range": 3,
 		"rangedStrength": 100,
-		"cost": 425,
+		"cost": 600,
 		"requiredTech": "Nanotechnology",
+		"requiredResource": "Uranium",
 		"upgradesTo": "Future Submarine",
-		"uniques": ["Cyber","Consumes [1] [Uranium]","[+75]% Strength <when attacking>","Can only attack [Water] tiles","Can move after attacking","[+1] Sight","Can carry [2] [Air Missile] units","Can carry [1] [Air Nuke Missile] units","Ignores Zone of Control","Never appears as a Barbarian unit"],
+		"uniques": ["Cyber","Provides [1] [Uranium]","[+75]% Strength <when attacking>","Can only attack [Water] tiles","Can move after attacking","[+1] Sight","Can carry [2] [Air Missile] units","Can carry [1] [Air Nuke Missile] units","Ignores Zone of Control","Never appears as a Barbarian unit"],
 		"attackSound": "torpedo"
 	},
 	{
@@ -3048,6 +3050,7 @@
 		"strength": 70,
 		"cost": 425,
 		"requiredTech": "Telecommunications",
+		"upgradesTo": "Terminator",
 		"uniques": ["[+100]% Strength <vs cities>", "All tiles cost 1 movement", "May Paradrop up to [7] tiles from inside friendly territory", "Never appears as a Barbarian unit"],
 		"attackSound": "shot"
 	},
@@ -3427,6 +3430,7 @@
 		"cost": 425,
 		"requiredTech": "Nuclear Fusion",
 		"requiredResource": "Uranium",
+		"upgradesTo": "Ultraheavy Death Robot",
 		"uniques": ["Armored","Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit"],
 		"attackSound": "gdrAttack"
 	},
@@ -3684,8 +3688,8 @@
 		"range": 1,
 		"cost": 600,
 		"requiredTech": "Particle Physics",
-		"requiredResource": "Aluminum",
-		"uniques": ["Armored","Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit", "Invisible to non-adjacent units", "Consumes [1] [Secret Project]", "Will not be displayed in Civilopedia", "Only available <with [Secret Project]>"],
+		"requiredResource": "Titanium",
+		"uniques": ["Armored","Can move after attacking", "No defensive terrain bonus","Ignores terrain cost", "Never appears as a Barbarian unit", "Invisible to non-adjacent units",],
 		"attackSound": "tankshot"
 	},
 {
@@ -3695,9 +3699,8 @@
 		"strength": 120,
 		"cost": 700,
 		"requiredTech": "Particle Physics",
-		"uniques": ["May Paradrop up to [40] tiles from inside friendly territory", "No movement cost to pillage",
-		"Never appears as a Barbarian unit"],
-		"promotions": ["Skirmish","Rocket Launcher"]
+		"uniques": ["[+100]% Strength <vs cities>", "All tiles cost 1 movement", "May Paradrop up to [20] tiles from inside friendly territory", "Never appears as a Barbarian unit"],
+		"promotions": ["Rocket Launcher"]
 		"attackSound": "energyshot"
 	},
 {
