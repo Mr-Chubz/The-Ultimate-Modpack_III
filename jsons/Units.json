@@ -1675,7 +1675,7 @@
 		"cost": 100,
 		"requiredTech": "Rifling",
 		"obsoleteTech": "Satellites",
-		"upgradesTo": "Paratrooper",
+		"upgradesTo": "Enhanced Recon",
 		"uniques": ["Never appears as a Barbarian unit"],
 		"promotions": ["Skirmish","Ignore terrain cost"],
 		"attackSound": "shot"
@@ -2962,6 +2962,7 @@
 		"strength": 80,
 		"cost": 425,
 		"requiredTech": "Telecommunications",
+		"upgradesTo": "Enhanced Infantry",
 		"attackSound": "machinegun"
 	},
 	{
@@ -3145,6 +3146,7 @@
 		"rangedStrength": 85,
 		"cost": 475,
 		"requiredTech": "Advanced Ballistics",
+		"upgradesTo": "Orbital Gunship",
 		"uniques": ["Never appears as a Barbarian unit","No defensive terrain bonus","Ignores zone of control",
 		"All tiles cost 1 movement",
 		"Can carry [1] [Guided Missile] units",
@@ -3303,6 +3305,7 @@
 		"strength": 75,
 		"cost": 450,
 		"requiredTech": "Robotics",
+		"upgradesTo": "Orbital Seahunter",
 		"uniques": ["Never appears as a Barbarian unit","No defensive terrain bonus","Ignores zone of control",
 		"All tiles cost 1 movement",
 		"[+40%] strength <vs [Water] units>",
@@ -3744,7 +3747,7 @@
 		"Can carry [1] [Air Missile] units",
 		"[40]% chance to intercept air attacks",
 		"No defensive terrain bonus"],
-		"promotions": ["Indirect Fire"]
+		"promotions": ["Energy Weapons","Amphibious",]
 		"requiredResource": "Fuel"
 	},
 {
@@ -3758,7 +3761,7 @@
 		"All tiles cost 1 movement",
 		"[+40%] strength <vs [Water] units>",
 		"Defense bonus when embarked"],
-		"promotions": ["Amphibious"],
+		"promotions": ["Energy Weapons","Amphibious"],
 		"requiredResource": "Fuel"
 },
 {
@@ -3788,6 +3791,7 @@
 		"requiredTech": "Antimatter",
 		"requiredResource": "Composites",
 		"uniques": ["Cyber","[100]% chance to intercept air attacks", "[+150]% Strength <vs [Air Bomber] units>", "[+150]% Strength <vs [Air Atomic Bomber] units>", "[+50]% Strength <vs [Air Close Air Support] units>", "[+150]% Strength <vs [Air Helicopter] units>"],
+		"promotions": ["Heat Sensor",]
 		"attackSound": "jetgun"
 	},
 {
@@ -3800,7 +3804,7 @@
 		"cost": 3000,
 		"requiredTech": "Antimatter",
 		"uniques": ["Nuclear weapon of Strength [2]", "Only available <if [Nuclear Testing Site] is constructed>",
-			"Blast radius [2]", "Consumes [1] [Uranium]"],
+			"Blast radius [2]"],
 		"attackSound": "nuke"
 	},
 	/* Great people */
