@@ -3751,7 +3751,7 @@
 		"requiredResource": "Fuel"
 	},
 {
-		"name": "Orbital Seahunter,"
+		"name": "Orbital Seahunter",
 		"unitType": "Air Helicopter",
 		"movement": 6,
 		"strength": 95,
