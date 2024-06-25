@@ -883,6 +883,12 @@
 		"science": 1,
 	},
 	{
+		"name": "Charges",
+		"resourceType": "Strategic",
+		"revealedBy": "Rocketry",
+		"production": 1
+	},
+	{
         "name": "Composites",
 		"resourceType": "Strategic",
 		"revealedBy": "Nanotechnology",
