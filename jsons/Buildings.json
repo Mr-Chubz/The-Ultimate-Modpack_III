@@ -277,6 +277,14 @@
         "uniques": ["New [Armored] units start with [30] Experience [in this city]","All newly-trained [Armored] units [in this city] receive the [Storm The Trenches] promotion","Consumes [1] [Oil]"],
         "requiredTech": "Combustion"
 },
+	 {
+        "name": "Weapon Manufactory",
+        "hurryCostModifier": 25,
+        "production": 2
+        "uniques": ["[+1 Science, +2 Production] for every [3] population [in this city]","Provides [4] [Charges]"],
+        "requiredTech": "Rocketry"
+        "requiredResource": "Copper",
+  },
   {
 		"name": "Medical Lab",
 		"requiredBuilding": "Hospital",
