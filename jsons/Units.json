@@ -2804,8 +2804,8 @@
 		"requiredTech": "Rocketry",
 		"requiredResource": "Charges",
 		"uniques": ["[70]% chance to intercept air attacks", "[+150]% Strength <vs [Air] units>", "[+50]% Strength <vs [Armored] units>",
-			"[+50]% Strength <vs [Air Helicopter] units>", "[+25]% combat bonus in [Hill]", "[+25]% combat bonus in [Forest]",
-			"[+25]% combat bonus in [Jungle]", "[-25]% Strength <vs cities>", "Never appears as a Barbarian unit"],
+			"[+50]% Strength <vs [Air Helicopter] units>", "[+25]% Strength in [Hill] tiles", "[+25]% Strength in [Forest] tiles",
+			"[+25]% Strength in [Jungle] tiles", "[-25]% Strength <vs cities>", "Never appears as a Barbarian unit"],
 		"attackSound": "missile"
 	},
 	{
