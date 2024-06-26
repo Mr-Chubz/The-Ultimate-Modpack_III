@@ -2213,44 +2213,7 @@
 		"obsoleteTech": "Computers",
 		"attackSound": "bombing"
 	},
-{
-		"name": "Seacopter",
-		"unitType": "Air Naval Bomber",
-		"movement": 6,
-		"strength": 65,
-		"rangedStrength": 65,
-		"range": 8,
-		"cost": 350,
-		"requiredTech": "Computers",
-		"requiredResource": "Oil",
-		"uniques": ["Can attack submarines","[+100]% Strength <vs [Naval Submarine] units>","Can move after attacking", "Can see invisible [Naval Submarine] units", 
-			   "Can only attack [Water] tiles", "[+50]% Strength <vs [Water] units>", "[+50]% Strength <vs [Embarked] units>" "Never appears as a Barbarian unit"],
-		"attackSound": "bombing"
-	},
-{
-		"name": "Tank Hunter",
-		"unitType": "Counter Cavalry",
-		"movement": 4,
-		"strength": 80,
-		"cost": 400,
-		"requiredTech": "Computers",
-		"requiredResource": "Aluminum",
-		"uniques": ["Armored","[+50]% Strength <vs [Armored] units>", "Can move after attacking", "[-25]% Strength <vs cities>", "Never appears as a Barbarian unit"],
-		"attackSound": "tankshot"
-	},
-{
-		"name": "Flak Tank",
-		"unitType": "Light Cavalry",
-		"movement": 4,
-		"interceptRange": 1,
-		"strength": 75,
-		"cost": 400,
-		"requiredTech": "Computers",
-		"requiredResource": "Aluminum",
-		"uniques": ["Armored","[70]% chance to intercept air attacks", "[+50]% Strength <vs [Air] units>", "[+50]% Strength <vs [Air Helicopter] units>", "[-25]% Strength <vs cities>", 
-			    "[-25]% Strength <vs [Armored] units>", "Can move after attacking", "Never appears as a Barbarian unit"],
-		"attackSound": "machinegun"
-	},
+
 	{
 		"name": "Mothership",
 		"unitType": "Air Helicopter",
@@ -2803,9 +2766,7 @@
 		"cost": 400,
 		"requiredTech": "Rocketry",
 		"requiredResource": "Charges",
-		"uniques": ["[70]% chance to intercept air attacks", "[+150]% Strength <vs [Air] units>", "[+50]% Strength <vs [Armored] units>",
-			"[+50]% Strength <vs [Air Helicopter] units>", "[+25]% Strength <in [Hill] tiles>", "[+25]% Strength <in [Forest] tiles>",
-			"[+25]% Strength <in [Jungle] tiles>", "[-25]% Strength <vs cities>", "Never appears as a Barbarian unit"],
+		"uniques": ["[70]% chance to intercept air attacks", "[+150]% Strength <vs [Air] units>", "[+50]% Strength <vs [Armored] units>","[+50]% Strength <vs [Air Helicopter] units>", "[+25]% Strength <in [Hill] tiles>", "[+25]% Strength <in [Forest] tiles>","[+25]% Strength <in [Jungle] tiles>", "[-25]% Strength <vs cities>", "Never appears as a Barbarian unit"],
 		"attackSound": "missile"
 	},
 	{
@@ -2885,6 +2846,42 @@
 		"uniques": ["[+50]% Strength <vs [Armored] units>","No defensive terrain bonus", "Can move after attacking",
 			"All tiles cost 1 movement", "Ignores Zone of Control", "Unable to capture cities", "Never appears as a Barbarian unit"],
 		"upgradesTo": "Future Copter",
+		"attackSound": "machinegun"
+	},
+{
+		"name": "Seacopter",
+		"unitType": "Air Naval Bomber",
+		"movement": 6,
+		"strength": 65,
+		"rangedStrength": 65,
+		"range": 8,
+		"cost": 350,
+		"requiredTech": "Computers",
+		"requiredResource": "Oil",
+		"uniques": ["[+100]% Strength <vs [Naval Submarine] units>","Can move after attacking", "Can see invisible [Naval Submarine] units","Can only attack [Water] tiles", "[+50]% Strength <vs [Water] units>", "[+50]% Strength <vs [Embarked] units>" "Never appears as a Barbarian unit"],
+		"attackSound": "bombing"
+	},
+{
+		"name": "Tank Hunter",
+		"unitType": "Counter Cavalry",
+		"movement": 4,
+		"strength": 80,
+		"cost": 400,
+		"requiredTech": "Computers",
+		"requiredResource": "Aluminum",
+		"uniques": ["Armored","[+50]% Strength <vs [Armored] units>", "Can move after attacking", "[-25]% Strength <vs cities>", "Never appears as a Barbarian unit"],
+		"attackSound": "tankshot"
+	},
+{
+		"name": "Flak Tank",
+		"unitType": "Light Cavalry",
+		"movement": 4,
+		"interceptRange": 1,
+		"strength": 75,
+		"cost": 400,
+		"requiredTech": "Computers",
+		"requiredResource": "Aluminum",
+		"uniques": ["Armored","[70]% chance to intercept air attacks", "[+50]% Strength <vs [Air] units>", "[+50]% Strength <vs [Air Helicopter] units>", "[-25]% Strength <vs cities>","[-25]% Strength <vs [Armored] units>", "Can move after attacking", "Never appears as a Barbarian unit"],
 		"attackSound": "machinegun"
 	},
 	{
@@ -3117,9 +3114,7 @@
 		"cost": 500,
 		"requiredTech": "Telecommunications",
 		"requiredResource": "Uranium",
-		"uniques": ["[+75]% Strength <when attacking>", "Invisible to others", 
-			"Can only attack [Water] tiles", "Can attack submarines", "Can enter ice tiles", "[+1] Sight", "Can carry [2] [Air] units", 
-			   "Never appears as a Barbarian unit"],
+		"uniques": ["[+75]% Strength <when attacking>", "Invisible to others", "Can only attack [Water] tiles","Can enter ice tiles", "[+1] Sight", "Can carry [2] [Air] units","Never appears as a Barbarian unit"],
 		"attackSound": "torpedo"
 	},
 {
@@ -3133,8 +3128,7 @@
 		"cost": 500,
 		"requiredResource": "Oil",
 		"requiredTech": "Robotics",
-		"uniques": ["Can carry [2] [Air] units","[100]% chance to intercept air attacks", 
-			    "Never appears as a Barbarian unit"],
+		"uniques": ["Can carry [2] [Air] units","[100]% chance to intercept air attacks", "Never appears as a Barbarian unit"],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "shipguns"
 	},
