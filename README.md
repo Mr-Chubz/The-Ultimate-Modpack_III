@@ -1,5 +1,5 @@
 # The Ultimate Modpack
-A massive unit expansion mod for Unciv G&amp;K Ruleset!
+An untterly gigantic conjunction of mods expanding the number of resources, units, buildings, and eras.
 
 Credited Mods:
     - Warfare Expanded - General Wadaling/The Bucketeer
