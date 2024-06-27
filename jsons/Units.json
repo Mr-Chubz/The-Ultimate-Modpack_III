@@ -2858,7 +2858,7 @@
 		"cost": 350,
 		"requiredTech": "Computers",
 		"requiredResource": "Oil",
-		"uniques": ["[+100]% Strength <vs [Naval Submarine] units>","Can move after attacking", "Can see invisible [Naval Submarine] units","Can only attack [Water] tiles", "[+50]% Strength <vs [Water] units>", "[+50]% Strength <vs [Embarked] units>" "Never appears as a Barbarian unit"],
+		"uniques": ["[+100]% Strength <vs [Naval Submarine] units>","Can move after attacking", "Can see invisible [Naval Submarine] units","Can only attack [Water] tiles", "[+50]% Strength <vs [Water] units>", "[+50]% Strength <vs [Embarked] units>", "Never appears as a Barbarian unit"],
 		"attackSound": "bombing"
 	},
 {
