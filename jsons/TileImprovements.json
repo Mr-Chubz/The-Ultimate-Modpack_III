@@ -295,6 +295,14 @@
 		"shortcutKey": "H"
 	},
 //Resource-Specific
+	{
+		"name": "Remove Ice",
+		"turnsToBuild": 2,
+		"terrainsCanBeBuiltOn": ["Ice"],
+		"techRequired": "Agriculture",
+		"uniques": ["Can be built outside your borders"],
+		"shortcutKey": "X"
+	},
     {
 		"name": "Pasture",
 		"turnsToBuild": 8,
