@@ -1665,7 +1665,7 @@
 		"cost": 375	,	
 		"movement": 2,
 		"requiredTech": "Archaeology",
-		"uniques": ["Can construct [Excavation Site]","Uncapturable"],
+		"uniques": ["Can instantly construct a [Excavation Site] improvement <by consuming this unit>","Uncapturable"],
 	},
 	{
 		"name": "Recon",
@@ -2041,7 +2041,7 @@
 		"unitType": "Civilian",
 		"requiredTech": "Radio",
 		"movement": 2,
-		"uniques": ["Can construct [Concert Venue]","Uncapturable"],
+		"uniques": ["Can instantly construct a [Concert Venue] improvement <by consuming this unit>","Uncapturable"],
 		"cost": 500,
 	},
 	{
@@ -2049,7 +2049,7 @@
 		"unitType": "Civilian",
 		"requiredTech": "Corporations",
 		"movement": 2,
-		"uniques": ["Can construct [Industry]","Uncapturable"],
+		"uniques": ["Can instantly construct a [Industry] improvement <by consuming this unit>","Uncapturable"],
 		"cost": 500,
 		"civilopediaText": [{"text": "Construct Industries on Luxury Resources you have copies of and cannot trade."}]
 	},
@@ -2405,7 +2405,7 @@
 		"name": "Architect",
 		"unitType": "Civilian",
 		"movement": 2,
-		"uniques": ["Can build [Land] improvements on tiles","Can construct [Power Plant]","Can construct [Water Tower]","Can construct [Industrial Complex]","Can construct [Residential]"],
+		"uniques": ["Can build [Land] improvements on tiles","Can instantly construct a [Power Plant] improvement <by consuming this unit>","Can instantly construct a [Water Tower] improvement <by consuming this unit>","Can instantly construct a [Industrial Complex] improvement <by consuming this unit>","Can instantly construct a [Residential] improvement <by consuming this unit>",],
 		"requiredTech": "Infraestructure",
 		"cost": 540
 	},
@@ -3889,38 +3889,38 @@
 	{
 		"name": "Great Artist",
 		"unitType": "Civilian",
-		"uniques": ["Can start an [8]-turn golden age", "Can construct [Landmark]", "Great Person - [Culture]", "Unbuildable", "Uncapturable"],
+		"uniques": ["Can start an [8]-turn golden age", "Can instantly construct a [Landmark] improvement <by consuming this unit>", "Great Person - [Culture]", "Unbuildable", "Uncapturable"],
 		"movement": 2
 	},
 	{
 		"name": "Great Scientist",
 		"unitType": "Civilian",
-		"uniques": ["Can hurry technology research", "Can construct [Academy]", "Great Person - [Science]", "Unbuildable", "Uncapturable"],
+		"uniques": ["Can hurry technology research", "Can instantly construct a [Academy] improvement <by consuming this unit>", "Great Person - [Science]", "Unbuildable", "Uncapturable"],
 		"movement": 2
 	},
 	{
 		"name": "Great Spacefarer",
 		"unitType": "Civilian",
-		"uniques": ["Can start an [12]-turn golden age", "Can construct [Space Platform] <starting from the [Atomic era]>", "Great Person - [Spacefarer]", "Unbuildable", "Uncapturable"],
+		"uniques": ["Can start an [12]-turn golden age", "Can instantly construct a [Space Platform] improvement <by consuming this unit>", "Great Person - [Spacefarer]", "Unbuildable", "Uncapturable"],
 		"movement": 2
 	},
 	{
 		"name": "Great Merchant",
 		"unitType": "Civilian",
 		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
-			"Can construct [Customs house]", "Great Person - [Gold]", "Unbuildable", "Uncapturable"],
+			"Can instantly construct a [Customs house] improvement <by consuming this unit>", "Great Person - [Gold]", "Unbuildable", "Uncapturable"],
 		"movement": 2
 	},
 	{
 		"name": "Great Engineer",
 		"unitType": "Civilian",
-		"uniques": ["Can speed up construction of a building", "Can construct [Manufactory]", "Great Person - [Production]", "Unbuildable", "Uncapturable"],
+		"uniques": ["Can speed up construction of a building", "Can instantly construct a [Manufactory] improvement <by consuming this unit>", "Great Person - [Production]", "Unbuildable", "Uncapturable"],
 		"movement": 2
 	},
 	{
 		"name": "Great Prophet",
 		"unitType": "Civilian",
-		"uniques": ["Can construct [Holy site] <if it hasn't used other actions yet>", "Can [Spread Religion] [4] times",
+		"uniques": ["Can instantly construct a [Holy site] improvement <by consuming this unit> <if it hasn't used other actions yet>", "Can [Spread Religion] [4] times",
 			"Removes other religions when spreading religion", "May found a religion", "May enhance a religion", 
 			"May enter foreign tiles without open borders", "[-1] Sight", "Great Person - [Faith]", 
 			"Unbuildable", "Religious Unit", "Hidden when religion is disabled", 
@@ -3931,7 +3931,7 @@
 	{
 		"name": "Great General",
 		"unitType": "Civilian",
-		"uniques": ["Can start an [8]-turn golden age", "[+15]% Strength bonus for [Military] units within [2] tiles", "Can construct [Citadel]",
+		"uniques": ["Can start an [8]-turn golden age", "[+15]% Strength bonus for [Military] units within [2] tiles", "Can instantly construct a [Citadel] improvement <by consuming this unit>",
 			"Great Person - [War]", "Unbuildable", "Uncapturable"],
 		"movement": 2
 	},
@@ -3941,7 +3941,7 @@
 		"uniqueTo": "Mongolia",
 		"replaces": "Great General",
 		"uniques": ["Can start an [8]-turn golden age","[+15]% Strength bonus for [Military] units within [2] tiles",
-			"All adjacent units heal [+15] HP when healing", "[+15] HP when healing", "Can construct [Citadel]", "Great Person - [War]", "Unbuildable", "Uncapturable"],
+			"All adjacent units heal [+15] HP when healing", "[+15] HP when healing", "Can instantly construct a [Citadel] improvement <by consuming this unit>", "Great Person - [War]", "Unbuildable", "Uncapturable"],
 		"movement": 5
 	},
 	{
