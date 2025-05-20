@@ -15,11 +15,11 @@ Credited Mods:
 V:1.1
     
    Anticipated Edits:
-        -Rebalance improvements (Complete!)
-        -Fix Diplomat (Complete!)
-        -Clean upgrades as much as possible (Complete!) (Upgrades can be further cleaned once the future eras are complete)
-        -Update: The Barbarians -Add Wayfinder + Suicider, Increase Barbarian difficulty -- (Complete!)
-        -Update: The Future -- Add Stealth Fighter, Separate Pathways
+        - Update Deprecated Commands
+        - Add units for later eras
+         - Herald (Ancient)
+         - EMP Rover, AT Rover, Orbital Defense Platform, Quantum Artillery, Orbital Supporter, Others
+        - Add models and icons for units lacking them
 
     The future eras are incomplete. 
         -Units need stats
