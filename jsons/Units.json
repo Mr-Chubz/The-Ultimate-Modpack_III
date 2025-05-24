@@ -825,7 +825,7 @@
 		"strength": 15,
 		"cost": 90,
 		"requiredTech": "Civil Service",
-		"uniques": ["Unbuildable","No movement cost to pillage","[+20]% Strength <vs [Mounted] units>","Can move immediately once bought", "Earn [100]% of the damage done to [cities] as [Gold]","[+20]% Strength in foreign land tiles", "[+50]% Strength <vs cities>"],
+		"uniques": ["Unbuildable","No movement cost to pillage","[+20]% Strength <vs [Mounted] units>","Can move immediately once bought", "Earn [100]% of the damage done to [cities] as [Gold]","[+20]% Strength <when fighting in [Foreign Land] tiles>", "[+50]% Strength <vs cities>"],
 		"upgradesTo": "Free Company",
 		"obsoleteTech": "Gunpowder",
 		"attackSound": "metalhit"
@@ -1376,7 +1376,7 @@
 		"strength": 21,
 		"cost": 170,
 		"requiredTech": "Gunpowder",
-		"uniques": ["Unbuildable","No movement cost to pillage","[+20]% Strength <vs [Mounted] units>","Can move immediately once bought", "Earn [100]% of the damage done to [cities] as [Gold]","[+20]% Strength in foreign land tiles", "[+50]% Strength <vs cities>"],
+		"uniques": ["Unbuildable","No movement cost to pillage","[+20]% Strength <vs [Mounted] units>","Can move immediately once bought", "Earn [100]% of the damage done to [cities] as [Gold]","[+20]% Strength <when fighting in [Foreign Land] tiles>", "[+50]% Strength <vs cities>"],
 		"upgradesTo": "Mercenaries",
 		"obsoleteTech": "Rifling",
 		"attackSound": "metalhit"
@@ -1774,7 +1774,7 @@
 		"strength": 36,
 		"cost": 225,
 		"requiredTech": "Rifling",
-		"uniques": ["Unbuildable","No movement cost to pillage","[+20]% Strength <vs [Mounted] units>","Can move immediately once bought", "Earn [100]% of the damage done to [cities] as [Gold]","[+20]% Strength in foreign land tiles", "[+50]% Strength <vs cities>"],
+		"uniques": ["Unbuildable","No movement cost to pillage","[+20]% Strength <vs [Mounted] units>","Can move immediately once bought", "Earn [100]% of the damage done to [cities] as [Gold]","[+20]% Strength <when fighting in [Foreign Land] tiles>", "[+50]% Strength <vs cities>"],
 		"obsoleteTech": "Replaceable Parts",
 		"upgradesTo": "Modern Mercenaries",
 		"attackSound": "metalhit"
@@ -2508,7 +2508,7 @@
 		"strength": 55,
 		"cost": 275,
 		"requiredTech": "Pharmaceuticals",
-		"uniques": ["No movement cost to pillage","Unbuildable","Can move immediately once bought", "Earn [100]% of the damage done to [cities] as [Gold]","[+20]% Strength in foreign land tiles", "[+50]% Strength <vs cities>"],
+		"uniques": ["No movement cost to pillage","Unbuildable","Can move immediately once bought", "Earn [100]% of the damage done to [cities] as [Gold]","[+20]% Strength <when fighting in [Foreign Land] tiles>","[+50]% Strength <vs cities>"],
 		"upgradesTo": "Flamethrower",
 		"obsoleteTech": "Replaceable Parts",
 		"attackSound": "metalhit"
@@ -3395,7 +3395,7 @@
 		"upgradesTo": "Orbital Seahunter",
 		"uniques": ["Never appears as a Barbarian unit","No defensive terrain bonus","Ignores zone of control",
 		"All tiles cost 1 movement",
-		"[+40%] strength <vs [Water] units>",
+		"[+40]% Strength <vs [Water] units>",
 		"Defense bonus when embarked"],
 		"promotions": ["Amphibious"],
 		"requiredResource": "Fuel"
@@ -3846,7 +3846,7 @@
 		"requiredTech": "Gravitational Distortion",
 		"uniques": ["Never appears as a Barbarian unit","No defensive terrain bonus","Ignores zone of control",
 		"All tiles cost 1 movement",
-		"[+40%] strength <vs [Water] units>",
+		"[+40]% Strength <vs [Water] units>",
 		"Defense bonus when embarked"],
 		"promotions": ["Energy Weapons","Amphibious"],
 		"requiredResource": "Fuel"
