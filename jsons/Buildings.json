@@ -281,7 +281,7 @@
         "name": "Weapon Manufactory",
         "hurryCostModifier": 25,
         "production": 2
-        "uniques": ["[+1 Science, +2 Production] for every [3] population [in this city]","Provides [4] [Charges]"],
+        "uniques": ["[+1 Science, +2 Production] per [3] population [in this city]","Provides [4] [Charges]"],
         "requiredTech": "Rocketry"
         "requiredResource": "Copper",
   },
@@ -480,7 +480,7 @@
 "cost": 275,
 "specialistSlots": {"Scientist": 1},
 "maintenance": 2,
-"uniques": ["Provides [2] [Biohazard Matter]","May build [Chemical Artillery] units [in this city]","May build [Napalm Artillery] units [in this city]"],
+"uniques": ["Provides [2] [Biohazard Matter]"],
 "requiredTech": "Biology"
 },
 {
