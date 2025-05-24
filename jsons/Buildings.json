@@ -3,20 +3,20 @@
   {
         "name": "Horse Racing",
         "hurryCostModifier": 25,
-        "uniques": ["[+1 Gold] for every [2] population [in this city]", "+[15]% [Gold] [in this city]", "Consumes [1] [Horses]"],
+        "uniques": ["[+1 Gold] per [2] population [in this city]", "+[15]% [Gold] [in this city]", "Consumes [1] [Horses]"],
         "requiredTech": "Animal Husbandry"
   },
  {
         "name": "Mahout",
         "hurryCostModifier": 25,
-        "uniques": ["[+1 Gold] for every [3] population [in this city]","Provides [2] [Elephants]"],
+        "uniques": ["[+1 Gold] per [3] population [in this city]","Provides [2] [Elephants]"],
 	"requiredResource": "Ivory",
         "requiredTech": "Trapping"
   },
  {
         "name": "Elephant Houdah",
         "hurryCostModifier": 25,
-        "uniques": ["[+1 Happiness] for every [3] population [in this city]", "+[15]% [Gold] [in this city]", "Consumes [1] [Elephants]"],
+        "uniques": ["[+1 Happiness] per [3] population [in this city]", "+[15]% [Gold] [in this city]", "Consumes [1] [Elephants]"],
         "requiredTech": "Trapping"
   },
 	{
@@ -33,7 +33,7 @@
         "name": "Caravan",
         "hurryCostModifier": 25,
         "happiness": 2,
-        "uniques": ["Consumes [1] [Camel]","[+20]% Food, [+20]% Gold from every [Trade route] [in this city]","[+1 Gold] from [Trading post] tiles"],
+        "uniques": ["Consumes [1] [Camel]","[+20]% Food, [+20]% Gold per [Trade route] [in this city]","[+1 Gold] from [Trading post] tiles"],
         "requiredTech": "Animal Husbandry"
 	"requiredBuilding": "Palace",
 },
@@ -41,14 +41,14 @@
         "name": "Work Horses",
         "hurryCostModifier": 25,
         "happiness": 2,
-        "uniques": ["[+1 Food,] for every [3] population [in this city]", "[+5]% [Food] [in this city]", "Consumes [1] [Horses]","[+2 Food] from [Pasture] tiles [in this city]", "[+1 Food][+1 Production][+1 Gold] from [Farm] tiles [in this city]"],
+        "uniques": ["[+1 Food,] per [3] population [in this city]", "[+5]% [Food] [in this city]", "Consumes [1] [Horses]","[+2 Food] from [Pasture] tiles [in this city]", "[+1 Food][+1 Production][+1 Gold] from [Farm] tiles [in this city]"],
         "requiredTech": "The Wheel"
   },
    {
         "name": "Work Camels",
         "hurryCostModifier": 25,
         "happiness": 2,
-        "uniques": ["[+1 Food, +1 Production,] for every [3] population [in this city]","[+5]% [Food] [in this city]","[+5]% [Gold] [in this city]", "Consumes [1] [Camel]","[+2 Gold] from [Trading post] tiles [in this city]"],
+        "uniques": ["[+1 Food, +1 Production,] per [3] population [in this city]","[+5]% [Food] [in this city]","[+5]% [Gold] [in this city]", "Consumes [1] [Camel]","[+2 Gold] from [Trading post] tiles [in this city]"],
         "requiredTech": "The Wheel"
 },
   {
@@ -70,7 +70,7 @@
         "name": "Make Tools",
         "hurryCostModifier": 25,
         "production": 1
-        "uniques": ["[+1 Science, +2 Production] for every [3] population [in this city]", "[+3]% [Science] [in this city]", "Consumes [1] [Iron]"],
+        "uniques": ["[+1 Science, +2 Production] per [3] population [in this city]", "[+3]% [Science] [in this city]", "Consumes [1] [Iron]"],
         "requiredTech": "Iron Working"
 },
 {
