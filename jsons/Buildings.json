@@ -33,7 +33,7 @@
         "name": "Caravan",
         "hurryCostModifier": 25,
         "happiness": 2,
-        "uniques": ["Consumes [1] [Camel]","[+20]% Food, [+20]% Gold per [Trade route] [in this city]","[+1 Gold] from [Trading post] tiles"],
+        "uniques": ["Consumes [1] [Camel]","[+20]% Food per [Trade route] [in this city], [+20]% Gold per [Trade route] [in this city]","[+1 Gold] from [Trading post] tiles [in all cities]"],
         "requiredTech": "Animal Husbandry"
 	"requiredBuilding": "Palace",
 },
