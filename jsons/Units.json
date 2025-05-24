@@ -2447,9 +2447,8 @@
 		"interceptRange": 1,
 		"cost": 375,
 		"requiredTech": "Nuclear Fission",
-		"requiredResource": "Uranium",
 		"ugradesTo": "Atlantis",
-		"uniques": ["Cannot attack", "Can carry [3] [Aircraft] units", "Can carry [2] [Air Missile] units", "[70]% chance to intercept air attacks", "Never appears as a Barbarian unit","Provides [1] [Uranium]",]
+		"uniques": ["Cannot attack", "Can carry [3] [Aircraft] units", "Can carry [2] [Air Missile] units", "[70]% chance to intercept air attacks", "Never appears as a Barbarian unit",]
 	},
 	{
 		"name": "Commando",
@@ -2975,9 +2974,8 @@
 		"rangedStrength": 100,
 		"cost": 600,
 		"requiredTech": "Nanotechnology",
-		"requiredResource": "Uranium",
 		"upgradesTo": "Future Submarine",
-		"uniques": ["Cyber","Provides [1] [Uranium]","[+75]% Strength <when attacking>","Can only attack [Water] tiles","Can move after attacking","[+1] Sight","Can carry [2] [Air Missile] units","Can carry [1] [Air Nuke Missile] units","Ignores Zone of Control","Never appears as a Barbarian unit"],
+		"uniques": ["Cyber","[+75]% Strength <when attacking>","Can only attack [Water] tiles","Can move after attacking","[+1] Sight","Can carry [2] [Air Missile] units","Can carry [1] [Air Nuke Missile] units","Ignores Zone of Control","Never appears as a Barbarian unit"],
 		"attackSound": "torpedo"
 	},
 	{
