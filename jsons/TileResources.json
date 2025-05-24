@@ -11,8 +11,8 @@
 		"improvementStats": {"gold": 10},
 		"uniques": ["Generated on every [40] tiles <in [Featureless] [Grassland] tiles>",
 	                "Generated on every [45] tiles <in [Featureless] [Plains] tiles>",	
-					"Generated on every [20] tiles <in [Featureless] [Tundra] tiles>",
-					"Generated on every [35] tiles <in [Featureless] [Desert] tiles>"]
+					"Generated on every [20] tiles <in [{Featureless} {Tundra}] tiles>",
+					"Generated on every [35] tiles <in [{Featureless} {Desert}] tiles>"]
 	},
     //Chicken Coop
   {
@@ -23,8 +23,8 @@
 		"improvement": "Chicken Coop",
 		"improvementStats": {"food": 1}
 		"uniques": ["Generated on every [26] tiles <in [Hill] tiles>",
-					"Generated on every [40] tiles <in [Hill] tiles> <in tiles without [Fresh Water]> <in [Hill] Regions>","Generated on every [72] tiles <in [Featureless] [Grassland] tiles>",
-					"Generated on every [88] tiles <in [Featureless] [Grassland] tiles> <in [Hill] Regions>","Generated on every [88] tiles <in [Desert] tiles> <in [Fresh Water] tiles>"]
+					"Generated on every [40] tiles <in [Hill] tiles> <in tiles without [Fresh Water]> <in [Hill] Regions>","Generated on every [72] tiles <in [{Featureless} {Grassland}] tiles>",
+					"Generated on every [88] tiles <in [{Featureless} {Grassland}] tiles> <in [Hill] Regions>","Generated on every [88] tiles <in [Desert] tiles> <in [Fresh Water] tiles>"]
 	},
     //Pasture
   {
@@ -48,10 +48,10 @@
 		"food": 1,
 		"improvement": "Farm",
 		"improvementStats": {"gold": 1, "production": 1}
-		"uniques": ["Generated on every [128] tiles <in [Featureless] [Plains] tiles>",
-					"Generated on every [136] tiles <in [Featureless] [Plains] tiles> <in [Hill] Regions>",
-	 			 "Generated on every [128] tiles <in [Featureless] [Grassland] tiles>",
-					"Generated on every [136] tiles <in [Featureless] [Grassland] tiles> <in [Hill] Regions>",]
+		"uniques": ["Generated on every [128] tiles <in [{Featureless} {Plains}] tiles>",
+					"Generated on every [136] tiles <in [{Featureless} {Plains}] tiles> <in [Hill] Regions>",
+	 			 "Generated on every [128] tiles <in [{Featureless} {Grassland}] tiles>",
+					"Generated on every [136] tiles <in [{Featureless} {Grassland} tiles> <in [Hill] Regions>",]
 
 
 	},
@@ -64,7 +64,7 @@
 		"improvementStats": {"food": 1}
 		"uniques": ["Generated on every [128] tiles <in [Featureless] [Plains] tiles>",
 					"Generated on every [136] tiles <in [Plains] tiles> <in [Hill] Regions>",
-	 			 "Generated on every [128] tiles <in [Featureless] [Grassland] tiles>",
+	 			 "Generated on every [128] tiles <in [{Featureless} {Grassland}] tiles>",
 					"Generated on every [136] tiles <in [Grassland] tiles> <in [Hill] Regions>",]
 
 	},
@@ -97,8 +97,8 @@
 		"food": 1,
 		"improvement": "Farm",
 		"improvementStats": {"gold": 1, "food": 1}
-		"uniques": ["Generated on every [128] tiles <in [Featureless] [Plains] tiles>",
-	 			 "Generated on every [128] tiles <in [Featureless] [Grassland] tiles>",]
+		"uniques": ["Generated on every [128] tiles <in [{Featureless} {Plains}] tiles>",
+	 			 "Generated on every [128] tiles <in [{Featureless} {Grassland}] tiles>",]
 
 	},
   {
@@ -108,8 +108,8 @@
 		"production": 2,
 		"improvement": "Farm",
 		"improvementStats": {"production": 1}
-		"uniques": ["Generated on every [148] tiles <in [Featureless] [Plains] tiles>",
-	 			"Generated on every [148] tiles <in [Featureless] [Grassland] tiles>",
+		"uniques": ["Generated on every [148] tiles <in [{Featureless} {Plains}] tiles>",
+	 			"Generated on every [148] tiles <in [{Featureless} {Grassland}] tiles>",
 				"Generated on every [136] tiles <in [Forest] tiles>",
 				"Generated on every [136] tiles <in [Jungle] tiles>",
 				"Generated on every [54] tiles <in [Flood plains] tiles>",]
@@ -123,10 +123,10 @@
 		"production": 1,
 		"improvement": "Farm",
 		"improvementStats": {"gold": 1, "production": 1}
-	  	"uniques": ["Generated on every [128] tiles <in [Featureless] [Plains] tiles>",
-					"Generated on every [136] tiles <in [Featureless] [Plains] tiles> <in [Hill] Regions>",
-	 			 "Generated on every [128] tiles <in [Featureless] [Grassland] tiles>",
-					"Generated on every [136] tiles <in [Featureless] [Grassland] tiles> <in [Hill] Regions>",]
+	  	"uniques": ["Generated on every [128] tiles <in [{Featureless} {Plains}] tiles>",
+					"Generated on every [136] tiles <in [{Featureless} {Plains}] tiles> <in [Hill] Regions>",
+	 			 "Generated on every [128] tiles <in [{Featureless} {Grassland}] tiles>",
+					"Generated on every [136] tiles <in [{Featureless} {Grassland}] tiles> <in [Hill] Regions>",]
 	},
 {
 		"name": "Rice",
@@ -135,10 +135,10 @@
 		"food": 2,
 		"improvement": "Farm",
 		"improvementStats": {"food": 1}
-		"uniques": ["Generated on every [64] tiles <in [Featureless] [Plains] tiles>",
-					"Generated on every [68] tiles <in [Featureless] [Plains] tiles> <in [Hill] Regions>",
-	 			 "Generated on every [64] tiles <in [Featureless] [Grassland] tiles>",
-					"Generated on every [68] tiles <in [Featureless] [Grassland] tiles> <in [Hill] Regions>",]
+		"uniques": ["Generated on every [64] tiles <in [{Featureless} {Plains}] tiles>",
+					"Generated on every [68] tiles <in [{Featureless} {Plains}] tiles> <in [Hill] Regions>",
+	 			 "Generated on every [64] tiles <in [{Featureless} {Grassland}] tiles>",
+					"Generated on every [68] tiles <in [{Featureless} {Grassland}] tiles> <in [Hill] Regions>",]
 	},
 {
 		"name": "Purple Yam",
@@ -205,8 +205,8 @@
 		"improvementStats": {"food": 1}
 		"uniques": ["Generated on every [80] tiles <in [Jungle] tiles>",
 				"Generated on every [92] tiles <in [Jungle] tiles> <in [Hill] Regions>",
-				"Generated on every [92] tiles <in [Featureless] [Grassland] tiles>",
-				"Generated on every [92] tiles <in [Featureless] [Plains] tiles>",]
+				"Generated on every [92] tiles <in [{Featureless} {Grassland}] tiles>",
+				"Generated on every [92] tiles <in [{Featureless} {Plains}] tiles>",]
 	},
     //Mine
 {
@@ -216,7 +216,7 @@
 		"production": 2,
 		"improvement": "Mine",
 		"improvementStats": {"production": 1}
-		"uniques": ["Generated on every [64] tiles <in [Featureless] [Desert] tiles>",
+		"uniques": ["Generated on every [64] tiles <in [{Featureless} {Desert}] tiles>",
 					"Generated on every [68] tiles <in [Desert] tiles> <in [Hill] Regions>",]
 	},
   {
@@ -227,10 +227,10 @@
 		"production": 2,
 		"improvement": "Mine",
 		"improvementStats": {"production": 1}
-		"uniques": ["Generated on every [92] tiles <in [Featureless] [Grassland] tiles> <in tiles without [Fresh Water]>","Generated on every [92] tiles <in [Hill] [Grassland] tiles> <in tiles without [Fresh Water]><in tiles without [Forest]> <in tiles without [Jungle]>",
-					"Generated on every [70] tiles <in [Featureless] [Tundra] tiles>","Generated on every [60] tiles <in [Hill] [Tundra] tiles> <in tiles without [Forest]> <in tiles without [Jungle]> <in tiles without [Fresh Water]>",
-					"Generated on every [104] tiles <in [Featureless] [Desert] tiles>","Generated on every [92] tiles <in [Hill] [Desert] tiles> <in tiles without [Forest]> <in tiles without [Jungle]> <in tiles without [Fresh Water]>"
-					"Generated on every [92] tiles <in [Featureless] [Plains] tiles> <in tiles without [Fresh Water]>","Generated on every [92] tiles <in [Hill] [Plains] tiles> <in tiles without [Fresh Water]><in tiles without [Forest]> <in tiles without [Jungle]>",]
+		"uniques": ["Generated on every [92] tiles <in [{Featureless} {Grassland}] tiles> <in tiles without [Fresh Water]>","Generated on every [92] tiles <in [Hill] [Grassland] tiles> <in tiles without [Fresh Water]><in tiles without [Forest]> <in tiles without [Jungle]>",
+					"Generated on every [70] tiles <in [{Featureless} {Tundra}] tiles>","Generated on every [60] tiles <in [Hill] [Tundra] tiles> <in tiles without [Forest]> <in tiles without [Jungle]> <in tiles without [Fresh Water]>",
+					"Generated on every [104] tiles <in [{Featureless} {Desert}] tiles>","Generated on every [92] tiles <in [Hill] [Desert] tiles> <in tiles without [Forest]> <in tiles without [Jungle]> <in tiles without [Fresh Water]>"
+					"Generated on every [92] tiles <in [{Featureless} {Plains}] tiles> <in tiles without [Fresh Water]>","Generated on every [92] tiles <in [Hill] [Plains] tiles> <in tiles without [Fresh Water]><in tiles without [Forest]> <in tiles without [Jungle]>",]
 	},
 {
 		"name": "Obsidian",
@@ -791,9 +791,9 @@
 		"improvementStats": {"food": 1, "gold": 1}
 		"uniques": ["Guaranteed with Strategic Balance resource option",
 				"Generated with weight [100] <in [Featureless] [Desert] tiles>",
-				"Minor deposits generated with weight [10] <in [Desert] [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>",
-				"Minor deposits generated with weight [40] <in [Featureless] [Plains] tiles> <in [Fresh Water] tiles>",
-				"Minor deposits generated with weight [10] <in [Featureless] [Plains] tiles>"],
+				"Minor deposits generated with weight [10] <in [{Desert} {Hill}] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>",
+				"Minor deposits generated with weight [40] <in [{Featureless} {Plains}] tiles> <in [Fresh Water] tiles>",
+				"Minor deposits generated with weight [10] <in [{Featureless} {Plains}] tiles>"],
 		"majorDepositAmount": {"sparse": 4, "default": 6, "abundant": 6},
 		"minorDepositAmount": {"sparse": 1, "default": 3, "abundant": 3}
 	},
@@ -805,17 +805,17 @@
 		"production": 1,
 		"improvement": "Excavation Site",
 		"uniques": ["Guaranteed with Strategic Balance resource option",
-					"Generated with weight [45] <in [Featureless] [Desert] tiles>",
-					"Generated with weight [25] <in [Featureless] [Plains] tiles>",
-					"Generated with weight [35] <in [Featureless] [Grassland] tiles>",
+					"Generated with weight [45] <in [{Featureless} {Desert}] tiles>",
+					"Generated with weight [25] <in [{Featureless} {Plains}] tiles>",
+					"Generated with weight [35] <in [{Featureless} {Grassland}] tiles>",
 					"Generated with weight [26] <in [Hill] tiles>",
-					"Minor deposits generated with weight [10] <in [Jungle] [Hill] tiles>",
+					"Minor deposits generated with weight [10] <in [{Jungle} {Hill}] tiles>",
 					"Minor deposits generated with weight [20] <in [Forest] tiles>",
 					"Minor deposits generated with weight [20] <in [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>",
-					"Minor deposits generated with weight [15] <in [Featureless] [Grassland] tiles> <in tiles without [Fresh Water]>",
-					"Minor deposits generated with weight [20] <in [Featureless] [Desert] tiles>",
-					"Minor deposits generated with weight [10] <in [Featureless] [Plains] tiles>",
-					"Minor deposits generated with weight [10] <in [Featureless] [Grassland] tiles>"],
+					"Minor deposits generated with weight [15] <in [{Featureless} {Grassland}] tiles> <in tiles without [Fresh Water]>",
+					"Minor deposits generated with weight [20] <in [{Featureless} {Desert}] tiles>",
+					"Minor deposits generated with weight [10] <in [{Featureless} {Plains}] tiles>",
+					"Minor deposits generated with weight [10] <in [{Featureless} {Grassland}] tiles>"],
 		"majorDepositAmount": {"sparse": 1, "default": 1, "abundant": 1},
 		"minorDepositAmount": {"sparse": 1, "default": 1, "abundant": 1}
 	},
@@ -827,11 +827,11 @@
 		"production": 1,
 		"improvement": "Mine",
 		"improvementStats": {"production": 1},
-		"uniques": ["Generated with weight [15] <in [Featureless] [Tundra] tiles>",
-					"Generated with weight [15] <in [Featureless] [Snow] tiles>",
+		"uniques": ["Generated with weight [15] <in [{Featureless} {Tundra}] tiles>",
+					"Generated with weight [15] <in [{Featureless} {Snow}] tiles>",
 					"Generated with weight [39] <in [Hill] tiles>",
 					"Minor deposits generated with weight [20] <in [Jungle] tiles>",
-					"Minor deposits generated with weight [10] <in [Featureless] [Desert] tiles>"],
+					"Minor deposits generated with weight [10] <in [{Featureless} {Desert}] tiles>"],
 		"majorDepositAmount": {"sparse": 5, "default": 8, "abundant": 10},
 		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 3}
 	},
