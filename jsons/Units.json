@@ -197,7 +197,7 @@
 		"movement": 4,
 		"cost": 30,
 		"requiredTech": "Sailing",
-		"uniques": ["Cannot enter ocean tiles <before discovering [Astronomy]>","May create improvements on water resources",
+		"uniques": ["Cannot enter ocean tiles","May create improvements on water resources",
         "Can instantly construct a [Offshore Wind Farm] improvement <by consuming this unit> <after discovering [Terraforming]>",
 	"Can instantly construct a [Aquatic Habitat] improvement <by consuming this unit> <after discovering [Aquatic Colonization]>","Uncapturable"]
 	},
@@ -237,7 +237,7 @@
 		"strength": 10,
 		"cost": 45,
 		"requiredTech": "Sailing",
-		"uniques": ["Cannot enter ocean tiles", "Heals [10] damage if it kills a Unit"],
+		"uniques": ["Cannot enter ocean tiles", "Heals [10] damage if it kills a unit"],
 		"upgradesTo": "Cog",
 		"promotions": ["Coastal Raider"],
 		"obsoleteTech": "Compass",
@@ -757,7 +757,7 @@
 		"upgradesTo": "Men At Arms",
 		"obsoleteTech": "Gunpowder",
 		"requiredResource": "Iron",
-		"uniques": ["Can build [Road] improvements on tiles", "Can build [Fort] improvements on tiles"],
+		"uniques": ["Can build [Fort] improvements on tiles"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},
@@ -825,7 +825,7 @@
 		"strength": 15,
 		"cost": 90,
 		"requiredTech": "Civil Service",
-		"uniques": ["Unbuildable","No movement cost to pillage","[+20]% Strength <vs [Mounted] units>","Can move immediately once bought", "Earn [100]% of the damage done to [cities] as [Gold]","[+20]% Strength <when fighting in [Foreign Land] tiles>", "[+50]% Strength <vs cities>"],
+		"uniques": ["Unbuildable","No movement cost to pillage","[+20]% Strength <vs [Mounted] units>","Can move immediately once bought", "Earn [100]% of the damage done to [City] units as [Gold]","[+20]% Strength <when fighting in [Foreign Land] tiles>", "[+50]% Strength <vs cities>"],
 		"upgradesTo": "Free Company",
 		"obsoleteTech": "Gunpowder",
 		"attackSound": "metalhit"
@@ -906,7 +906,7 @@
 		"requiredTech": "Compass",
 		"obsoleteTech": "Astronomy",
 		"upgradesTo": "Caravel",
-		"uniques": ["Cannot enter ocean tiles","May withdraw before melee ([40]%)",],
+		"uniques": ["Cannot enter ocean tiles","Withdraws from melee combat <with [40]% chance>",],
 		"attackSound": "metalhit"
 	},
 	{
@@ -1262,7 +1262,7 @@
 		"requiredTech": "Astronomy",
 		"upgradesTo": "Ironclad",
 		"obsoleteTech": "Combustion",
-		"uniques": ["[+1] Sight", "May withdraw before melee ([80]%)", "Can see invisible [Naval Raider] units"],
+		"uniques": ["[+1] Sight", "Withdraws from melee combat <with [80]% chance>", "Can see invisible [Naval Raider] units"],
 		"hurryCostModifier": 30,
 		"attackSound": "cannon"
 	},
@@ -1376,7 +1376,7 @@
 		"strength": 21,
 		"cost": 170,
 		"requiredTech": "Gunpowder",
-		"uniques": ["Unbuildable","No movement cost to pillage","[+20]% Strength <vs [Mounted] units>","Can move immediately once bought", "Earn [100]% of the damage done to [cities] as [Gold]","[+20]% Strength <when fighting in [Foreign Land] tiles>", "[+50]% Strength <vs cities>"],
+		"uniques": ["Unbuildable","No movement cost to pillage","[+20]% Strength <vs [Mounted] units>","Can move immediately once bought", "Earn [100]% of the damage done to [City] units as [Gold]","[+20]% Strength <when fighting in [Foreign Land] tiles>", "[+50]% Strength <vs cities>"],
 		"upgradesTo": "Mercenaries",
 		"obsoleteTech": "Rifling",
 		"attackSound": "metalhit"
@@ -1430,7 +1430,7 @@
 		"rangedStrength": 17,
 		"range": 1,
 		"cost": 135,
-		"uniques": ["May withdraw before melee ([40]%)"],
+		"uniques": ["Withdraws from melee combat <with [40]% chance>"],
 		"requiredTech": "Navigation",
 		"obsoleteTech": "Combustion",
 		"upgradesTo": "Corvette",
@@ -1445,7 +1445,7 @@
 		"rangedStrength": 28,
 		"cost": 185,
 		"requiredResource": "Iron",
-		"uniques": ["May withdraw before melee ([20]%)"],
+		"uniques": ["Withdraws from melee combat <with [20]% chance>"],
 		"requiredTech": "Navigation",
 		"obsoleteTech": "Combustion",
 		"upgradesTo": "Armored Cruiser",
@@ -1774,7 +1774,7 @@
 		"strength": 36,
 		"cost": 225,
 		"requiredTech": "Rifling",
-		"uniques": ["Unbuildable","No movement cost to pillage","[+20]% Strength <vs [Mounted] units>","Can move immediately once bought", "Earn [100]% of the damage done to [cities] as [Gold]","[+20]% Strength <when fighting in [Foreign Land] tiles>", "[+50]% Strength <vs cities>"],
+		"uniques": ["Unbuildable","No movement cost to pillage","[+20]% Strength <vs [Mounted] units>","Can move immediately once bought", "Earn [100]% of the damage done to [City] units as [Gold]","[+20]% Strength <when fighting in [Foreign Land] tiles>", "[+50]% Strength <vs cities>"],
 		"obsoleteTech": "Replaceable Parts",
 		"upgradesTo": "Modern Mercenaries",
 		"attackSound": "metalhit"
@@ -1892,7 +1892,7 @@
 		"requiredResource": "Coal",
 		"upgradesTo": "Destroyer",
 		"obsoleteTech": "Combustion",
-		"uniques": ["Double movement in [Coast]", "Never appears as a Barbarian unit","Can see invisible [Naval Raider] units"],
+		"uniques": ["Double movement in [Coastal]", "Never appears as a Barbarian unit","Can see invisible [Naval Raider] units"],
 		"attackSound": "shipguns"
 	},
 	{
@@ -1929,7 +1929,7 @@
 		"requiredResource": "Coal",
 		"upgradesTo": "Light Cruiser",
 		"obsoleteTech": "Combustion",
-		"uniques": ["Double movement in [Coast]", "Never appears as a Barbarian unit"],
+		"uniques": ["Double movement in [Coastal]", "Never appears as a Barbarian unit"],
 		"attackSound": "shipguns"
 	},
 	{
@@ -1945,7 +1945,7 @@
 		"upgradesTo": "Dreadnought",
 		"obsoleteTech": "Replaceable Parts",
 		"promotions": ["Indirect Fire"],
-		"uniques": ["Double movement in [Coast]", "Never appears as a Barbarian unit"],
+		"uniques": ["Double movement in [Coastal]", "Never appears as a Barbarian unit"],
 		"attackSound": "shipguns"
 	},
 	{
@@ -1961,7 +1961,7 @@
 		"upgradesTo": "Battleship",
 		"obsoleteTech": "Electronics",
 		"promotions": ["Indirect Fire"],
-		"uniques": ["Double movement in [Coast]", "Never appears as a Barbarian unit"],
+		"uniques": ["Double movement in [Coastal]", "Never appears as a Barbarian unit"],
 		"attackSound": "shipguns"
 	},
 	{
@@ -2072,7 +2072,7 @@
 		"cost": 325,
 		"requiredTech": "Refrigeration",
 		"upgradesTo": "Nuclear Submarine",
-		"uniques": ["[+75]% Strength <when attacking>", "Can only attack [Water] tiles", "Never appears as a Barbarian unit","May withdraw before melee ([20]%)"],
+		"uniques": ["[+75]% Strength <when attacking>", "Can only attack [Water] tiles", "Never appears as a Barbarian unit","Withdraws from melee combat <with [20]% chance>"],
 		"attackSound": "torpedo"
 	},
 	{
@@ -2258,7 +2258,7 @@
 		"rangedStrength": 55,
 		"cost": 375,
 		"requiredTech": "Combustion",
-		"uniques": ["[60]% chance to intercept air attacks","Never appears as a Barbarian unit","May withdraw before melee ([20]%)"],
+		"uniques": ["[60]% chance to intercept air attacks","Never appears as a Barbarian unit","Withdraws from melee combat <with [20]% chance>"],
 		"upgradesTo": "Missile Cruiser",
 		"attackSound": "shipguns"
 	},
@@ -2381,7 +2381,7 @@
 		"requiredTech": "Combustion",
 		"upgradesTo": "Missile Frigate",
 		"uniques": ["Can see invisible [Naval Submarine] units", "Can see invisible [Naval Raider] units", "[60]% chance to intercept air attacks",
-			"May withdraw before melee ([70]%)", "[+100]% Strength <vs [Submarine] units>"],
+			"Withdraws from melee combat <with [70]% chance>", "[+100]% Strength <vs [Submarine] units>"],
 		"attackSound": "shipguns"
 	},
 	{
@@ -2394,7 +2394,7 @@
 		"cost": 275,
 		"requiredTech": "Combustion",
 		"upgradesTo": "Escort Frigate",
-		"uniques": ["[30]% chance to intercept air attacks","Never appears as a Barbarian unit","May withdraw before melee ([40]%)"],
+		"uniques": ["[30]% chance to intercept air attacks","Never appears as a Barbarian unit","Withdraws from melee combat <with [40]% chance>"],
 		"hurryCostModifier": 20,
 		"attackSound": "cannon"
 	},
@@ -2507,7 +2507,7 @@
 		"strength": 55,
 		"cost": 275,
 		"requiredTech": "Pharmaceuticals",
-		"uniques": ["No movement cost to pillage","Unbuildable","Can move immediately once bought", "Earn [100]% of the damage done to [cities] as [Gold]","[+20]% Strength <when fighting in [Foreign Land] tiles>","[+50]% Strength <vs cities>"],
+		"uniques": ["No movement cost to pillage","Unbuildable","Can move immediately once bought", "Earn [100]% of the damage done to [City] units as [Gold]","[+20]% Strength <when fighting in [Foreign Land] tiles>","[+50]% Strength <vs cities>"],
 		"upgradesTo": "Flamethrower",
 		"obsoleteTech": "Replaceable Parts",
 		"attackSound": "metalhit"
@@ -2775,7 +2775,7 @@
 		"cost": 400,
 		"requiredTech": "Rocketry",
 		"requiredResource": "Charges",
-		"uniques": ["[70]% chance to intercept air attacks", "[+150]% Strength <vs [Air] units>", "[+50]% Strength <vs [Armored] units>","[+50]% Strength <vs [Air Helicopter] units>", "[+25]% Strength <in [Hill] tiles>", "[+25]% Strength <in [Forest] tiles>","[+25]% Strength <in [Jungle] tiles>", "[-25]% Strength <vs cities>", "Never appears as a Barbarian unit"],
+		"uniques": ["[70]% chance to intercept air attacks", "[+150]% Strength <vs [Air] units>", "[+50]% Strength <vs [Armored] units>","[+50]% Strength <vs [Air Helicopter] units>", "[-25]% Strength <vs cities>", "Never appears as a Barbarian unit"],
 		"attackSound": "missile"
 	},
 	{
@@ -2949,7 +2949,7 @@
 		"cost": 560,
 		"requiredTech": "Stealth",
 		"requiredResource": "Aluminum",
-		"uniques": ["Cyber","Hacker","+33% Strength for adjacent non-air Units vs Cyber units","25% Chance for Adjacent units to capture Killed Cyber unit","May withdraw before melee ([50]%)","Can see invisible [Military] units","Never appears as a Barbarian unit"]
+		"uniques": ["Cyber","Hacker","+33% Strength for adjacent non-air Units vs Cyber units","25% Chance for Adjacent units to capture Killed Cyber unit","Withdraws from melee combat <with [50]% chance>","Can see invisible [Military] units","Never appears as a Barbarian unit"]
 		"promotions": ["Stealth","Support Unit"]
 	},
 	{
@@ -3088,7 +3088,7 @@
 		"rangedStrength": 50,
 		"cost": 400,
 		"requiredTech": "Mobile Tactics",
-		"uniques": ["Armored","Can move after attacking", "Heals [15] damage if it kills a Unit", "No defensive terrain bonus"],
+		"uniques": ["Armored","Can move after attacking", "Heals [15] damage if it kills a unit", "No defensive terrain bonus"],
 		"attackSound": "Machine Gun"
 	},
 	{
@@ -3200,7 +3200,7 @@
 		"cost": 425,
 		"requiredTech": "Advanced Ballistics",
 		"uniques": ["[80]% chance to intercept air attacks", "Can see invisible [Naval Submarine] units", "Can see invisible [Naval Raider] units",
-			"Can carry [3] [Air Missile] units", "Can carry [1] [Air Nuke Missile] units", "Never appears as a Barbarian unit","May withdraw before melee ([10]%)"],
+			"Can carry [3] [Air Missile] units", "Can carry [1] [Air Nuke Missile] units", "Never appears as a Barbarian unit","Withdraws from melee combat <with [10]% chance>"],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "missile"
 	},
@@ -3217,7 +3217,7 @@
 		"cost": 425,
 		"requiredTech": "Advanced Ballistics",
 		"uniques": ["[100]% chance to intercept air attacks", "Can see invisible [Naval Submarine] units", "Can see invisible [Naval Raider] units",
-			"Can carry [3] [Air Missile] units", "Can carry [1] [Air Nuke Missile] units", "Never appears as a Barbarian unit","May withdraw before melee ([30]%)"],
+			"Can carry [3] [Air Missile] units", "Can carry [1] [Air Nuke Missile] units", "Never appears as a Barbarian unit","Withdraws from melee combat <with [30]% chance>"],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "missile"
 	},
@@ -3302,7 +3302,7 @@
 		"interceptRange": 1,
 		"cost": 375,
 		"requiredTech": "Robotics",
-		"uniques": ["[80]% chance to intercept air attacks", "Can see invisible [Naval Submarine] units","May withdraw before melee ([60]%)", "Can see invisible [Naval Raider] units", "[+100]% Strength <vs [Naval Submarine] units>", "Never appears as a Barbarian unit"],
+		"uniques": ["[80]% chance to intercept air attacks", "Can see invisible [Naval Submarine] units","Withdraws from melee combat <with [60]% chance>", "Can see invisible [Naval Raider] units", "[+100]% Strength <vs [Naval Submarine] units>", "Never appears as a Barbarian unit"],
 		"attackSound": "missile"
 	},
 {
@@ -3314,7 +3314,7 @@
 		"range": 1,
 		"cost": 425,
 		"requiredTech": "Lasers",
-		"uniques": ["Never appears as a Barbarian unit","[95]% chance to intercept air attacks", "Can see invisible [Naval Submarine] units", "Can see invisible [Naval Raider] units", "[+100]% Strength <vs [Naval Submarine] units>","May withdraw before melee ([60]%)"],
+		"uniques": ["Never appears as a Barbarian unit","[95]% chance to intercept air attacks", "Can see invisible [Naval Submarine] units", "Can see invisible [Naval Raider] units", "[+100]% Strength <vs [Naval Submarine] units>","Withdraws from melee combat <with [60]% chance>"],
 		"hurryCostModifier": 20,
 		"attackSound": "cannon"
 	},
@@ -4139,7 +4139,7 @@
 		"uniques": ["Hacker",
 		"+33% Strength for adjacent non-air Units vs Cyber units",
 		"25% Chance for Adjacent units to capture Killed Cyber unit"
-		"Can see invisible [Stealth Support] units",
+		"Can see invisible [Stealth] units",
 		"Invisible to non-adjacent units",
 		"[50]% chance to intercept air attacks",
 		"May capture killed [Land] units <with [30]% chance>",
