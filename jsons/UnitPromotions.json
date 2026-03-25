@@ -2,7 +2,7 @@
 
 	{
 		"name": "Heal Instantly",
-		"uniques": ["[This unit] heals [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
+		"uniques": ["[This Unit] heals [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
 		"unitTypes": ["Support","Militia"]
 	},
 	{
