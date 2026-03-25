@@ -2,7 +2,7 @@
 
 	{
 		"name": "Heal Instantly",
-		"uniques": ["Heal this unit by [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
+		"uniques": ["[This unit] heals [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
 		"unitTypes": ["Support","Militia"]
 	},
 	{
@@ -18,7 +18,7 @@
 	},
 	{
 		"name": "Amphibious",
-		"uniques": ["Normal vision when embarked", "Defense bonus when embarked"]
+		"uniques": ["[+1] Sight <for [Embarked] units>","[+1] Sight <when [Embarked]>", "[+100]% Strength <when defending><when [Embarked]>"],
 	},
 	{
 		"name": "Hovering",
@@ -62,7 +62,7 @@
 	},
 	{
 		"name": "Teleportation",
-		"uniques": ["May Paradrop up to [100] tiles from inside friendly territory","Withdraws from melee combat <with [20]% chance>"]
+		"uniques": ["May Paradrop to [Land] tiles up to [100] tiles away <in [Friendly Land] tiles>","Withdraws before melee combat <with [20]% chance>"]
 	},
 	{
 		"name": "Support Unit",
@@ -70,7 +70,7 @@
 	},
 	{
 		"name": "Skirmish",
-		"uniques": ["Withdraws from melee combat <with [33]% chance>"]
+		"uniques": ["Withdraws before melee combat <with [33]% chance>"]
 	},
 
 
@@ -161,12 +161,12 @@
 	//Marines
 	{
 		"name": "Naval Recon",
-		"uniques": ["Normal vision when embarked"],
+		"uniques": ["[+1] Sight <for [Embarked] units>","[+1] Sight <when [Embarked]>"],
 		"unitTypes": ["Marines"]
 	},
 	{
 		"name": "Offshore Operation",
-		"uniques": ["Defense bonus when embarked"],
+		"uniques": ["[+100]% Strength <when defending><when [Embarked]>"],
 		"unitTypes": ["Marines"]
 	},
 	{
@@ -274,7 +274,7 @@
 	},
 	{
 		"name": "Battle Recon",
-		"uniques": ["Ignores Zone of Control", "Withdraws from melee combat <with [50]% chance>"],
+		"uniques": ["Ignores Zone of Control", "Withdraws before melee combat <with [50]% chance>"],
 		"prerequisites": ["Infiltration"],
 		"unitTypes": ["Recon"]
 	},
@@ -310,7 +310,7 @@
 	},
 	{
 		"name": "Special Promotion",
-		"uniques": ["This Unit upgrades for free including special upgrades"],
+		"uniques": ["[This Unit] upgrades for free including special upgrades"],
 		"prerequisites": ["Battlefield Survival II", "Defender II"],
 		"unitTypes": ["Militia"]
 	},
@@ -430,7 +430,7 @@
 	},
 	{
 		"name": "Skirmisher Tactics",
-		"uniques": ["Withdraws from melee combat <with [40]% chance>"],
+		"uniques": ["Withdraws before melee combat <with [40]% chance>"],
 		"prerequisites": ["Mantlet"],
 		"unitTypes": ["Ranged Support"]
 	},
@@ -562,7 +562,7 @@
 	},
 	{
 		"name": "Commando Cavalry",
-		"uniques": ["Ignores Zone of Control", "Withdraws from melee combat <with [40]% chance>"],
+		"uniques": ["Ignores Zone of Control", "Withdraws before melee combat <with [40]% chance>"],
 		"prerequisites": ["Pursuit", "Outmaneuvering"],
 		"unitTypes": ["Light Cavalry"]
 	},
@@ -622,7 +622,7 @@
 	},
 	{
 		"name": "Evasive Tactic",
-		"uniques": ["Withdraws from melee combat <with [40]% chance>"],
+		"uniques": ["Withdraws before melee combat <with [40]% chance>"],
 		"prerequisites": ["Harassing Fire"],
 		"unitTypes": ["Ranged Cavalry"]
 	},
@@ -902,7 +902,7 @@
 	},
 	{
 		"name": "Veteran Raider",
-		"uniques": ["Withdraws from melee combat <with [35]% chance>", "[+35]% Strength <when attacking>"],
+		"uniques": ["Withdraws before melee combat <with [35]% chance>", "[+35]% Strength <when attacking>"],
 		"prerequisites": ["Weakpoint Exploitation", "Silent Running"],
 		"unitTypes": ["Naval Raider", "Naval Submarine"]
 	},
@@ -1186,7 +1186,7 @@
 		"name": "Improved Arsenal",
 		"uniques": ["[+25]% Strength <vs [Water] units>"],
 		"prerequisites": ["Submarine Hunter","Enhanced Maneuverability"],
-		"unitTypes": ["Nir Naval Bomber"]
+		"unitTypes": ["Air Naval Bomber"]
 	},
 	{
 		"name": "Maintenance on The Move",
@@ -1212,7 +1212,7 @@
 	{
 		"name": "Nuclear Strike Reserve",
 		"uniques": ["[-50]% maintenance costs"],
-		"unitTypes": ["Air Atomic Bomber", "Nuke Missile"]
+		"unitTypes": ["Air Atomic Bomber", "Air Nuke Missile"]
 	},
 	{
 		"name": "Strategic Nuclear Bomber",
@@ -1224,7 +1224,7 @@
 	{
 		"name": "Multistage Thrusters",
 		"uniques": ["[+5] Range"],
-		"unitTypes": ["Air Missile", "Nuke Missile"]
+		"unitTypes": ["Air Missile", "Air Nuke Missile"]
 	},
 	{
 		"name": "Heavy Payload",
@@ -1310,7 +1310,7 @@
 	},
 	{
 		"name": "Slinger Withdraw", // only for Slinger and subsequent upgrades
-		"uniques": ["Withdraws from melee combat <with [80]% chance>"]
+		"uniques": ["Withdraws before melee combat <with [80]% chance>"]
 	},
 	{
 		"name": "Ignore terrain cost",
@@ -1338,7 +1338,7 @@
 	},
 	{
 		"name": "[Conquistador] ability",
-		"uniques": ["Defense bonus when embarked"]
+		"uniques": ["[+100]% Strength <when defending><when [Embarked]>"]
 	},
 	{
 		"name": "[Janissary] ability",
@@ -1391,7 +1391,7 @@
 	},
 	{
 		"name": "[Hakkapeliitta] ability",
-		"uniques": ["Transfer Movement to [Great General]", "[+15]% Strength when stacked with [Great General]"]
+		"uniques": ["Transfer Movement to [Great General]", "[+15]% Strength <when stacked with a [Great General] unit>"]
 	},
 	{
 		"name": "[B17] ability",
@@ -1403,7 +1403,7 @@
 	},
 	{
 		"name": "UAV",
-		"uniques": ["[-50]% maintenance costs", "Damage taken from interception reduced by [50]%", "[+20]% Strength when stacked with a [Siege Carrier] unit"]
+		"uniques": ["[-50]% maintenance costs", "Damage taken from interception reduced by [50]%", "[+20]% Strength <when stacked with a [Siege Carrier] unit>"]
 	},
 	{
 		"name": "Drill",
