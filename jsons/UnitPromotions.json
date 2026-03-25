@@ -1403,7 +1403,7 @@
 	},
 	{
 		"name": "UAV",
-		"uniques": ["[-50]% maintenance costs", "Damage taken from interception reduced by [50]%", "[+20]% Strength {when stacked with [Siege Carrier] unit}"]
+		"uniques": ["[-50]% maintenance costs", "Damage taken from interception reduced by [50]%", "[+20]% Strength <when stacked with a [Siege Carrier] unit>"]
 	},
 	{
 		"name": "Drill",
