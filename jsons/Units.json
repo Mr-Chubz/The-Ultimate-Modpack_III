@@ -800,7 +800,7 @@
 		"movement": 2,
 		"strength": 13,
 		"cost": 70,
-		"uniques": ["Can see over obstacles", "Normal vision when embarked", "Never appears as a Barbarian unit"],
+		"uniques": ["Can see over obstacles","[+1] Sight {when [Embarked]}", "Never appears as a Barbarian unit"],
 		"requiredTech": "Compass",
 		"upgradesTo": "Ranger",
 		"obsoleteTech": "Rifling",
@@ -1690,7 +1690,7 @@
 		"rangedStrength": 25,
 		"range": 1,
 		"cost": 185,
-		"uniques": ["Can see over obstacles", "Normal vision when embarked", "Can move after attacking", "Never appears as a Barbarian unit"],
+		"uniques": ["Can see over obstacles","[+1] Sight {when [Embarked]}", "Can move after attacking", "Never appears as a Barbarian unit"],
 		"requiredTech": "Rifling",
 		"upgradesTo": "Spec Ops",
 		"obsoleteTech": "Radar",
@@ -1915,7 +1915,7 @@
 		"cost": 425,
 		"requiredTech": "Steam Power",
 		"obsoleteTech": "Combustion",
-		"uniques": ["Armored","Normal vision when embarked", "Defense bonus when embarked", "No defensive terrain bonus", "Eliminates combat penalty for attacking across a coast", "Eliminates combat penalty for attacking over a river", "Ignores Zone of Control", "Consumes [3] [Coal]", "[+100]% maintenance costs", "Consumes [1] [Secret Project]", "Will not be displayed in Civilopedia", "Only available <with [Secret Project]>", "Never appears as a Barbarian unit"],
+		"uniques": ["Armored","[+1] Sight {when [Embarked]}", "[+100]% Strength {when defending}{when [Embarked]}", "No defensive terrain bonus", "Eliminates combat penalty for attacking across a coast", "Eliminates combat penalty for attacking over a river", "Ignores Zone of Control", "Consumes [3] [Coal]", "[+100]% maintenance costs", "Consumes [1] [Secret Project]", "Will not be displayed in Civilopedia", "Only available <with [Secret Project]>", "Never appears as a Barbarian unit"],
 		"attackSound": "shipguns"
 	},
 	{
@@ -2427,7 +2427,7 @@
 		"rangedStrength": 60,
 		"range": 1,
 		"cost": 300,
-		"uniques": ["Can see over obstacles", "Normal vision when embarked", "May Paradrop up to [5] tiles from inside friendly territory", "Can move after attacking", "Never appears as a Barbarian unit"],
+		"uniques": ["Can see over obstacles", "[+1] Sight {when [Embarked]}", "May Paradrop to [Land] tiles up to [5] tiles away {in [Friendly Land] tiles}", "Can move after attacking", "Never appears as a Barbarian unit"],
 		"requiredTech": "Radar",
 		"attackSound": "machinegun"
 	},
@@ -3109,7 +3109,7 @@
 		"cost": 425,
 		"requiredTech": "Telecommunications",
 		"upgradesTo": "Terminator",
-		"uniques": ["[+100]% Strength <vs cities>", "All tiles cost 1 movement", "May Paradrop up to [7] tiles from inside friendly territory", "Never appears as a Barbarian unit"],
+		"uniques": ["[+100]% Strength <vs cities>", "All tiles cost 1 movement","May Paradrop to [Land] tiles up to [7] tiles away {in [Friendly Land] tiles}",  "Never appears as a Barbarian unit"],
 		"attackSound": "shot"
 	},
 {
@@ -3553,7 +3553,7 @@
 		"strength": 85,
 		"cost": 500,
 		"requiredTech": "Lasers",
-		"uniques": ["May Paradrop up to [40] tiles from inside friendly territory", "No movement cost to pillage",
+		"uniques": ["May Paradrop to [Land] tiles up to [40] tiles away {in [Friendly Land] tiles}", "No movement cost to pillage",
 		"Never appears as a Barbarian unit"],
 		"promotions": ["Skirmish","Rocket Launcher"]
 		"attackSound": "energyshot"
@@ -3787,7 +3787,7 @@
 		"strength": 120,
 		"cost": 700,
 		"requiredTech": "Particle Physics",
-		"uniques": ["[+100]% Strength <vs cities>", "All tiles cost 1 movement", "May Paradrop up to [20] tiles from inside friendly territory", "Never appears as a Barbarian unit"],
+		"uniques": ["[+100]% Strength <vs cities>", "All tiles cost 1 movement", ""May Paradrop to [Land] tiles up to [40] tiles away {in [Friendly Land] tiles}",  "Never appears as a Barbarian unit"],
 		"promotions": ["Rocket Launcher"]
 		"attackSound": "energyshot"
 	},
