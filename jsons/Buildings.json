@@ -718,7 +718,7 @@
 		"cost": 1600,
 		"isNationalWonder": true,
 		"uniques": ["Enables construction of Time Machine parts", "Triggers a global alert upon completion", 
-			"Only available <starting from the [Future era]>","Hidden when [Scientific] Victory is disabled"],
+			"Only available <starting from the [Future era]>","Only available <when [Scientific] Victory is enabled>",],
 	},
     {
 		"name": "Utopia Project",
@@ -854,7 +854,7 @@
 		"culture": 1,
 		"greatPersonPoints": {"Great Merchant": 2},
 		"requiredTech": "World Alliance",
-		"uniques": ["Triggers voting for the Diplomatic Victory", "Hidden when [Diplomatic] Victory is disabled", "Triggers a global alert upon completion"],
+		"uniques": ["Triggers voting for the Diplomatic Victory", "Only available <when [Diplomatic] Victory is enabled>", "Triggers a global alert upon completion"],
 		"quote": "'Don’t Cry Because it’s Over, Smile Because It Happened'"
 	},
 	{
@@ -877,7 +877,7 @@
 		"uniques": ["[+25]% Strength <for [Bio] units>",
 		"[+25]% Production when constructing [Bio] units [in all cities]",
 		"[+35]% [Food] from every [Adaptive Base]"
-		"New [Bio] units start with [15] Experience [in this city]",],
+		"New [Bio] units start with [15] XP [in all cities]",],
 		"quote": "'If I could teleport, I'd probably still be late.' - Anonymous"
 	},
 {
@@ -894,7 +894,7 @@
 		"isWonder": true,
 		"cost": 2600,
 		"requiredTech": "Determinism",
-		"uniques": ["+[20]% [Science] [in all cities]",]
+		"uniques": ["[+20]% [Science] [in all cities]",]
 		"quote": "'If I could teleport, I'd probably still be late.' - Anonymous"
 	},
 	//Coorparations
@@ -924,7 +924,7 @@
 		"isNationalWonder": true,
 		"cost": 1360,
 		"requiredResource": "Corporation Slot",
-		"uniques": ["Provides [2] [Defense Force Stock]","New [Military] units start with [25] Experience [in all cities]","Consumes [1] [Corporation Slot(Total)]","Only available <after discovering [Corporations]>","Only available <with [Corporation Slot]>","Only available <starting from the [Atomic era]>"]
+		"uniques": ["Provides [2] [Defense Force Stock]","New [Military] units start with [25] XP [in all cities]","Consumes [1] [Corporation Slot(Total)]","Only available <after discovering [Corporations]>","Only available <with [Corporation Slot]>","Only available <starting from the [Atomic era]>"]
 	},
 	{
 		"name": "Social Network Company",
