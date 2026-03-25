@@ -18,7 +18,7 @@
 	},
 	{
 		"name": "Amphibious",
-		"uniques": ["[+1] Sight {for [Embarked] units}","[+1] Sight {when [Embarked]}", "[+100]% Strength {when defending}{when [Embarked]}"],
+		"uniques": ["[+1] Sight <for [Embarked] units>","[+1] Sight <when [Embarked]>", "[+100]% Strength <when defending><when [Embarked]>"],
 	},
 	{
 		"name": "Hovering",
@@ -62,7 +62,7 @@
 	},
 	{
 		"name": "Teleportation",
-		"uniques": ["May Paradrop to [Land] tiles up to [100] tiles away {in [Friendly Land] tiles}","Withdraws before melee combat {with ([20]%) chance}"]
+		"uniques": ["May Paradrop to [Land] tiles up to [100] tiles away <in [Friendly Land] tiles>","Withdraws before melee combat {with ([20]%) chance}"]
 	},
 	{
 		"name": "Support Unit",
@@ -161,12 +161,12 @@
 	//Marines
 	{
 		"name": "Naval Recon",
-		"uniques": ["[+1] Sight {for [Embarked] units}","[+1] Sight {when [Embarked]}"],
+		"uniques": ["[+1] Sight <for [Embarked] units>","[+1] Sight <when [Embarked]>"],
 		"unitTypes": ["Marines"]
 	},
 	{
 		"name": "Offshore Operation",
-		"uniques": ["[+100]% Strength {when defending}{when [Embarked]}"],
+		"uniques": ["[+100]% Strength <when defending><when [Embarked]>"],
 		"unitTypes": ["Marines"]
 	},
 	{
@@ -1338,7 +1338,7 @@
 	},
 	{
 		"name": "[Conquistador] ability",
-		"uniques": ["[+100]% Strength {when defending}{when [Embarked]}"]
+		"uniques": ["[+100]% Strength <when defending><when [Embarked]>"]
 	},
 	{
 		"name": "[Janissary] ability",
