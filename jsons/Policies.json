@@ -73,7 +73,7 @@
 			},
 			{
 				"name": "Military Tax",
-				"uniques": ["[+10]% [Gold] from every [Walls]","[+10]% [Gold] from every [Castle]","[+10]% [Gold] from every [Arsenal]","[+10]% [Gold] from every [Military Base]"]
+				"uniques": ["[+10]% [Gold] from every [Arsenal]"]
 				"requires": ["Coalition"],
 				"row": 1,
 				"column": 3
@@ -140,7 +140,7 @@
 			},
 			{
 				"name": "Discovery",
-				"uniques": ["[+2 Happiness] from every [Industry"],
+				"uniques": ["[+2 Happiness] from every [Industry]"],
 				"requires": ["Joint Projects"],
 				"row": 3,
 				"column": 2
@@ -161,7 +161,7 @@
 	{
 		"name": "Technocracy",
 		"era": "Future era",
-		"uniques": ["[+25]% Strength <for [Cyber] units>", "[-25]% Strength <for [Bio] units>","[+20%] [Production] [in all cities]","[-15]% growth [in all cities]","Only available <before adopting [Futurism]>","Only available <before adopting [Transhumanism]>"],
+		"uniques": ["[+25]% Strength <for [Cyber] units>", "[-25]% Strength <for [Bio] units>","[+20]% [Production] [in all cities]","[-15]% growth [in all cities]","Only available <before adopting [Futurism]>","Only available <before adopting [Transhumanism]>"],
 		"priorities": {
             "Neutral": 40,
             "Cultural": 90,
