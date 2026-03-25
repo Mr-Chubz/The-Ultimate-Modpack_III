@@ -62,7 +62,7 @@
 	},
 	{
 		"name": "Teleportation",
-		"uniques": ["May Paradrop to [Land] tiles up to [100] tiles away <in [Friendly Land] tiles>","Withdraws before melee combat {with ([20]%) chance}"]
+		"uniques": ["May Paradrop to [Land] tiles up to [100] tiles away <in [Friendly Land] tiles>","Withdraws before melee combat <with [20]% chance>"]
 	},
 	{
 		"name": "Support Unit",
@@ -70,7 +70,7 @@
 	},
 	{
 		"name": "Skirmish",
-		"uniques": ["Withdraws before melee combat {with ([33]%) chance}"]
+		"uniques": ["Withdraws before melee combat <with [33]% chance>"]
 	},
 
 
@@ -274,7 +274,7 @@
 	},
 	{
 		"name": "Battle Recon",
-		"uniques": ["Ignores Zone of Control", "Withdraws before melee combat {with ([50]%) chance}"],
+		"uniques": ["Ignores Zone of Control", "Withdraws before melee combat <with [50]% chance>"],
 		"prerequisites": ["Infiltration"],
 		"unitTypes": ["Recon"]
 	},
@@ -430,7 +430,7 @@
 	},
 	{
 		"name": "Skirmisher Tactics",
-		"uniques": ["Withdraws before melee combat {with ([40]%) chance}"],
+		"uniques": ["Withdraws before melee combat <with [40]% chance>"],
 		"prerequisites": ["Mantlet"],
 		"unitTypes": ["Ranged Support"]
 	},
@@ -562,7 +562,7 @@
 	},
 	{
 		"name": "Commando Cavalry",
-		"uniques": ["Ignores Zone of Control", "Withdraws before melee combat {with ([40]%) chance}"],
+		"uniques": ["Ignores Zone of Control", "Withdraws before melee combat <with [40]% chance>"],
 		"prerequisites": ["Pursuit", "Outmaneuvering"],
 		"unitTypes": ["Light Cavalry"]
 	},
@@ -622,7 +622,7 @@
 	},
 	{
 		"name": "Evasive Tactic",
-		"uniques": ["Withdraws before melee combat {with ([40]%) chance}"],
+		"uniques": ["Withdraws before melee combat <with [40]% chance>"],
 		"prerequisites": ["Harassing Fire"],
 		"unitTypes": ["Ranged Cavalry"]
 	},
@@ -902,7 +902,7 @@
 	},
 	{
 		"name": "Veteran Raider",
-		"uniques": ["Withdraws before melee combat {with ([35]%) chance}", "[+35]% Strength <when attacking>"],
+		"uniques": ["Withdraws before melee combat <with [35]% chance>", "[+35]% Strength <when attacking>"],
 		"prerequisites": ["Weakpoint Exploitation", "Silent Running"],
 		"unitTypes": ["Naval Raider", "Naval Submarine"]
 	},
@@ -1310,7 +1310,7 @@
 	},
 	{
 		"name": "Slinger Withdraw", // only for Slinger and subsequent upgrades
-		"uniques": ["Withdraws before melee combat {with ([80]%) chance}"]
+		"uniques": ["Withdraws before melee combat <with [80]% chance>"]
 	},
 	{
 		"name": "Ignore terrain cost",
