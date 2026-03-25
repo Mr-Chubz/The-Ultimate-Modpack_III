@@ -1391,7 +1391,7 @@
 	},
 	{
 		"name": "[Hakkapeliitta] ability",
-		"uniques": ["Transfer Movement to [Great General]", "[+15]% Strength {when stacked with a [Great General] unit}"]
+		"uniques": ["Transfer Movement to [Great General]", "[+15]% Strength <when stacked with a [Great General] unit>"]
 	},
 	{
 		"name": "[B17] ability",
