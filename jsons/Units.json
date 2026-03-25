@@ -3787,7 +3787,7 @@
 		"strength": 120,
 		"cost": 700,
 		"requiredTech": "Particle Physics",
-		"uniques": ["[+100]% Strength <vs cities>", "All tiles cost 1 movement", ""May Paradrop to [Land] tiles up to [40] tiles away {in [Friendly Land] tiles}",  "Never appears as a Barbarian unit"],
+		"uniques": ["[+100]% Strength <vs cities>", "All tiles cost 1 movement", "May Paradrop to [Land] tiles up to [40] tiles away {in [Friendly Land] tiles}",  "Never appears as a Barbarian unit"],
 		"promotions": ["Rocket Launcher"]
 		"attackSound": "energyshot"
 	},
