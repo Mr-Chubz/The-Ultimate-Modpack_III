@@ -99,7 +99,7 @@
 	},
 	{
 		"name": "Urban Warfare",
-		"uniques": ["[+40]% Strength <vs cities>", "[+25]% Strength <in [City center] tiles>"],
+		"uniques": ["[+40]% Strength <vs cities>", "[+25]% Strength <vs cities>"],
 		"prerequisites": ["Field Medic", "Greatswords"],
 		"unitTypes": ["Infantry"]
 	},
@@ -246,12 +246,12 @@
 	//Recon
 	{
 		"name": "Woodlander",
-		"uniques": ["Double movement in [Forest]", "Double movement in [Jungle]", "[+20]% Strength <in [Forest] tiles>", "[+20]% Strength <in [Jungle] tiles>"],
+		"uniques": ["Double movement in [Rough terrain]", "Double movement in [Rough terrain]", "[+20]% Strength <in [Rough terrain] tiles>", "[+20]% Strength <in [Rough terrain] tiles>"],
 		"unitTypes": ["Recon"]
 	},
 	{
 		"name": "Highlander",
-		"uniques": ["[+20]% Strength <in [Hill] tiles>"],
+		"uniques": ["[+20]% Strength <in [Rough terrain] tiles>"],
 		"unitTypes": ["Recon"]
 	},
 	{
@@ -298,7 +298,7 @@
 	},
 	{
 		"name": "Battlefield Survival II",
-		"uniques": ["Heals [20] damage if it kills a Unit", "[+20]% Strength <when attacking>"],
+		"uniques": ["Heals [20] damage if it kills a unit", "[+20]% Strength <when attacking>"],
 		"prerequisites": ["Battlefield Survival I", "Defender I"],
 		"unitTypes": ["Militia"]
 	},
@@ -659,7 +659,7 @@
 	},
 	{
 		"name": "Ambush",
-		"uniques": ["[+25]% Strength <in [Rough terrain] tiles>", "[+30]% Strength <in [City center] tiles>"],
+		"uniques": ["[+25]% Strength <in [Rough terrain] tiles>", "[+30]% Strength <vs cities>"],
 		"unitTypes": ["Counter Cavalry"]
 	},
 	{
@@ -759,7 +759,7 @@
 	},
 	{
 		"name": "Green Water Navy",
-		"uniques": ["[+15]% Strength <in [Coast] tiles>", "[+25]% Strength <in [Atoll] tiles>"],
+		"uniques": ["[+15]% Strength <vs [Water] units>", "[+25]% Strength <vs [Water] units>"],
 		"prerequisites": ["Reinforced Hull", "Damage Control"],
 		"unitTypes": ["Naval Melee"]
 	},
@@ -795,7 +795,7 @@
 	},
 	{
 		"name": "Beachhead",
-		"uniques": ["[+20]% Strength <in [Coast] tiles> <when defending>", "[+20]% Strength <vs [Land] units>"],
+		"uniques": ["[+20]% Strength <vs [Water] units> <when defending>", "[+20]% Strength <vs [Land] units>"],
 		"prerequisites": ["Coastal Bombardment", "Double Armor Plating"],
 		"unitTypes": ["Naval Siege"]
 	},
@@ -1326,11 +1326,11 @@
 	},
 	{
 		"name": "[Mohawk Warrior] ability",
-		"uniques": ["[+33]% Strength <when fighting in [Forest] tiles>", "[+33]% Strength <when fighting in [Jungle] tiles>"]
+		"uniques": ["[+33]% Strength <when fighting in [Rough terrain] tiles>", "[+33]% Strength <when fighting in [Rough terrain] tiles>"]
 	},
 	{
 		"name": "[Jaguar] ability",
-		"uniques": ["[+33]% Strength <when fighting in [Forest] tiles>", "[+33]% Strength <when fighting in [Jungle] tiles>", "Heals [25] damage if it kills a unit"]
+		"uniques": ["[+33]% Strength <when fighting in [Rough terrain] tiles>", "[+33]% Strength <when fighting in [Rough terrain] tiles>", "Heals [25] damage if it kills a unit"]
 	},
 	{
 		"name": "[Persian Immortal] ability",
@@ -1378,12 +1378,12 @@
 	},
 	{
 		"name": "[Norwegian Ski Infantry] ability",
-		"uniques": ["[+25]% Strength <when fighting in [Snow] tiles>",
-			"[+25]% Strength <when fighting in [Tundra] tiles>",
-			"[+25]% Strength <when fighting in [Hill] tiles>",
-			"Double movement in [Snow]",
-			"Double movement in [Tundra]",
-			"Double movement in [Hill]"]
+		"uniques": ["[+25]% Strength <when fighting in [Rough terrain] tiles>",
+			"[+25]% Strength <when fighting in [Rough terrain] tiles>",
+			"[+25]% Strength <when fighting in [Rough terrain] tiles>",
+			"Double movement in [Rough terrain]",
+			"Double movement in [Rough terrain]",
+			"Double movement in [Rough terrain]"]
 	},
 	{
 		"name": "[Carolean] ability",
@@ -1412,7 +1412,7 @@
 	{
 		"name": "Trench Warfare",
 		"unitTypes": ["Infantry","Anti Cavalry","Siege Melee"]
-		"uniques": ["Can build [Trench] improvements on tiles","Only available <after discovering [Military Science]>"]
+		"uniques": ["Can build [Trench] improvements on tiles","Only available <after discovering [Combined Arms]>"]
 	},
 	{
 		"name": "Storm The Trenches",
