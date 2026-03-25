@@ -1445,7 +1445,7 @@
 		"rangedStrength": 28,
 		"cost": 185,
 		"requiredResource": "Iron",
-		"uniques": ["Withdraws before melee combat {with ([20]%) chance}"],
+		"uniques": ["May withdraw before melee {[20]%}"],
 		"requiredTech": "Navigation",
 		"obsoleteTech": "Combustion",
 		"upgradesTo": "Armored Cruiser",
