@@ -100,7 +100,7 @@
 		"requiredTech": "Metal Casting",
 		"uniques": ["[+15]% Production when constructing [Space] units [in this city]",
 			"[+15]% Production when constructing [Land] units [in this city]",
-			"[+1 Production] from [Iron] tiles [in this city]"]
+			"[+1 Production] from [Mine] tiles [in this city]"]
 	},
   {
         "name": "Horse Breeding",
@@ -655,7 +655,7 @@
 		"specialistSlots": {"Entertainer": 2},
 		"culture": 1,
 		"isNationalWonder": true,
-		"uniques": ["Requires a [Colosseum] in all cities", "Cost increases by [30] per owned city"],
+		"uniques": ["Requires a [Stadium] in all cities", "Cost increases by [30] per owned city"],
 		"requiredTech": "Horseback Riding"
 	},
   {
