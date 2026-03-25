@@ -553,13 +553,12 @@
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
 			"Great Improvement",
-			"Unpillageable",
-			"Gives a defensive bonus of [160]%",
+			"Gives a defensive bonus of [100]%",
 			"Adjacent enemy units ending their turn take [30] damage",
 			"Can be built just outside your borders",
-        	"Constructing it will take over the tiles around it and assign them to your closest city",
+			"Gain control over [all] tiles in a [1]-tile radius",
 			"Removes removable features when built",
-			"Pillaging this improvement yields approximately [+20 Gold]"
+            "Will not be replaced by automated units"
 		]
 	},
     {
