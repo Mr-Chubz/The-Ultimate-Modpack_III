@@ -3394,7 +3394,7 @@
 		"uniques": ["Never appears as a Barbarian unit","No defensive terrain bonus","Ignores zone of control",
 		"All tiles cost 1 movement",
 		"[+40]% Strength <vs [Water] units>",
-		"Defense bonus when embarked"],
+		"[+100]% Strength {when defending}{when [Embarked]}"],
 		"promotions": ["Amphibious"],
 		"requiredResource": "Fuel"
 },
@@ -3845,7 +3845,7 @@
 		"uniques": ["Never appears as a Barbarian unit","No defensive terrain bonus","Ignores zone of control",
 		"All tiles cost 1 movement",
 		"[+40]% Strength <vs [Water] units>",
-		"Defense bonus when embarked"],
+		"[+100]% Strength {when defending}{when [Embarked]}"],
 		"promotions": ["Energy Weapons","Amphibious"],
 		"requiredResource": "Fuel"
 },
@@ -3909,7 +3909,7 @@
 	{
 		"name": "Great Spacefarer",
 		"unitType": "Civilian",
-		"uniques": ["Can start an [12]-turn golden age", "Can instantly construct a [Space Platform] improvement <by consuming this unit>", "Great Person - [Spacefarer]", "Unbuildable", "Uncapturable"],
+		"uniques": ["Empire enters a [12]-turn Golden Age <by consuming this unit>", "Can instantly construct a [Space Platform] improvement <by consuming this unit>", "Great Person - [Spacefarer]", "Unbuildable", "Uncapturable"],
 		"movement": 2
 	},
 	{
