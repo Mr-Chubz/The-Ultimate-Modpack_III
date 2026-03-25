@@ -18,7 +18,7 @@
 	},
 	{
 		"name": "Amphibious",
-		"uniques": ["[+1] Sight {for [Embarked] units},"[+1] Sight {when [Embarked]}", "[+100]% Strength {when defending}{when [Embarked]}"],
+		"uniques": ["[+1] Sight {for [Embarked] units}","[+1] Sight {when [Embarked]}", "[+100]% Strength {when defending}{when [Embarked]}"],
 	},
 	{
 		"name": "Hovering",
