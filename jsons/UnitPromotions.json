@@ -2,7 +2,7 @@
 
 	{
 		"name": "Heal Instantly",
-		"uniques": ["Heal this unit by [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
+		"uniques": ["[This unit] heals [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
 		"unitTypes": ["Support","Militia"]
 	},
 	{
@@ -18,7 +18,7 @@
 	},
 	{
 		"name": "Amphibious",
-		"uniques": ["Normal vision when embarked", "Defense bonus when embarked"]
+		"uniques": ["[+1] Sight {for [Embarked] units},"[+1] Sight {when [Embarked]}", "[+100]% Strength {when defending}{when [Embarked]}"],
 	},
 	{
 		"name": "Hovering",
@@ -62,7 +62,7 @@
 	},
 	{
 		"name": "Teleportation",
-		"uniques": ["May Paradrop up to [100] tiles from inside friendly territory","May withdraw before melee ([20]%)"]
+		"uniques": ["May Paradrop up to [100] tiles from inside friendly territory","Withdraws before melee combat {with ([20]%) chance}"]
 	},
 	{
 		"name": "Support Unit",
@@ -70,7 +70,7 @@
 	},
 	{
 		"name": "Skirmish",
-		"uniques": ["May withdraw before melee ([33]%)"]
+		"uniques": ["Withdraws before melee combat {with ([33]%) chance}"]
 	},
 
 
@@ -274,7 +274,7 @@
 	},
 	{
 		"name": "Battle Recon",
-		"uniques": ["Ignores Zone of Control", "May withdraw before melee ([50]%)"],
+		"uniques": ["Ignores Zone of Control", "Withdraws before melee combat {with ([50]%) chance}"],
 		"prerequisites": ["Infiltration"],
 		"unitTypes": ["Recon"]
 	},
@@ -430,7 +430,7 @@
 	},
 	{
 		"name": "Skirmisher Tactics",
-		"uniques": ["May withdraw before melee ([40]%)"],
+		"uniques": ["Withdraws before melee combat {with ([40]%) chance}"],
 		"prerequisites": ["Mantlet"],
 		"unitTypes": ["Ranged Support"]
 	},
@@ -562,7 +562,7 @@
 	},
 	{
 		"name": "Commando Cavalry",
-		"uniques": ["Ignores Zone of Control", "May withdraw before melee ([40]%)"],
+		"uniques": ["Ignores Zone of Control", "Withdraws before melee combat {with ([40]%) chance}"],
 		"prerequisites": ["Pursuit", "Outmaneuvering"],
 		"unitTypes": ["Light Cavalry"]
 	},
@@ -622,7 +622,7 @@
 	},
 	{
 		"name": "Evasive Tactic",
-		"uniques": ["May withdraw before melee ([40]%)"],
+		"uniques": ["Withdraws before melee combat {with ([40]%) chance}"],
 		"prerequisites": ["Harassing Fire"],
 		"unitTypes": ["Ranged Cavalry"]
 	},
@@ -902,7 +902,7 @@
 	},
 	{
 		"name": "Veteran Raider",
-		"uniques": ["May withdraw before melee ([35]%)", "[+35]% Strength <when attacking>"],
+		"uniques": ["Withdraws before melee combat {with ([35]%) chance}", "[+35]% Strength <when attacking>"],
 		"prerequisites": ["Weakpoint Exploitation", "Silent Running"],
 		"unitTypes": ["Naval Raider", "Naval Submarine"]
 	},
@@ -1310,7 +1310,7 @@
 	},
 	{
 		"name": "Slinger Withdraw", // only for Slinger and subsequent upgrades
-		"uniques": ["May withdraw before melee ([80]%)"]
+		"uniques": ["Withdraws before melee combat {with ([80]%) chance}"]
 	},
 	{
 		"name": "Ignore terrain cost",
