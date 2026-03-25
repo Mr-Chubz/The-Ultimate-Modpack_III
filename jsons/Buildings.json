@@ -3,7 +3,7 @@
   {
         "name": "Horse Racing",
         "hurryCostModifier": 25,
-        "uniques": ["[+1 Gold] per [2] population [in this city]", "+[15]% [Gold] [in this city]", "Consumes [1] [Horses]"],
+        "uniques": ["[+1 Gold] per [2] population [in this city]", "[+15]% [Gold] [in this city]", "Consumes [1] [Horses]"],
         "requiredTech": "Animal Husbandry"
   },
  {
@@ -16,7 +16,7 @@
  {
         "name": "Elephant Houdah",
         "hurryCostModifier": 25,
-        "uniques": ["[+1 Happiness] per [3] population [in this city]", "+[15]% [Gold] [in this city]", "Consumes [1] [Elephants]"],
+        "uniques": ["[+1 Happiness] per [3] population [in this city]", "[+15]% [Gold] [in this city]", "Consumes [1] [Elephants]"],
         "requiredTech": "Trapping"
   },
 	{
@@ -55,7 +55,7 @@
         "name": "Riding Instructor",
         "hurryCostModifier": 25,
         "gold": 2,
-        "uniques": ["New [Mounted] units start with [30] Experience [in this city]", "Consumes [1] [Horses]"],
+        "uniques": ["New [Mounted] units start with [30] XP [in this city]", "Consumes [1] [Horses]"],
         "requiredTech": "Horseback Riding"
 },
 {
@@ -142,7 +142,7 @@
 		"hurryCostModifier": 0,
 		"maintenance": 1,
 		"requiredBuilding": "Armory",
-		"uniques": ["New [Military] units start with [15] Experience [in this city]",
+		"uniques": ["New [Military] units start with [15] XP [in this city]",
 			    "All newly-trained [Infantry] units [in this city] receive the [Trench Warfare] promotion", 
 			    "All newly-trained [Anti Cavalry] units [in this city] receive the [Trench Warfare] promotion", 
 			    "All newly-trained [Siege Melee] units [in this city] receive the [Trench Warfare] promotion", 
@@ -274,7 +274,7 @@
 	"cost": 400,
         "hurryCostModifier": 25,
         "gold": 2,
-        "uniques": ["New [Armored] units start with [30] Experience [in this city]","All newly-trained [Armored] units [in this city] receive the [Storm The Trenches] promotion","Consumes [1] [Oil]"],
+        "uniques": ["New [Armored] units start with [30] XP [in this city]","All newly-trained [Armored] units [in this city] receive the [Storm The Trenches] promotion","Consumes [1] [Oil]"],
         "requiredTech": "Combustion"
 },
 	 {
@@ -655,7 +655,7 @@
 		"specialistSlots": {"Entertainer": 2},
 		"culture": 1,
 		"isNationalWonder": true,
-		"uniques": ["Requires a [Stadium] in all cities", "Cost increases by [30] per owned city"],
+		"uniques": ["Only available <if [Colosseum] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city"],
 		"requiredTech": "Horseback Riding"
 	},
   {
@@ -724,8 +724,8 @@
 		"name": "Utopia Project",
 		"cost": 3000,
 		"isNationalWonder": true,
-		"uniques": ["Hidden until [6] social policy branches have been completed", "Triggers a global alert upon build start",
-			"Triggers a Cultural Victory upon completion", "Hidden when [Cultural] Victory is disabled"]
+		"uniques": ["Unavailable <when number of [Completed Policy branches] is less than [5]>", "Triggers a global alert upon build start",
+			"Triggers a Cultural Victory upon completion", "Only available <when [Cultural] Victory is enabled>", "Cannot be hurried"],
 	},
   //World Wonder
   {
