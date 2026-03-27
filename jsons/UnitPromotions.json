@@ -5,6 +5,210 @@
 		"uniques": ["[This Unit] heals [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
 		"unitTypes": ["Infantry","Marines","Anti Cavalry","Mercenary","Recon","Paratrooper","Militia","Ranged Heavy","Ranged Support","Siege Melee","Siege Ranged","Heavy Cavalry","Light Cavalry","Ranged Cavalry","Counter Cavalry","Naval Melee","Naval Ranged","Naval Escort","Naval Siege","Naval Raider","Naval Submarine","Air Fighter","Air Bomber","Air Naval Bomber","Air Close Air Support","Air Drone","Air Helicopter","Support","Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine"]
 	},
+
+	// Base game promotion tree compatibility
+	{
+		"name": "Accuracy I",
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[-90]% weight to this choice for AI decisions"],
+		"unitTypes": ["Ranged Heavy","Ranged Support","Siege Ranged","Siege","Archery","Ranged Gunpowder"],
+		"column": 1,
+		"row": 1
+	},
+	{
+		"name": "Accuracy II",
+		"prerequisites": ["Accuracy I"],
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
+		"unitTypes": ["Ranged Heavy","Ranged Support","Siege Ranged","Siege","Archery","Ranged Gunpowder"],
+		"column": 1,
+		"row": 2
+	},
+	{
+		"name": "Accuracy III",
+		"prerequisites": ["Accuracy II"],
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
+		"unitTypes": ["Ranged Heavy","Ranged Support","Siege Ranged","Siege","Archery","Ranged Gunpowder"],
+		"column": 1,
+		"row": 3
+	},
+	{
+		"name": "Barrage I",
+		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>", "[-90]% weight to this choice for AI decisions"],
+		"unitTypes": ["Ranged Heavy","Ranged Support","Siege Ranged","Siege","Archery","Ranged Gunpowder"],
+		"column": 2,
+		"row": 1
+	},
+	{
+		"name": "Barrage II",
+		"prerequisites": ["Barrage I"],
+		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"],
+		"unitTypes": ["Ranged Heavy","Ranged Support","Siege Ranged","Siege","Archery","Ranged Gunpowder"],
+		"column": 2,
+		"row": 2
+	},
+	{
+		"name": "Barrage III",
+		"prerequisites": ["Barrage II"],
+		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"],
+		"unitTypes": ["Ranged Heavy","Ranged Support","Siege Ranged","Siege","Archery","Ranged Gunpowder"],
+		"column": 2,
+		"row": 3
+	},
+	{
+		"name": "Indirect Fire",
+		"prerequisites": ["Accuracy III", "Barrage III", "Bombardment II", "Targeting II"],
+		"uniques": ["Ranged attacks may be performed over obstacles"],
+		"unitTypes": ["Ranged Heavy","Ranged Support","Siege Ranged","Naval Ranged","Archery","Ranged Gunpowder","Siege","Ranged Water"],
+		"column": 3,
+		"row": 4
+	},
+	{
+		"name": "Shock I",
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>", "[-90]% weight to this choice for AI decisions"],
+		"unitTypes": ["Infantry","Marines","Light Cavalry","Heavy Cavalry","Sword","Gunpowder","Mounted","Armored"],
+		"column": 4,
+		"row": 1
+	},
+	{
+		"name": "Shock II",
+		"prerequisites": ["Shock I"],
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
+		"unitTypes": ["Infantry","Marines","Light Cavalry","Heavy Cavalry","Sword","Gunpowder","Mounted","Armored"],
+		"column": 4,
+		"row": 2
+	},
+	{
+		"name": "Shock III",
+		"prerequisites": ["Shock II"],
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
+		"unitTypes": ["Infantry","Marines","Light Cavalry","Heavy Cavalry","Sword","Gunpowder","Mounted","Armored"],
+		"column": 4,
+		"row": 3
+	},
+	{
+		"name": "Drill I",
+		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>", "[-90]% weight to this choice for AI decisions"],
+		"unitTypes": ["Infantry","Marines","Light Cavalry","Heavy Cavalry","Sword","Gunpowder","Mounted","Armored"],
+		"column": 5,
+		"row": 1
+	},
+	{
+		"name": "Drill II",
+		"prerequisites": ["Drill I"],
+		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
+		"unitTypes": ["Infantry","Marines","Light Cavalry","Heavy Cavalry","Sword","Gunpowder","Mounted","Armored"],
+		"column": 5,
+		"row": 2
+	},
+	{
+		"name": "Drill III",
+		"prerequisites": ["Drill II"],
+		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
+		"unitTypes": ["Infantry","Marines","Light Cavalry","Heavy Cavalry","Sword","Gunpowder","Mounted","Armored"],
+		"column": 5,
+		"row": 3
+	},
+	{
+		"name": "Charge",
+		"prerequisites": ["Shock II","Drill II"],
+		"uniques": ["[+33]% Strength <vs [Wounded] units>", "[+200]% weight to this choice for AI decisions"],
+		"unitTypes": ["Light Cavalry","Heavy Cavalry","Mounted","Armored"],
+		"column": 6,
+		"row": 2
+	},
+	{
+		"name": "Besiege",
+		"prerequisites": ["Shock II","Drill II"],
+		"uniques": ["[+50]% Strength <vs cities>"],
+		"unitTypes": ["Infantry","Marines","Sword","Gunpowder"],
+		"column": 6,
+		"row": 3
+	},
+	{
+		"name": "Formation I",
+		"prerequisites": ["Shock II","Drill II"],
+		"uniques": ["[+33]% Strength <vs [Mounted] units>", "[-50]% weight to this choice for AI decisions"],
+		"unitTypes": ["Infantry","Marines","Light Cavalry","Sword","Gunpowder","Mounted"],
+		"column": 7,
+		"row": 2
+	},
+	{
+		"name": "Formation II",
+		"prerequisites": ["Formation I"],
+		"uniques": ["[+33]% Strength <vs [Mounted] units>"],
+		"unitTypes": ["Infantry","Marines","Light Cavalry","Sword","Gunpowder","Mounted"],
+		"column": 7,
+		"row": 3
+	},
+	{
+		"name": "Targeting I",
+		"uniques": ["[+15]% Strength <vs [Water] units>"],
+		"unitTypes": ["Naval Ranged","Ranged Water"],
+		"column": 13,
+		"row": 1
+	},
+	{
+		"name": "Targeting II",
+		"prerequisites": ["Targeting I"],
+		"uniques": ["[+15]% Strength <vs [Water] units>"],
+		"unitTypes": ["Naval Ranged","Ranged Water"],
+		"column": 13,
+		"row": 2
+	},
+	{
+		"name": "Targeting III",
+		"prerequisites": ["Targeting II"],
+		"uniques": ["[+15]% Strength <vs [Water] units>"],
+		"unitTypes": ["Naval Ranged","Ranged Water"],
+		"column": 13,
+		"row": 3
+	},
+	{
+		"name": "Wolfpack I",
+		"uniques": ["[+25]% Strength <when attacking>"],
+		"unitTypes": ["Naval Submarine","Submarine"],
+		"column": 14,
+		"row": 1
+	},
+	{
+		"name": "Wolfpack II",
+		"prerequisites": ["Wolfpack I"],
+		"uniques": ["[+25]% Strength <when attacking>"],
+		"unitTypes": ["Naval Submarine","Submarine"],
+		"column": 14,
+		"row": 2
+	},
+	{
+		"name": "Wolfpack III",
+		"prerequisites": ["Wolfpack II"],
+		"uniques": ["[+25]% Strength <when attacking>"],
+		"unitTypes": ["Naval Submarine","Submarine"],
+		"column": 14,
+		"row": 3
+	},
+	{
+		"name": "Bombardment I",
+		"uniques": ["[+33]% Strength <vs [Land] units>"],
+		"unitTypes": ["Naval Ranged","Air Fighter","Air Bomber","Air Naval Bomber","Ranged Water","Fighter","Bomber"],
+		"column": 26,
+		"row": 1
+	},
+	{
+		"name": "Bombardment II",
+		"prerequisites": ["Bombardment I"],
+		"uniques": ["[+33]% Strength <vs [Land] units>"],
+		"unitTypes": ["Naval Ranged","Air Fighter","Air Bomber","Air Naval Bomber","Ranged Water","Fighter","Bomber"],
+		"column": 26,
+		"row": 2
+	},
+	{
+		"name": "Bombardment III",
+		"prerequisites": ["Bombardment II"],
+		"uniques": ["[+34]% Strength <vs [Land] units>"],
+		"unitTypes": ["Naval Ranged","Air Fighter","Air Bomber","Air Naval Bomber","Ranged Water","Fighter","Bomber"],
+		"column": 26,
+		"row": 3
+	},
+
 	{
 		"name": "Spyglass",
 		"uniques": ["[+1] Sight", "May enter foreign tiles without open borders"],
