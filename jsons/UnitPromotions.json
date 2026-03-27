@@ -3,7 +3,7 @@
 	{
 		"name": "Heal Instantly",
 		"uniques": ["[This Unit] heals [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
-		"unitTypes": ["Support","Militia"]
+		"unitTypes": ["Infantry","Marines","Anti Cavalry","Mercenary","Recon","Paratrooper","Militia","Ranged Heavy","Ranged Support","Siege Melee","Siege Ranged","Heavy Cavalry","Light Cavalry","Ranged Cavalry","Counter Cavalry","Naval Melee","Naval Ranged","Naval Escort","Naval Siege","Naval Raider","Naval Submarine","Air Fighter","Air Bomber","Air Naval Bomber","Air Close Air Support","Air Drone","Air Helicopter","Support","Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine"]
 	},
 	{
 		"name": "Spyglass",
