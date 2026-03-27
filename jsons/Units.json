@@ -3957,7 +3957,7 @@
 		"interceptRange": 1,
 		"cost": 525,
 		"requiredTech": "Particle Physics",
-		"uniques": ["Never appears as a Barbarian unit","[95]% chance to intercept air attacks", "Can see invisible [Naval Submarine] units", "Can see invisible [Naval Raider] units", "[+100]% Strength <vs [Naval Submarine] units>","Withdraws before melee combat <with [60]% chance>","Can carry [1] [Air Drone] units","[+20]% Strength bonus for [Military] units within [1] tiles <when defending>"],
+		"uniques": ["Never appears as a Barbarian unit","[95]% chance to intercept air attacks", "Can see invisible [Naval Submarine] units", "Can see invisible [Naval Raider] units", "[+100]% Strength <vs [Naval Submarine] units>","Withdraws before melee combat <with [60]% chance>","Can carry [1] [Air Drone] units","[+30]% Strength bonus for [Military] units within [1] tiles <when defending> <vs [Ranged] units>"],
 		"hurryCostModifier": 20,
 		"attackSound": "cannon"
 	},
