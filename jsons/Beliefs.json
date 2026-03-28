@@ -117,12 +117,14 @@
     {
         "name": "Asceticism",
         "type": "Follower",
-        "uniques": ["[+1 Happiness] from every [Shrine] <in cities with at least [3] [Followers of this Religion]>"]
+        "uniques": ["[+1 Happiness] from every [Shrine] <in cities with at least [3] [Followers of this Religion]>","[+1 Food] from [Shrines] in cities with at most [6] Population",
+"Cities with more than [1] religion lose this bonus"
+]
     },
     {
         "name": "Cathedrals",
         "type": "Follower",
-        "uniques": ["May buy [Cathedral] buildings with [Faith] [in cities following this religion]"]
+        "uniques": ["May buy [Cathedral] buildings with [Faith] [in cities following this religion]","[+2 Culture, +1 Faith] from Cathedrals",]
     },
     {
         "name": "Choral Music",
@@ -132,67 +134,74 @@
     {
         "name": "Divine inspiration",
         "type": "Follower",
-        "uniques": ["[+2 Faith] from every [Wonder]"]
+        "uniques": ["[+2 Faith] from every [Wonder]","[+2 Culture] from every [Wonder]",
+]
     },
     {
         "name": "Feed the World",
         "type": "Follower",
-        "uniques": ["[+1 Food] from every [Shrine]", "[+1 Food] from every [Temple]"]
+        "uniques": ["[+1 Food] from every [Shrine]", "[+1 Food] from every [Temple]","[+10]% Growth in cities with a majority of this religion",
+"No growth bonus in cities without a majority"]
     },
     {
         "name": "Guruship",
         "type": "Follower",
-        "uniques": ["[+2 Production] [in cities following this religion] <in cities with at least [1] [Specialists]>"]
+        "uniques": ["[+2 Production] [in cities following this religion] <in cities with at least [1] [Specialists]>","[+1 Science] from every [2] Specialists <in cities with at least [1] [Specialists]>",]
     },
     {
         "name": "Holy Warriors",
         "type": "Follower",
-        "uniques": ["May buy [{pre-[Industrial era]} {Military} {Land}] units with [Faith] for [2] times their normal Production cost <in [in cities following this religion] cities>"]
+        "uniques": ["May buy [{pre-[Industrial era]} {Military} {Land}] units with [Faith] for [2] times their normal Production cost <in [in cities following this religion] cities>""[+10]% Production when building military units",
+"[-10]% Growth while at war"]
     },
     {
         "name": "Liturgical Drama",
         "type": "Follower",
-        "uniques": ["[+1 Faith] from every [Amphitheater] <in cities with at least [3] [Followers of this Religion]>"]
+        "uniques": ["[+1 Faith] from every [Amphitheater] <in cities with at least [3] [Followers of this Religion]>","[+2 Culture] from Amphitheaters in cities with majority religion",
+]
     },
     {
         "name": "Monasteries",
         "type": "Follower",
-        "uniques": ["May buy [Monastery] buildings for [150] [Faith] [in cities following this religion]"]
+        "uniques": ["May buy [Monastery] buildings for [150] [Faith] [in cities following this religion]","[+2 Faith, +1 Science] from Monasteries",]
     },
     {
         "name": "Mosques",
         "type": "Follower",
-        "uniques": ["May buy [Mosque] buildings with [Faith] [in cities following this religion]"]
+        "uniques": ["May buy [Mosque] buildings with [Faith] [in cities following this religion]","[+3 Faith, +1 Happiness] from Mosques",]
     },
     {
         "name": "Pagodas",
         "type": "Follower",
-        "uniques": ["May buy [Pagoda] buildings with [Faith] [in cities following this religion]"]
+        "uniques": ["May buy [Pagoda] buildings with [Faith] [in cities following this religion]","[+2 Happiness, +2 Culture] from Pagodas",]
     },
     {
         "name": "Peace Gardens",
         "type": "Follower",
-        "uniques": ["[+2 Happiness] from every [Garden]"]
+        "uniques": ["[+2 Happiness] from every [Garden]","[+1 Food] in cities with [Garden] and majority religion",]
     },
     {
         "name": "Religious Art",
         "type": "Follower",
-        "uniques": ["[+8 Culture] from every [Hermitage]"]
+        "uniques": ["[+8 Culture] from every [Hermitage]","[+1 Culture] from Temples"]
     },
     {
         "name": "Religious Center",
         "type": "Follower",
-        "uniques": ["[+2 Happiness] from every [Temple] <in cities with at least [5] [Followers of this Religion]>"]
+        "uniques": ["[+2 Happiness] from every [Temple] <in cities with at least [5] [Followers of this Religion]>","[+1 Production] from Temples in majority cities",
+]
     },
     {
         "name": "Religious Community",
         "type": "Follower",
-        "uniques": ["[+1]% [Production] from every follower, up to [15]%"]
+        "uniques": ["[+1]% [Production] from every follower, up to [15]%","[+1 Happiness] in cities with at least [10] followers",
+"Cities with multiple religions lose [5]% Production"]
     },
     {
         "name": "Swords into Ploughshares",
         "type": "Follower",
-        "uniques": ["[+15]% growth [in this city] <when not at war>"]
+        "uniques": ["[+15]% growth [in this city] <when not at war>","[+1 Happiness] in cities at peace",
+"[-10]% Production while at war"]
     },
 ///////////////////////////////////////// Founder beliefs //////////////////////////////////////////
 
@@ -204,45 +213,55 @@
     {
         "name": "Church Property",
         "type": "Founder",
-        "uniques": ["[+2 Gold] for each global city following this religion"]
+        "uniques": ["[+2 Gold] for each global city following this religion","[+1 Gold] from foreign cities following this religion",
+"[-10]% Gold in cities not following this religion"]
     },
     {
         "name": "Initiation Rites",
         "type": "Founder",
-        "uniques": ["[+100 Gold] when a city adopts this religion for the first time <(modified by game speed)>"]
+        "uniques": ["[+100 Gold] when a city adopts this religion for the first time <(modified by game speed)>","[+10]% Gold in cities converted within the last [20] turns",
+"[-10]% Gold in cities that have never been converted"]
     },
     {
         "name": "Interfaith Dialogue",
         "type": "Founder",
-        "uniques": ["When spreading religion to a city, gain [10] times the amount of followers of other religions as [Science]"]
+        "uniques": ["When spreading religion to a city, gain [10] times the amount of followers of other religions as [Science]","[+10]% Science in cities with at least [2] religions",
+"[-10]% Science in cities with only this religion"]
     },
     {
         "name": "Papal Primacy",
         "type": "Founder",
-        "uniques": ["Resting point for Influence with City-States following this religion [+15]",
+        "uniques": ["Resting point for Influence with City-States following this religion [+20]","[+10]% Influence gain with City-States following this religion",
+            "[-20]% Influence gain with City-States not following this religion",
             "[-100]% weight to this choice for AI decisions <when number of [Remaining [City-State] Civilizations] is less than [2]>",
             "[-50]% weight to this choice for AI decisions <when number of [Remaining [City-State] Civilizations] is less than [4]>"]
     },
     {
         "name": "Peace Loving",
         "type": "Founder",
-        "uniques": ["[+1 Happiness] from every [5] global followers [in non-enemy foreign cities]"]
+        "uniques": ["[+1 Happiness] from every [5] global followers [in non-enemy foreign cities]","[+1 Happiness] in cities with a majority of this religion",
+"[-10]% Production in cities while at war"]
     },
     {
         "name": "Pilgrimage",
         "type": "Founder",
-        "uniques": ["[+2 Faith] for each global city following this religion"]
+        "uniques": ["[+2 Faith] for each global city following this religion","[+1 Faith] from foreign cities following this religion",
+"[-10]% Faith in cities not following this religion"]
     },
     {
         "name": "Tithe",
         "type": "Founder",
-        "uniques": ["[+1 Gold] from every [4] global followers [in all cities]"]
+        "uniques": ["[+1 Gold] from every [4] global followers [in all cities]","[+1 Gold] from Trade Routes with civilizations following this religion",
+"[-10]% Gold in cities with no followers of this religion"]
     },
     {
         "name": "World Church",
         "type": "Founder",
-        "uniques": ["[+1 Culture] from every [5] global followers [in foreign cities]"]
+        "uniques": ["[+1 Culture] from every [5] global followers [in foreign cities]","[+1 Culture] in cities following this religion",
+"[-10]% Culture in cities not following this religion"
+]
     },
+
 
     ////////////////////////////////////// Enhancer beliefs ///////////////////////////////////////
 
@@ -260,7 +279,9 @@
     {
         "name": "Itinerant Preachers",
         "type": "Enhancer",
-        "uniques": ["Religion naturally spreads to cities [+3] tiles away"]
+        "uniques": ["Religion naturally spreads to cities [+3] tiles away","[+25]% Natural religion spread in cities more than [10] tiles from capital",
+"[-10]% Natural religion spread in cities within [5] tiles of capital"
+]
     },
     {
         "name": "Just War",
@@ -271,28 +292,34 @@
     {
         "name": "Messiah",
         "type": "Enhancer",
-        "uniques": ["[+25]% Spread Religion Strength <for [Great Prophet] units>", "[-25]% Faith cost of generating Great Prophet equivalents"]
+        "uniques": ["[+25]% Spread Religion Strength <for [Great Prophet] units>", "[-25]% Faith cost of generating Great Prophet equivalents","[+1] additional spread charge for Great Prophets",
+"[-10]% Natural religion spread in all cities"]
     },
     {
         "name": "Missionary Zeal",
         "type": "Enhancer",
-        "uniques": ["[+25]% Spread Religion Strength <for [Missionary] units>"]
+        "uniques": ["[+25]% Spread Religion Strength <for [Missionary] units>","[Missionaries] start with [+1] spread charge",
+"[-10]% Faith in cities that have not spread religion in the last [20] turns"
+]
     },
     {
         "name": "Religious Texts",
         "type": "Enhancer",
-        "uniques": ["[+34]% Natural religion spread [in all cities]", "[+34]% Natural religion spread [in all cities] <after discovering [Printing Press]>"]
+        "uniques": ["[+34]% Natural religion spread [in all cities]", "[+34]% Natural religion spread [in all cities] <after discovering [Printing Press]>","[+25]% resistance to foreign religious pressure",
+"Cities with multiple religions suffer [-10]% Growth"]
     },
     {
         "name": "Religious Unity",
         "type": "Enhancer",
-        "uniques": ["[+100]% Natural religion spread [in City-State cities]",
+        "uniques": ["[+100]% Natural religion spread [in City-State cities]","[+10]% yields in City-States following this religion",
+"[-10]% yields from City-States not following this religion",
             "[-100]% weight to this choice for AI decisions <when number of [Remaining [City-State] Civilizations] is less than [2]>",
             "[-50]% weight to this choice for AI decisions <when number of [Remaining [City-State] Civilizations] is less than [4]>"]
     },
     {
         "name": "Reliquary",
         "type": "Enhancer",
-        "uniques": ["Gain [50] [Faith] <upon expending a [Great Person] unit> <(modified by game speed)>"]
+        "uniques": ["Gain [50] [Faith] <upon expending a [Great Person] unit> <(modified by game speed)>","[+5]% Faith in cities following this religion",
+"[-10]% Faith generation when not generating or expending Great People"]
     }
 ]
