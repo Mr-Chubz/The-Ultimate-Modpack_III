@@ -3805,7 +3805,6 @@
 		"requiredTech": "Futuristic Infrastructure",
 		"promotions": ["Energy Weapons"]
 		"uniques": ["No movement cost to pillage","Unbuildable","Can move immediately once bought", "Earn [100]% of the damage done to [City] units as [Gold]","[+20]% Strength <when fighting in [Foreign Land] tiles>","[+50]% Strength <vs cities>"],
-		"upgradesTo": "Gunner",
 		"attackSound": "metalhit"
 	},
 {
@@ -4084,7 +4083,6 @@
 		"requiredTech": "Antimatter",
 		"requiredResource": "Oil",
 		"uniques": ["Cyber","Armored","No defensive terrain bonus", "Never appears as a Barbarian unit"],
-		"upgradesTo": "Smart Artillery",
 		"attackSound": "artilllery"
 	},
 {
