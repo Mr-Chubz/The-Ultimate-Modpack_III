@@ -323,7 +323,7 @@
 		"production": 2,
 		"maintenance": 3,
 		"cost": 600,
-		"uniques": ["Consumes [1] [Power]","Provides [2] [Aluminum]","Provides [1] [Oil]","[+1 Production] per [3] population [in this city]","Limited to [5] per Civilization"]
+		"uniques": ["Consumes [1] [Power]","Provides [1] [Aluminum]","Provides [1] [Oil]","[+1 Production] per [3] population [in this city]","Limited to [5] per Civilization"]
 	},
 	{
 		"name": "Nuclear Plant",
@@ -416,11 +416,19 @@
 		"requiredTech": "Clean Energy",
 		"uniques": ["Consumes [3] [Power]","Population loss from nuclear attacks [-25]% [in this city]","All newly-trained [Military] units [in this city] receive the [Energy Shield] promotion","Only available <in cities without a [Adaptive Base]>","Destroyed when the city is captured"],
 	},
+		{
+		"name": "Integrated Recycling Center",
+		"requiredTech": "Ecology",
+		"production": 2,
+		"maintenance": 3,
+		"cost": 600,
+		"uniques": ["Consumes [1] [Power]","Provides [1] [Fuel]","[+1 Production] per [3] population [in this city]","Limited to [5] per Civilization"]
+	},
 {
 		"name": "Mind Driver",
 		"cost": 2600,
 		"requiredTech": "Determinism",
-		"uniques": ["[+50]% [Happiness]","Rebel units may spawn",]
+		"uniques": ["Consumes [1] [Power]","[+50]% [Happiness][in this city]","[+1 Production] per [3] population [in this city]",]
 		"quote": "'If I could teleport, I'd probably still be late.' - Anonymous"
 	},
 {
@@ -904,6 +912,18 @@
 		"requiredTech": "Determinism",
 		"uniques": ["[+20]% [Science] [in all cities]",]
 		"quote": "'If I could teleport, I'd probably still be late.' - Anonymous"
+	},
+	 {
+		"name": "Sanctum Of The Unbound",
+		"culture": 1,
+		"faith": 10,
+		"greatPersonPoints": {"Great Prophet": 1},
+		"isWonder": true,
+		"percentStatBonus": {"culture": 20},
+		"percentStatBonus": {"culture": 20},
+		"uniques": ["All newly-trained [{Land} {Melee}] units [in this city] receive the [Chosen] promotion"],
+		"requiredTech": "Chivalry",
+		"quote": "'Justice is an unassailable fortress, built on the brow of a mountain which cannot be overthrown by the violence of torrents, nor demolished by the force of armies.' - Joseph Addison"
 	},
 	//Coorparations
   {
