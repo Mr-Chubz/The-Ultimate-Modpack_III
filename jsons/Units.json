@@ -3732,6 +3732,20 @@
 		"uniques": ["Cyber","[+75]% Strength <when attacking>","Can move after attacking","[+1] Sight","Can carry [2] [Air Missile] units","Ignores Zone of Control","Never appears as a Barbarian unit"],
 		"attackSound": "torpedo"
 	},
+{
+		"name": "High-Altitude Interceptor",
+		"unitType": "Air Fighter",
+		"movement": 1,
+		"strength": 72,
+		"rangedStrength": 72,
+		"range": 10,
+		"interceptRange": 14,
+		"cost": 425,
+		"requiredTech": "Enhancing",
+		"requiredResource": "Oil",
+		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Air Bomber] units>", "[+150]% Strength <vs [Air Atomic Bomber] units>", "[+50]% Strength <vs [Air Close Air Support] units>", "[+150]% Strength <vs [Air Helicopter] units>"],
+		"attackSound": "jetgun"
+	},
 	{
 		"name": "Advanced Fighter",
 		"unitType": "Air Close Air Support",
@@ -3880,15 +3894,38 @@
 		"attackSound": "machinegun"
 	},
 {
+		"name": "War Priest",
+		"unitType": "Support",
+		"movement": 2,
+		"strength": 130,
+		"cost": 1050,
+		"requiredTech": "Determinism",
+		"requiredResource": "Aluminum",
+		"uniques": ["Cyber","Hacker","+33% Strength for adjacent non-air Units vs Cyber units","+33% Strength for adjacent non-air Units vs Bio units","+33% Strength for adjacent non-air Units vs Alien units","25% Chance for Adjacent units to capture Killed Cyber unit","Withdraws before melee combat <with [50]% chance>","Can see invisible [Military] units","Never appears as a Barbarian unit"]
+		"promotions": ["Stealth","Support Unit"]
+	},
+{
 		"name": "Kaiju",
 		"unitType": "Naval Submarine",
 		"movement": 9,
 		"strength": 125,
 		"cost": 530,
-		"requiredTech": "Immortality",
+		"requiredTech": "Metagenetics",
 		"requiredResource": "Composites",
 		"uniques": ["Bio","[+75]% Strength <when attacking>","Can move after attacking","[+2] Sight","Ignores Zone of Control","Never appears as a Barbarian unit"],
 		"attackSound": "torpedo"
+	},
+{
+		"name": "Bio-Titan",
+		"unitType": "Heavy Cavalry",
+		"movement": 3,
+		"strength": 180,
+		"cost": 425,
+		"requiredTech": "Metagenetics",
+		"requiredResource": "Uranium",
+		"upgradesTo": "Ultraheavy Death Robot",
+		"uniques": ["Bio","Armored","Can move after attacking","Amphibious", "Ignores terrain cost","Heals [25] damage if it kills a unit","Never appears as a Barbarian unit"],
+		"attackSound": "gdrAttack"
 	},
 {
 		"name": "Atlantis",
@@ -4030,6 +4067,48 @@
 		"requiredResource": "Fuel"
 },
 {
+		"name": "Warp Fighter",
+		"unitType": "Air Close Air Support",
+		"movement": 1,
+		"strength": 90,
+		"rangedStrength": 105,
+		"range": 21,
+		"interceptRange": 21,
+		"cost": 725,
+		"requiredTech": "Gravitational Distortion",
+		"requiredResource": "Fuel",
+		"uniques": ["Cyber","[85]% chance to intercept air attacks", "[+50]% Strength <vs [Armored] units>","[+150]% Strength <vs [Air Helicopter] units>"],
+		"attackSound": "jetgun"
+	},
+{
+		"name": "Nova Bomber",
+		"unitType": "Air Bomber",
+		"movement": 1,
+		"strength": 105,
+		"rangedStrength": 120,
+		"range": 24,
+		"cost": 800,
+		"requiredTech": "Gravitational Distortion",
+		"attackSound": "bombing"
+		"uniques": ["Cyber","Damage taken from interception reduced by [100]%", "Consumes [1] [Fuel]", "Consumes [1] [Aluminum]"],
+
+	},
+{
+		"name": "Orbital Destroyer",
+		"unitType": "Siege Ranged",
+		"movement": 5,
+		"strength": 80,
+		"rangedStrength": 90,
+		"range": 3,
+		"cost": 800,
+		"requiredTech": "Meteorical Endurance",
+		"requiredResource": "Aluminum",
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus", "All tiles cost 1 movement","Ignores Zone of Control","[100]% chance to intercept air attacks",
+			"Can carry [1] [Air Nuke Missile] units", "Can carry [2] [Air Missile] units", "Never appears as a Barbarian unit"],
+		"promotions": ["Indirect Fire"],
+		"attackSound": "missile"
+	},
+{
 		"name": "Starcruiser",
 		"unitType": "Land Carrier",
 		"movement": 5,
@@ -4097,6 +4176,17 @@
 		"uniques": ["Cyber","No defensive terrain bonus", "Never appears as a Barbarian unit", "Nuclear weapon of Strength [1]", "Blast radius [0]", "Consumes [1] [Uranium]", "Rough terrain penalty"],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "artillery"
+	},
+	{
+		"name": "Defense Platform",
+		"unitType": "Missile Defense",
+		"movement": 3,
+		"interceptRange": 6,
+		"strength": 70,
+		"cost": 725,
+		"requiredTech": "Meteorical Endurance",
+		"uniques": ["[95]% chance to intercept air attacks", "Can carry [2] [Air Drone] units", "Never appears as a Barbarian unit", "Only intercepts missiles", "Consumes [2] [Aluminum]"],
+		"attackSound": "missile"
 	},
 	/* Great people */
 
