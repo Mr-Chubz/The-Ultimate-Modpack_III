@@ -12,6 +12,12 @@
 		"Siege Carrier","Siege Nuke","Heavy Cavalry","Light Cavalry","Ranged Cavalry","Counter Cavalry","Land Carrier","Anti Air","Missile Defense","Naval Melee",
 		"Naval Ranged","Naval Escort","Naval Siege","Naval Carrier","Naval Raider","Naval Submarine","Air Fighter","Air Bomber","Air Naval Bomber","Air Close Air Support",
 		"Air Drone","Air Atomic Bomber","Air Missile", "Air Nuke Missile","Air Helicopter",]
+		"prerequisites":"Urban Warfare", "Captain","Urban Assault","Lightfooted","Amphibious Raider", "Rapid Response","Rapid Redeployment", "Anti Cavalry Suppression",
+		"Sneak Attack", "Battle Recon","Paragrenadier", "Supply Drop","Incendiary Munition", "Coordinated Bombardment","Fire Support", "Skirmisher Tactics","Forced Breakthrough", "Saboteur",
+		"Flare", "Coastal Artillery","Pursuit", "Outmaneuvering","Field Mending", "Shock and Awe","Huntdown", "Shoot and Scoot","Preemptive", "Fast Withdrawal",
+		"Continuous AA Protection", "Mobile Battery","Damage Control", "Green Water Navy","Naval Blockade", "Emergency Repair","Auxiliary Ships", "Proximity Defense System",
+		"Weakpoint Exploitation", "Silent Running","Close Range AA Defense", "Secondary Flight Deck","Sortie", "Fast Resupply","Experienced Ground Crew", "Bunker Buster",
+		"Tactical Maintenance", "Long Range Mission","Air to Air Weapon", "NOE Maneuver","Maintenance on The Move","Extended Range",
 	},
 {
 		"name": "Organic Remedies",
