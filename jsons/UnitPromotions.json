@@ -39,7 +39,7 @@
 	},
 	{
 		"name": "Rocket Launcher",
-		"uniques": ["[+35]% Strength <vs [Cyber] units>","[+75]% Strength <vs cities>"]
+		"uniques": ["[+35]% Strength <vs [Armored] units>","[+75]% Strength <vs cities>"]
 	},
 	{
 		"name": "Firewall",
@@ -51,6 +51,10 @@
 	},
 	{
 		"name": "Implants",
+		"uniques": ["[+25]% Strength <vs [Wounded] units>"]
+	},
+		{
+		"name": "Regeneration",
 		"uniques": ["[+25]% Strength <vs [Wounded] units>"]
 	},
 	{
@@ -67,11 +71,15 @@
 	},
 	{
 		"name": "In Orbit",
-		"uniques": ["[+25]% Strength <vs [Land] units>"]
+		"uniques": ["[+25]% Strength <vs [Land] units>","[+25]% Strength <vs [Water] units>"]
 	},
 	{
 		"name": "Energy Shield",
 		"uniques": ["[+20]% Strength <when defending>","[+20]% Strength <vs [Ranged] units>","[+100]% Strength <vs [Missile] units>"]
+	},
+	{
+		"name": "Chosen",
+		"uniques": ["[+15]% Strength","[+20]% Strength <vs [Alien] units>",]
 	},
 	{
 		"name": "Teleportation",
@@ -85,7 +93,9 @@
 		"name": "Skirmish",
 		"uniques": ["Withdraws before melee combat <with [33]% chance>"]
 	},
-
+	{
+		"name": "Xenos",
+		"uniques": ["Unit will heal every turn, even if it performs an action","No movement cost to pillage","[-1] Sight"],
 
 	//Infantry
 	{
