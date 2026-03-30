@@ -4516,7 +4516,7 @@
 		"cost": 1050,
 		"requiredTech": "Meteorical Endurance",
 		"uniques": ["Alien","Space","No defensive terrain bonus","Can move after attacking","All tiles cost 1 movement","Ignores Zone of Control","[100]% chance to intercept air attacks","[+25]% Strength <vs [Air] units>",
-			"Nuclear weapon of Strength [1]", "Blast radius [0]","[+20] Sight],
+			"Nuclear weapon of Strength [1]", "Blast radius [0]","[+20] Sight"],
 		"promotions": ["In Orbit","Amphibious","Energy Shield","Warp","Heat Sensor","Scan Visor","Xenos",]
 		"attackSound": "energyshot"
 	},
