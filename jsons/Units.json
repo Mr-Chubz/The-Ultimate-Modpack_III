@@ -4536,6 +4536,20 @@
 		"promotions": ["Amphibious","Energy Shield","Scan Visor","Xenos",]
 		"attackSound": "energyshot"
 	},
+{
+		"name": "Alien Warpcraft",
+		"unitType": "Air Helicopter",
+		"uniqueTo": "Barbarians",
+		"movement": 40,
+		"strength": 90,
+		"interceptRange": 21,
+		"cost": 725,
+		"requiredTech": "Gravitational Distortion",
+		"promotions": ["Amphibious",]
+		"uniques": ["Alien","Cyber","All tiles cost 1 movement","[85]% chance to intercept air attacks", "[+50]% Strength <vs [Armored] units>","[+150]% Strength <vs [Air Helicopter] units>",
+			"[+150]% Strength <vs [Air Bomber] units>","[+150]% Strength <vs [Land] units> <when defending","[+50]% Strength <when attacking","Withdraws before melee combat <with [100]% chance>"],
+		"attackSound": "jetgun"
+	},
 //Spaceship
 {
 		"name": "SS Booster",
