@@ -26,6 +26,10 @@
 	},
 //Effects
 	{
+		"name": "Spyglass",
+		"uniques": ["[+1] Sight", "May enter foreign tiles without open borders"],
+	},
+	{
 		"name": "Stealth",
 		"uniques": ["Invisible to non-adjacent units"]
 	},
