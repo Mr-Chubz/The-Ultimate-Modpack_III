@@ -923,7 +923,7 @@
 		"isWonder": true,
 		"percentStatBonus": {"culture": 20},
 		"percentStatBonus": {"culture": 20},
-		"uniques": ["All newly-trained [Termination] units [in all cities] receive the [Chosen] promotion",[Termination] units gain the [Chosen] promotion"],
+		"uniques": ["All newly-trained [Termination] units [in all cities] receive the [Chosen] promotion","[Termination] units gain the [Chosen] promotion"],
 		"requiredTech": "Determinism",
 		"quote": "'Justice is an unassailable fortress, built on the brow of a mountain which cannot be overthrown by the violence of torrents, nor demolished by the force of armies.' - Joseph Addison"
 	},
