@@ -242,6 +242,7 @@
 				"name": "Biological Integration",
 				"row": 1,
 				"prerequisites": ["Enhancing"],
+				"uniques":["[-80]% maintenance on road & railroads","[-50]% maintenance cost for [all] buildings [in all cities]"]
 				"quote": "'Neuroscience is a baby science, a mere century old, and our scientific understanding of the brain is nowhere near where we'd like it to be. We know more about the moons of Jupiter than what is inside of our skulls.' - Matt Haig"
 			},
 			{
