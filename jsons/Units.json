@@ -3487,7 +3487,7 @@
 		"cost": 425,
 		"requiredTech": "Stealth",
 		"requiredResource": "Oil",
-		"uniques": ["Damage taken from interception reduced by [100]%","[100]% chance to intercept air attacks", "[+150]% Strength <vs [Air Bomber] units>", "[+150]% Strength <vs [Air Atomic Bomber] units>", "[+50]% Strength <vs [Air Close Air Support] units>", "[+150]% Strength <vs [Air Helicopter] units>","Consumes [1] [Aluminum]"],
+		"uniques": ["Stealth","Damage taken from interception reduced by [100]%","[100]% chance to intercept air attacks", "[+150]% Strength <vs [Air Bomber] units>", "[+150]% Strength <vs [Air Atomic Bomber] units>", "[+50]% Strength <vs [Air Close Air Support] units>", "[+150]% Strength <vs [Air Helicopter] units>","Consumes [1] [Aluminum]"],
 		"upgradesTo": "Orbital Jet",
 		"attackSound": "jetgun"
 	},
@@ -3500,7 +3500,7 @@
 		"range": 20,
 		"cost": 425,
 		"requiredTech": "Stealth",
-		"uniques": ["Damage taken from interception reduced by [100]%", "Cannot be carried by [Naval Carrier] units", "[+4] Sight", "Can see over obstacles", "Consumes [1] [Oil]", "Consumes [1] [Aluminum]"],
+		"uniques": ["Stealth","Damage taken from interception reduced by [100]%", "Cannot be carried by [Naval Carrier] units", "[+4] Sight", "Can see over obstacles", "Consumes [1] [Oil]", "Consumes [1] [Aluminum]"],
 		"attackSound": "bombing"
 	},
 	//Extracolonial Era
@@ -3579,7 +3579,7 @@
 		"strength": 85,
 		"cost": 500,
 		"requiredTech": "Lasers",
-		"uniques": ["May Paradrop to [Land] tiles up to [40] tiles away <in [Friendly Land] tiles>", "No movement cost to pillage",
+		"uniques": ["May Paradrop to [Land] tiles up to [25] tiles away <in [Friendly Land] tiles>", "No movement cost to pillage",
 		"Never appears as a Barbarian unit"],
 		"promotions": ["Skirmish","Rocket Launcher"]
 		"attackSound": "energyshot"
@@ -3701,7 +3701,8 @@
 		"requiredResource": "Composites",
 		"uniques":[
 		"Cyber",
-		"Space",
+		"Space","Stealth",
+		"Damage taken from interception reduced by [100]%",
 		"[100]% chance to intercept air attacks", 
 		"[+150]% Strength <vs [Air Bomber] units>", 
 		"[+150]% Strength <vs [Air Atomic Bomber] units>", 
@@ -3722,9 +3723,9 @@
 		"requiredResource": "Composites",
 		"uniques": [
 		"Cyber",
-		"Space",
-		"[+4] Sight", "Can see over obstacles"],
-		"promotions": ["In Orbit"],
+		"Space","Stealth",
+		"[+4] Sight","Damage taken from interception reduced by [100]%", "Can see over obstacles"],
+		"promotions": ["Heat Sensor","In Orbit"],
 		"attackSound": "bombing"
 	},
 	{
@@ -3767,7 +3768,7 @@
 		"requiredTech": "Automation",
 		"requiredResource": "Fuel",
 		"upgradesTo": "Warp Fighter",
-		"uniques": ["Cyber","[85]% chance to intercept air attacks", "[+50]% Strength <vs [Armored] units>","[+150]% Strength <vs [Air Helicopter] units>"],
+		"uniques": ["Cyber","Damage taken from interception reduced by [50]%","[85]% chance to intercept air attacks", "[+50]% Strength <vs [Armored] units>","[+150]% Strength <vs [Air Helicopter] units>"],
 		"attackSound": "jetgun"
 	},
 {
@@ -3781,7 +3782,7 @@
 		"requiredTech": "Automation",
 		"upgradesTo": "Nova Bomber",
 		"attackSound": "bombing"
-		"uniques": ["Cyber","Damage taken from interception reduced by [100]%", "Consumes [1] [Fuel]", "Consumes [1] [Aluminum]"],
+		"uniques": ["Cyber","Damage taken from interception reduced by [50]%", "Consumes [1] [Fuel]", "Consumes [1] [Aluminum]"],
 
 	},
 	{
@@ -3889,7 +3890,7 @@
 		"cost": 700,
 		"requiredTech": "Particle Physics",
 		"requiredResource": "Titanium",
-		"uniques": ["[+100]% Strength <vs cities>", "All tiles cost 1 movement", "May Paradrop to [Land] tiles up to [40] tiles away <in [Friendly Land] tiles>",  "Never appears as a Barbarian unit"],
+		"uniques": ["Terminator","[+100]% Strength <vs cities>", "All tiles cost 1 movement", "May Paradrop to [Land] tiles up to [25] tiles away <in [Friendly Land] tiles>",  "Never appears as a Barbarian unit"],
 		"promotions": ["Rocket Launcher"]
 		"attackSound": "energyshot"
 	},
@@ -3901,7 +3902,7 @@
 		"rangedStrength": 105,
 		"range": 1,
 		"cost": 700,
-		"uniques": ["Can see over obstacles","[+1] Sight <for [Embarked] units>", "[+1] Sight <when [Embarked]>", "May Paradrop to [Land] tiles up to [40] tiles away <in [Friendly Land] tiles>", "Can move after attacking","All tiles cost 1 movement", "Never appears as a Barbarian unit"],
+		"uniques": ["Terminator","Can see over obstacles","[+1] Sight <for [Embarked] units>", "[+1] Sight <when [Embarked]>", "May Paradrop to [Land] tiles up to [25] tiles away <in [Friendly Land] tiles>", "Can move after attacking","All tiles cost 1 movement", "Never appears as a Barbarian unit"],
 		"requiredTech": "Aquatic Colonization",
 		"requiredResource": "Titanium",
 		"attackSound": "machinegun"
@@ -3914,8 +3915,8 @@
 		"cost": 1050,
 		"requiredTech": "Determinism",
 		"requiredResource": "Titanium",
-		"uniques": ["Cyber","Hacker","+33% Strength for adjacent non-air Units vs Cyber units","+33% Strength for adjacent non-air Units vs Bio units","+33% Strength for adjacent non-air Units vs Alien units","25% Chance for Adjacent units to capture Killed Cyber unit","Withdraws before melee combat <with [50]% chance>","Can see invisible [Military] units",
-			"Never appears as a Barbarian unit","May Paradrop to [Land] tiles up to [40] tiles away <in [Friendly Land] tiles>","[+30]% Strength bonus for [Military] units within [1] tiles <when defending> <vs [Ranged] units>",]
+		"uniques": ["Terminator","Hacker","+33% Strength for adjacent non-air Units vs Cyber units","+33% Strength for adjacent non-air Units vs Bio units","+33% Strength for adjacent non-air Units vs Alien units","25% Chance for Adjacent units to capture Killed Cyber unit","Withdraws before melee combat <with [50]% chance>","Can see invisible [Military] units",
+			"Never appears as a Barbarian unit","May Paradrop to [Land] tiles up to [25] tiles away <in [Friendly Land] tiles>","[+30]% Strength bonus for [Military] units within [1] tiles <when defending> <vs [Ranged] units>",]
 		"promotions": ["Stealth","Support Unit"]
 	},
 {
@@ -4095,7 +4096,7 @@
 		"cost": 725,
 		"requiredTech": "Gravitational Distortion",
 		"requiredResource": "Power",
-		"uniques": ["Cyber","Consumes [1] [Composites]","[85]% chance to intercept air attacks", "[+50]% Strength <vs [Armored] units>","[+150]% Strength <vs [Air Helicopter] units>"],
+		"uniques": ["Cyber","Damage taken from interception reduced by [100]%","Consumes [1] [Composites]","[85]% chance to intercept air attacks", "[+50]% Strength <vs [Armored] units>","[+150]% Strength <vs [Air Helicopter] units>"],
 		"attackSound": "jetgun"
 	},
 {
@@ -4109,7 +4110,7 @@
 		"requiredTech": "Gravitational Distortion",
 		"requiredResource": "Power",
 		"attackSound": "bombing"
-		"uniques": ["Cyber","Consumes [1] [Composites]","Damage taken from interception reduced by [100]%"],
+		"uniques": ["Cyber","Damage taken from interception reduced by [100]%","Consumes [1] [Composites]","Damage taken from interception reduced by [100]%"],
 
 	},
 {
