@@ -4195,7 +4195,7 @@
 		"cost": 800,
 		"requiredTech": "Antimatter",
 		"requiredResource": "Power",
-		"uniques": ["Cyber","Consumes [1] [Aluminum]",""Consumes [1] [Power]",No defensive terrain bonus", "Never appears as a Barbarian unit", "Nuclear weapon of Strength [1]", "Blast radius [0]", "Consumes [1] [Uranium]", "Rough terrain penalty"],
+		"uniques": ["Cyber","Consumes [1] [Aluminum]","Consumes [1] [Power]","No defensive terrain bonus", "Never appears as a Barbarian unit", "Nuclear weapon of Strength [1]", "Blast radius [0]", "Consumes [1] [Uranium]", "Rough terrain penalty"],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "artillery"
 	},
