@@ -175,7 +175,7 @@
         "startingSettlerCount": 3,
         "startingWorkerCount": 3,
         "startingMilitaryUnitCount": 6,
-        "startingMilitaryUnit": "Mechanized Infantry",
+        "startingMilitaryUnit": "Energy Infantry",
         "startingGold": 500,
         "startingCulture": 700,
         "settlerPopulation": 6,
