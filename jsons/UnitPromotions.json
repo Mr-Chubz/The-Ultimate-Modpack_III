@@ -99,7 +99,7 @@
 	},
 	{
 		"name": "Xenos",
-		"uniques": ["Unit will heal every turn, even if it performs an action","No movement cost to pillage","[-1] Sight"],
+		"uniques": ["Unit will heal every turn, even if it performs an action","No movement cost to pillage","[-1] Sight","[4] [Body Snatcher]s rebel <upon conquering a city>"],
 	},
 	//Infantry
 	{
