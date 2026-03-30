@@ -57,7 +57,7 @@
 	},
 	 {
 		"name": "Hydroponic Center",
-		"terrainsCanBeBuiltOn": ["Snow],
+		"terrainsCanBeBuiltOn": ["Snow"],
 		"food": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Terraforming",
