@@ -47,7 +47,7 @@
 	},
 	{
 		"name": "Heat Sensor",
-		"uniques": ["[+200]% Strength <vs [Stealth Bomber] units>"]
+		"uniques": ["[+200]% Strength <vs [Stealth] units>"]
 	},
 	{
 		"name": "Implants",
