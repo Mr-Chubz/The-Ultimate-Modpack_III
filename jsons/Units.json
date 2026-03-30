@@ -4110,7 +4110,7 @@
 		"requiredTech": "Gravitational Distortion",
 		"requiredResource": "Power",
 		"attackSound": "bombing"
-		"uniques": ["Cyber","Damage taken from interception reduced by [100]%","Consumes [1] [Composites]","Damage taken from interception reduced by [100]%"],
+		"uniques": ["Cyber","Damage taken from interception reduced by [100]%","Nuclear weapon of Strength [1]", "Blast radius [0]","Consumes [1] [Composites]","Damage taken from interception reduced by [100]%"],
 
 	},
 {
@@ -4139,7 +4139,8 @@
 		"cost": 1050,
 		"requiredTech": "Meteorical Endurance",
 		"requiredResource": "Uranium",
-		"uniques": ["Cyber","Space","Consumes [1] [Composites]", "Consumes [2] [Fuel]","No defensive terrain bonus","Can move after attacking","All tiles cost 1 movement","Ignores Zone of Control","Can carry [2] [Aircraft] units","[100]% chance to intercept air attacks","[+25]% Strength <vs [Air] units>","Never appears as a Barbarian unit"],
+		"uniques": ["Cyber","Space","Consumes [1] [Composites]", "Consumes [2] [Fuel]","No defensive terrain bonus","Can move after attacking","All tiles cost 1 movement","Ignores Zone of Control","Can carry [2] [Aircraft] units","[100]% chance to intercept air attacks","[+25]% Strength <vs [Air] units>",
+			"Nuclear weapon of Strength [1]", "Blast radius [0]","Never appears as a Barbarian unit"],
 		"promotions": ["In Orbit","Amphibious"]
 		"attackSound": "energyshot"
 	},
@@ -4408,20 +4409,20 @@
 //Aliens
     {
 		"name": "Body Snatcher",
-		"unitType": "Gunpowder",
+		"unitType": "Infantry",
 		"uniqueTo": "Barbarians",
 		"replaces": "Bio-Infantry",
 		"movement": 3,
 		"strength": 140,
 		"cost": 390,
 		"requiredTech": "Enhancing",
-		"uniques": ["Bio","Heals [25] damage if it kills a unit","May capture killed [Military] units <with [99]% chance>","Will not be displayed in Civilopedia"]
-		"promotions": ["Implants"]
+		"uniques": ["Bio","Alien","Heals [25] damage if it kills a unit","May capture killed [Military] units <with [99]% chance>","Will not be displayed in Civilopedia"]
+		"promotions": ["Implants","Xenos",]
 		"attackSound": "bite"
 	},
 	{
 		"name": "Monolith Body Snatcher",
-		"unitType": "Gunpowder",
+		"unitType": "Infantry",
 		"movement": 3,
 		"strength": 140,
 		"cost": 720,
@@ -4440,7 +4441,7 @@
 		"strength": 140,
 		"cost": 400,
 		"requiredTech": "Automation",
-		"uniques": ["Hacker",
+		"uniques": ["Hacker","Alien",
 		"+33% Strength for adjacent non-air Units vs Cyber units",
 		"25% Chance for Adjacent units to capture Killed Cyber unit"
 		"Can see invisible [All] units",
@@ -4480,20 +4481,20 @@
 	},
 	{
 		"name": "UFO",
-		"unitType": "Armored",
+		"unitType": "Heavy Cavalry",
 		"uniqueTo": "Barbarians",
 		"replaces": "Hovertank",
 		"movement": 5,
 		"strength": 185,
 		"cost": 680,
 		"requiredTech": "Nanotechnology",
-		"uniques": ["Cyber","Can move after attacking","Uncapturable","[+100]% Strength <vs [Air] units>","May capture killed [Land] units <with [55]% chance>","Will not be displayed in Civilopedia"],
+		"uniques": ["Alien","Cyber","Can move after attacking","Uncapturable","[+100]% Strength <vs [Air] units>","May capture killed [Land] units <with [55]% chance>","Will not be displayed in Civilopedia"],
 		"promotions": ["Firewall","Amphibious","Gravity Generator"]
 		"attackSound": "gdrAttack"
 	},
 	{
 		"name": "Monolith UFO",
-		"unitType": "Armored",
+		"unitType": "Heavy Cavalry",
 		"movement": 5,
 		"strength": 185,
 		"cost": 1180,
@@ -4503,7 +4504,38 @@
 		"promotions": ["Firewall","Amphibious","Gravity Generator"]
 		"attackSound": "gdrAttack"
 	},
-
+{
+		"name": "Alien Mothership",
+		"unitType": "Land Carrier",
+		"uniqueTo": "Barbarians",
+		"movement": 5,
+		"range": 4,
+		"interceptRange": 2,
+		"strength": 210,
+		"rangedStrength": 210,
+		"cost": 1050,
+		"requiredTech": "Meteorical Endurance",
+		"uniques": ["Alien","Space","No defensive terrain bonus","Can move after attacking","All tiles cost 1 movement","Ignores Zone of Control","[100]% chance to intercept air attacks","[+25]% Strength <vs [Air] units>",
+			"Nuclear weapon of Strength [1]", "Blast radius [0]","[+20] Sight],
+		"promotions": ["In Orbit","Amphibious","Energy Shield","Warp","Heat Sensor","Scan Visor","Xenos",]
+		"attackSound": "energyshot"
+	},
+{
+		"name": "Alien Death Robot",
+		"unitType": "Heavy Cavalry",
+		"uniqueTo": "Barbarians",
+		"movement": 3,
+		"range": 2,
+		"interceptRange": 1,
+		"strength": 120,
+		"rangedStrength": 130,
+		"cost": 1050,
+		"requiredTech": "Meteorical Endurance",
+		"uniques": ["Alien","Can move after attacking","All tiles cost 1 movement","[70]% chance to intercept air attacks",
+			"Nuclear weapon of Strength [1]", "Blast radius [0]","May Paradrop to [Land] tiles up to [25] tiles away",]
+		"promotions": ["Amphibious","Energy Shield","Scan Visor","Xenos",]
+		"attackSound": "energyshot"
+	},
 //Spaceship
 {
 		"name": "SS Booster",
