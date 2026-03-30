@@ -8,7 +8,7 @@
         "Cannot build [Settler] units <when below [-10] [Happiness]>",
         "Rebel units may spawn <when below [-20] [Happiness]>",
         "Gain [60] Influence with a [Diplomat] gift to a City-State"
-        "Rebel units may spawn <upon entering the [Extracolonial era]>",
+        "Rebel units may spawn <after entering the [Extracolonial era]>",
 
 
         // TODO: Implement the uniques below
