@@ -2,5 +2,8 @@
     "constants": {
 	"minimalCityDistance": 1,
 	"minimalCityDistanceOnDifferentContinents": 1,
+	"uniques":[
+        "Allow raze capital",
+        "Allow raze holy city"],
     }
-},
+}
