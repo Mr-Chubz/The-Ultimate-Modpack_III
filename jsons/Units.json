@@ -4516,7 +4516,7 @@
 		"cost": 1050,
 		"requiredTech": "Meteorical Endurance",
 		"uniques": ["Alien","Space","No defensive terrain bonus","Can move after attacking","All tiles cost 1 movement","Ignores Zone of Control","[100]% chance to intercept air attacks","[+25]% Strength <vs [Air] units>",
-			"Nuclear weapon of Strength [1]", "Blast radius [0]","[+20] Sight"],
+			"Nuclear weapon of Strength [1]", "Blast radius [0]","[+20] Sight","[2] free [Alien Warpcraft] units appear <upon entering combat>","[2] free [Body Snatcher] units appear <upon entering combat>"],
 		"promotions": ["In Orbit","Amphibious","Energy Shield","Warp","Heat Sensor","Scan Visor","Xenos",]
 		"attackSound": "energyshot"
 	},
@@ -4531,7 +4531,7 @@
 		"rangedStrength": 130,
 		"cost": 1050,
 		"requiredTech": "Meteorical Endurance",
-		"uniques": ["Alien","Can move after attacking","All tiles cost 1 movement","[70]% chance to intercept air attacks",
+		"uniques": ["Alien","Can move after attacking","All tiles cost 1 movement","[70]% chance to intercept air attacks","[2] free [Body Snatcher] units appear <upon entering combat>",
 			"Nuclear weapon of Strength [1]", "Blast radius [0]","May Paradrop to [Land] tiles up to [25] tiles away",]
 		"promotions": ["Amphibious","Energy Shield","Scan Visor","Xenos",]
 		"attackSound": "energyshot"
@@ -4540,13 +4540,13 @@
 		"name": "Alien Warpcraft",
 		"unitType": "Air Helicopter",
 		"uniqueTo": "Barbarians",
-		"movement": 40,
+		"movement": 21,
 		"strength": 90,
 		"interceptRange": 21,
 		"cost": 725,
 		"requiredTech": "Gravitational Distortion",
 		"promotions": ["Amphibious",]
-		"uniques": ["Alien","Cyber","All tiles cost 1 movement","[85]% chance to intercept air attacks", "[+50]% Strength <vs [Armored] units>","[+150]% Strength <vs [Air Helicopter] units>",
+		"uniques": ["Alien","Cyber","Stealth","All tiles cost 1 movement","[85]% chance to intercept air attacks", "[+50]% Strength <vs [Armored] units>","[+150]% Strength <vs [Air Helicopter] units>","Unable to pillage tiles",
 			"[+150]% Strength <vs [Air Bomber] units>","[+150]% Strength <vs [Land] units> <when defending","[+50]% Strength <when attacking","Withdraws before melee combat <with [100]% chance>"],
 		"attackSound": "jetgun"
 	},
