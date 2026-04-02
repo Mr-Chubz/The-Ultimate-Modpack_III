@@ -4516,7 +4516,7 @@
 		"cost": 1050,
 		"requiredTech": "Meteorical Endurance",
 		"uniques": ["Alien","Space","No defensive terrain bonus","Can move after attacking","All tiles cost 1 movement","Ignores Zone of Control","[100]% chance to intercept air attacks","[+25]% Strength <vs [Air] units>",
-			"Nuclear weapon of Strength [1]", "Blast radius [0]","[+20] Sight","[2] free [Alien Warpcraft] units appear <upon entering combat>","[2] free [Body Snatcher] units appear <upon entering combat>"],
+			"Nuclear weapon of Strength [1]", "Blast radius [0]","[+20] Sight","[2] free [Alien Warpcraft] units appear <upon turn start>","[1] free [Alien Death Robot] units appear <upon ending a turn in a [Enemy Land] tile>"],
 		"promotions": ["In Orbit","Amphibious","Energy Shield","Warp","Heat Sensor","Scan Visor","Xenos",]
 		"attackSound": "energyshot"
 	},
@@ -4525,10 +4525,7 @@
 		"unitType": "Heavy Cavalry",
 		"uniqueTo": "Barbarians",
 		"movement": 3,
-		"range": 2,
-		"interceptRange": 1,
-		"strength": 120,
-		"rangedStrength": 130,
+		"strength": 130,
 		"cost": 1050,
 		"requiredTech": "Meteorical Endurance",
 		"uniques": ["Alien","Can move after attacking","All tiles cost 1 movement","[70]% chance to intercept air attacks","[2] free [Body Snatcher] units appear <upon entering combat>",
