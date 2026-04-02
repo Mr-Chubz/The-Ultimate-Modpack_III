@@ -4525,11 +4525,11 @@
 		"unitType": "Heavy Cavalry",
 		"uniqueTo": "Barbarians",
 		"movement": 3,
-		"strength": 130,
+		"strength": 140,
 		"cost": 1050,
 		"requiredTech": "Meteorical Endurance",
-		"uniques": ["Alien","Can move after attacking","All tiles cost 1 movement","[70]% chance to intercept air attacks","[2] free [Body Snatcher] units appear <upon entering combat>",
-			"Nuclear weapon of Strength [1]", "Blast radius [0]","May Paradrop to [Land] tiles up to [25] tiles away",]
+		"uniques": ["Alien","[+200]% Strength <vs cities>","Can move after attacking","All tiles cost 1 movement","[70]% chance to intercept air attacks","[2] free [Body Snatcher] units appear <upon entering combat>",
+			"Nuclear weapon of Strength [1]", "Blast radius [0]","May capture killed [Land] units <with [44]% chance>","May Paradrop to [Land] tiles up to [25] tiles away",]
 		"promotions": ["Amphibious","Energy Shield","Scan Visor","Xenos",]
 		"attackSound": "energyshot"
 	},
