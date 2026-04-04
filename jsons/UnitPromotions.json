@@ -90,10 +90,6 @@
 		"uniques": ["May Paradrop to [Land] tiles up to [100] tiles away <in [Friendly Land] tiles>","Withdraws before melee combat <with [20]% chance>"]
 	},
 	{
-		"name": "Warp",
-		"uniques": ["May Paradrop to [All] tiles up to [100] tiles away",]
-	},
-	{
 		"name": "Support Unit",
 		"uniques": ["Cannot attack"]
 	},
@@ -1453,6 +1449,11 @@
 		"name": "Reactive Armor",
 		"unitTypes": ["Heavy Cavalry"]
 		"uniques": ["[+20]% Strength <vs [Armored] units>","Ignores zone of control","Only available <after discovering [Mobile Tactics]>"]
+	},
+	{
+		"name": "Warp",
+		"unitTypes": ["Land Carrier"]
+		"uniques": ["May Paradrop to [All] tiles up to [100] tiles away","Only available <after discovering [Meteorical Endurance]>",]
 	},
 	{
 		"name": "Iron Curtain Force Field",
