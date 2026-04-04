@@ -64,7 +64,9 @@
 		"movement": 3,
 		"strength": 5,
 		"cost": 15,
-		"uniques": ["May upgrade to [Warrior] through ruins-like effects", "Never appears as a Barbarian unit", "[+100]% Strength <vs [Barbarian] units> <when fighting in [Friendly Land] tiles>", "[-50]% Strength <when fighting in [Foreign Land] tiles>", "[-75]% maintenance costs", "[-2] Movement <in [Foreign Land] tiles>"],
+		"uniques": ["May upgrade to [Warrior] through ruins-like effects", "Never appears as a Barbarian unit", 
+			"[+100]% Strength <vs [Barbarian] units> <when fighting in [Friendly Land] tiles>", "[-50]% Strength <when fighting in [Foreign Land] tiles>", 
+			"[-75]% maintenance costs", "[-2] Movement <in [Foreign Land] tiles>","[-50]% weight to this choice for AI decisions"],
 		"upgradesTo": "Citizen Militia",
 		"obsoleteTech": "Mathematics",
 		"attackSound": "nonmetalhit"
