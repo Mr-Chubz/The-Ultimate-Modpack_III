@@ -418,7 +418,7 @@
 	},
 		{
 		"name": "Integrated Recycling Center",
-		"requiredTech": "Ecology",
+		"requiredTech": "Biological Integration",
 		"production": 2,
 		"maintenance": 3,
 		"cost": 600,
