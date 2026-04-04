@@ -22,6 +22,16 @@
 		"hurryCostModifier": 20
 	},
 	{
+		"name": "Herald",
+		"unitType": "Civilian",
+		"uniques": [
+            "Empire enters a [8]-turn Golden Age <by consuming this unit>",
+            "[+5]% Strength bonus for [Military] units within [1] tiles",
+			"[-50]% maintenance costs for [All] units within [1] tiles",
+			"[-50]% maintenance costs <for every adjacent [Improvement]>","Cannot be purchased"],
+		"movement": 2
+	},
+	{
 		"name": "Scout",
 		"unitType": "Recon",
 		"movement": 2,
@@ -4125,7 +4135,7 @@
 		"requiredResource": "Composites",
 		"uniques": ["Cyber","Space","[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus", "All tiles cost 1 movement","Ignores Zone of Control","[100]% chance to intercept air attacks",
 			"Can carry [1] [Air Nuke Missile] units", "Can carry [2] [Air Missile] units",  "Consumes [2] [Power]","Consumes [2] [Fuel]","Never appears as a Barbarian unit"],
-		"promotions": ["Indirect Fire","In Orbit","Amphibious"],
+		"promotions": ["Indirect Fire","In Orbit","Amphibious","Warp"],
 		"attackSound": "missile"
 	},
 {
@@ -4208,6 +4218,7 @@
 		"cost": 725,
 		"requiredTech": "Meteorical Endurance",
 		"requiredResource": "Power",
+		"promotions": ["Amphibious","Hovering"],
 		"uniques": ["[95]% chance to intercept air attacks", "Can carry [2] [Air Drone] units", "Never appears as a Barbarian unit", "Only intercepts missiles", "Consumes [2] [Aluminum]"],
 		"attackSound": "missile"
 	},
