@@ -8,7 +8,7 @@
 		"name": "Worker",
 		"unitType": "Civilian",
 		"movement": 2,
-		"uniques": ["Can build [Land] improvements on tiles","[+50]% weight to this choice for AI decisions <before the [Medieval era]>"],
+		"uniques": ["Can build [Land] improvements on tiles","[+50]% weight to this choice for AI decisions"],
 		"upgradesTo": "Architect",
 		"cost": 70
 	},
@@ -211,7 +211,7 @@
 		"movement": 4,
 		"cost": 30,
 		"requiredTech": "Sailing",
-		"uniques": ["Cannot enter ocean tiles","May create improvements on water resources",
+		"uniques": ["Cannot enter ocean tiles","May create improvements on water resources","[+50]% weight to this choice for AI decisions",
         "Can instantly construct a [Offshore Wind Farm] improvement <by consuming this unit> <after discovering [Terraforming]>",
 	"Can instantly construct a [Aquatic Habitat] improvement <by consuming this unit> <after discovering [Aquatic Colonization]>","Uncapturable"]
 	},
