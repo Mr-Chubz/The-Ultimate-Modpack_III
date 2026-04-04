@@ -70,7 +70,7 @@
         "name": "Make Tools",
         "hurryCostModifier": 25,
         "production": 1
-        "uniques": ["[+1 Science, +2 Production] per [3] population [in this city]", "[+3]% [Science] [in this city]", "Consumes [1] [Iron]"],
+        "uniques": ["[+2 Production] per [3] population [in this city]", "[+3]% [Science] [in this city]", "Consumes [1] [Iron]"],
         "requiredTech": "Iron Working"
 },
 	{
@@ -79,7 +79,7 @@
         "food": 4,
         "maintenance": 2,
         "requiredTech": "Education",
-        "uniques": ["[+2 Science] from [Wine] tiles [in this city]","[+2 Science] from [Spices] tiles [in this city]","Must be next to [Forest]","Must be next to [Jungle]","All newly-trained [Melee] units [in this city] receive the [Organic Remedies] promotion"]
+        "uniques": ["[+1 Science] from [Wine] tiles [in this city]","[+1 Science] from [Spices] tiles [in this city]","Must be next to [Forest]","Must be next to [Jungle]","All newly-trained [Melee] units [in this city] receive the [Organic Remedies] promotion"]
     }
 {
     "name": "Censer Maker",
@@ -289,7 +289,7 @@
         "name": "Weapon Manufactory",
         "hurryCostModifier": 25,
         "production": 2
-        "uniques": ["[+1 Science, +2 Production] per [3] population [in this city]","Provides [4] [Charges]"],
+        "uniques": ["[+2 Production] per [3] population [in this city]","Provides [4] [Charges]"],
         "requiredTech": "Rocketry"
         "requiredResource": "Copper",
   },
@@ -366,6 +366,7 @@
 		"name": "Nano-Factory",
 		"production": 2,
 		"percentStatBonus": {"production": 50},
+		"cost": 1000,
 		"requiredBuilding": "Factory",
 		"maintenance": 5,
 		"hurryCostModifier": 0,
@@ -379,9 +380,9 @@
 	},
 	{
 		"name": "Energy Reactor",
-		"cost": 1000,
+		"cost": 2000,
 		"requiredTech": "Particle Physics",
-		"maintenance": 5,
+		"maintenance": 20,
 		"uniques": ["Provides [10] [Power]","Provides [3] [Power] <after discovering [Clean Energy]>","Provides [10] [Power] <if [Electrical Corporation] is constructed>","Only available <in cities without a [Coal Plant]>","Only available <in cities without a [Nuclear Plant]>"]
 	},
 	{
@@ -420,12 +421,13 @@
 		"name": "Integrated Recycling Center",
 		"requiredTech": "Biological Integration",
 		"production": 2,
-		"maintenance": 3,
+		"maintenance": 6,
 		"cost": 600,
 		"uniques": ["Consumes [1] [Power]","Provides [1] [Fuel]","[+1 Production] per [3] population [in this city]","Limited to [5] per Civilization"]
 	},
 {
 		"name": "Mind Driver",
+		"maintenance": 12,
 		"cost": 2600,
 		"requiredTech": "Determinism",
 		"uniques": ["Consumes [1] [Power]","[+50]% [Happiness][in this city]","[+1 Production] per [3] population [in this city]",]
@@ -435,11 +437,12 @@
 		"name": "Antimatter Reactor",
 		"cost": 1000,
 		"requiredTech": "Antimatter",
-		"maintenance": 5,
+		"maintenance": 10,
 		"uniques": ["Provides [10] [Power]","Provides [3] [Power] <after discovering [Clean Energy]>","Provides [10] [Power] <if [Electrical Corporation] is constructed>","Only available <in cities without a [Coal Plant]>","Only available <in cities without a [Nuclear Plant]>"]
 	},
 {
 		"name": "Space Elevator",
+		"maintenance": 12,
 		"cost": 2600,
 		"requiredTech": "Meteorical Endurance",
 		"greatPersonPoints": {"Great Spacefarer": 2},
@@ -492,7 +495,7 @@
 	},
 {
 "name": "Chemical Weapons Lab",
-"science": 2,
+"science": 1,
 "cost": 275,
 "specialistSlots": {"Scientist": 1},
 "maintenance": 2,
@@ -528,7 +531,7 @@
 		"requiredBuilding": "Public School",
 		"maintenance": 3,
 		"requiredTech": "Plastics"
-		"uniques": ["Consumes [1] [Power]","[+2]% [Science]"]
+		"uniques": ["Consumes [1] [Power]","[+2]% [Science] <with [Power]>"]
 	},
 {
 "name": "Fuel Refinery",
@@ -578,6 +581,7 @@
 	{
 		"name": "Spaceship Factory",
 		"production": 3,
+		"maintenance": 4,
 		"specialistSlots": {"Spacefarer": 1},
 		"cost": 750,
 		"requiredTech": "Robotics"
@@ -605,9 +609,10 @@
     {
 		"name": "Private Grid",
 		"requiredTech": "The Internet",
-		"percentStatBonus": {"science": 70},
+		"percentStatBonus": {"science": 50},
 		"specialistSlots": {"Scientist": 1},
 		"requiredBuilding": "Research Lab",
+		"cost": 850,
 		"maintenance": 5,
 		"uniques": ["Consumes [2] [Power]",
 		"Unsellable",
@@ -618,10 +623,12 @@
 	},
 	{
 		"name": "Space Station",
-		"percentStatBonus": {"culture": 15,"science": 15,"gold": 15},
+		"percentStatBonus": {"culture": 15,"science": 15,"gold": 5},
 		"specialistSlots": {"Spacefarer": 2},
 		"requiredTech": "Lasers",
-		"uniques": ["Consumes [3] [Power]","Space","[-15]% growth [in this city]","Destroyed when the city is captured"
+		"cost": 1000,
+		"maintenance": 10,
+		"uniques": ["Consumes [5] [Power]","Space","[-15]% growth [in this city]","Destroyed when the city is captured"
 		"Only available <in cities without a [Nano-Factory]>",
 		"Only available <in cities without a [Bio Facility]>"
 		"Only available <in cities without a [Composite Factory]>"],
@@ -629,11 +636,13 @@
 	},
 	{
 		"name": "Space Colony",
-		"percentStatBonus": {"culture": 25,"science": 25,"gold": 25},
+		"percentStatBonus": {"culture": 25,"science": 25,"gold": 10},
 		"specialistSlots": {"Spacefarer": 2},
 		"requiredTech": "Spaceflight",
 		"requiredBuilding": "Space Station"
-		"uniques": ["Consumes [3] [Power]","Space","[-25]% growth [in this city]","Destroyed when the city is captured"
+		"cost": 1200,
+		"maintenance": 10,
+		"uniques": ["Consumes [5] [Power]","Space","[-25]% growth [in this city]","Destroyed when the city is captured"
 		"Only available <in cities without a [Nano-Factory]>",
 		"Only available <in cities without a [Bio Facility]>",
 		"Only available <in cities without a [Composite Factory]>"],
@@ -645,11 +654,12 @@
 		"production": 4,
 		"percentStatBonus": {"production": 5},
 		"specialistSlots": {"Engineer": 2},
-		"requiredBuilding": "Workshop",
-		"maintenance": 3,
+		"requiredBuilding": "Composite Factory"
+		"cost": 1200,
+		"maintenance": 8,
 		"hurryCostModifier": 0,
 		"requiredTech": "Futuristic Infrastructure"
-		"uniques": ["[+15]% [Production] [in this city] <with [Power]>"],
+		"uniques": ["Consumes [3] [Power]","[+35]% [Production] [in this city] <with [Power]>"],
 	},
   //National Wonder
   {
@@ -680,13 +690,13 @@
 		"science": 4,
 		"isNationalWonder": true,
 		"requiredTech": "Scientific Theory",
-		"uniques": ["Destroyed when the city is captured", "Cost increases by [30] per owned city", "Provides [2] [Secret Project]"]
+		"uniques": ["Destroyed when the city is captured", "Cost increases by [60] per owned city", "Provides [2] [Secret Project]"]
   },
 {
 		"name": "Cloning Facility",
 		"cost": 1000,
 		"food": -6,
-		"science": 4,
+		"science": 1,
 		"isNationalWonder": true,
 		"requiredTech": "Pharmaceuticals",
 		"uniques": ["[+200]% Production when constructing [Infantry] units [in this city]", "Destroyed when the city is captured", "Consumes [1] [Secret Project]", "Will not be displayed in Civilopedia", "Only available <with [Secret Project]>"]
