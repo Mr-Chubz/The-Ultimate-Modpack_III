@@ -10,8 +10,9 @@
         "Rebel units may spawn <when below [-20] [Happiness]>",
         "Gain [60] Influence with a [Diplomat] gift to a City-State"
         "Rebel units may spawn <starting from the [Extracolonial era]>",
-        "Free [Herald] appears <upon entering a Golden Age> <before the [Renaissance era]>"
-
+        "Free [Herald] appears <upon entering a Golden Age> <before the [Renaissance era]>",
+        "Can spend Gold to annex or puppet a City-State that has been your Ally for [10] turns <before the [Industrial era]>",
+        "When conquering an encampment, earn [25] Gold and recruit a Barbarian unit <with [10]% chance> <before the [Atomic era]>",
 
         // TODO: Implement the uniques below
         // "[+20]% [Culture] [in all cities] <during a golden age>",
