@@ -4559,7 +4559,7 @@
 		"requiredTech": "Gravitational Distortion",
 		"promotions": ["Amphibious",]
 		"uniques": ["Alien","Cyber","Stealth","All tiles cost 1 movement","[85]% chance to intercept air attacks","No defensive terrain bonus", "[+20]% Strength <vs [Armored] units>","[+150]% Strength <vs [Air Helicopter] units>","Invisible to others",
-			"[+150]% Strength <vs [Air Bomber] units>","[+150]% Strength <vs [Land] units> <when defending>","[+50]% Strength <when attacking","Withdraws before melee combat <with [100]% chance>"],
+			"[+150]% Strength <vs [Air Bomber] units>","[+150]% Strength <vs [Land] units> <when defending>","[+20]% Strength <when attacking>","Withdraws before melee combat <with [100]% chance>"],
 		"attackSound": "jetgun"
 	},
 //Spaceship
