@@ -57,6 +57,7 @@
         "settlerBuildings": ["Shrine","Monument","Granary","Lighthouse"],
         "startingObsoleteWonders": ["Temple of Artemis", "Stonehenge", "The Great Library", "Mausoleum of Halicarnassus", "The Pyramids", "Statue of Zeus", 
             "The Great Lighthouse", "Hanging Gardens", "Terracotta Army", "The Oracle", "Petra", "Great Wall", "Colossus"],
+		"uniques": ["Every major Civilization gains a spy once a civilization enters this era"],
         "baseUnitBuyCost": 300,
         "embarkDefense": 8,
         "startPercent": 37,
@@ -82,7 +83,7 @@
         "iconRGB": [63, 81, 182],
         "uniques": ["May not generate great prophet equivalents naturally",
             "May buy [Great Prophet] units for [200] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([100])",
-            "Starting in this era disables religion"
+            "Starting in this era disables religion","Every major Civilization gains a spy once a civilization enters this era"
         ]
 		"civilopediaText": [
 			{"text": "The Industrial Revolution changed very extensively the way the world works. In Future Expansion, most of the content starts being unlocked here."}
@@ -109,7 +110,7 @@
         "iconRGB": [33, 150, 243],
         "uniques": ["May not generate great prophet equivalents naturally",
             "May buy [Great Prophet] units for [200] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([100])",
-            "Starting in this era disables religion"
+            "Starting in this era disables religion","Every major Civilization gains a spy once a civilization enters this era"
         ]
     },
     {
@@ -134,7 +135,7 @@
         "iconRGB": [0, 150, 136],
         "uniques": ["May not generate great prophet equivalents naturally",
             "May buy [Great Prophet] units for [200] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([100])",
-            "Starting in this era disables religion"
+            "Starting in this era disables religion","Every major Civilization gains a spy once a civilization enters this era"
         ]
     },
     {
@@ -192,7 +193,7 @@
         "iconRGB": [76, 176, 81],
         "uniques": ["May not generate great prophet equivalents naturally",
             "May buy [Great Prophet] units for [200] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([100])",
-            "Starting in this era disables religion"
+            "Starting in this era disables religion","Every major Civilization gains a spy once a civilization enters this era"
         ]
     },
 	{
@@ -218,7 +219,7 @@
         "iconRGB": [76, 176, 81],
         "uniques": ["May not generate great prophet equivalents naturally",
             "May buy [Great Prophet] units for [200] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([100])",
-            "Starting in this era disables religion"
+            "Starting in this era disables religion","Every major Civilization gains a spy once a civilization enters this era"
         ]
     }
 {
@@ -244,7 +245,7 @@
         "iconRGB": [76, 176, 81],
         "uniques": ["May not generate great prophet equivalents naturally",
             "May buy [Great Prophet] units for [200] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([100])",
-            "Starting in this era disables religion"
+            "Starting in this era disables religion","Every major Civilization gains a spy once a civilization enters this era"
         ]
     }
 ]
