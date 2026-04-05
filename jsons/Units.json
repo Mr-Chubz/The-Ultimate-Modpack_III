@@ -8,9 +8,9 @@
 		"name": "Worker",
 		"unitType": "Civilian",
 		"movement": 2,
-		"uniques": ["Can build [Land] improvements on tiles","[+50]% weight to this choice for AI decisions"],
+		"uniques": ["Can build [Land] improvements on tiles","Automation is a primary action"],
 		"upgradesTo": "Architect",
-		"cost": 40
+		"cost": 70
 	},
 	{
 		"name": "Settler",
@@ -66,7 +66,7 @@
 		"cost": 15,
 		"uniques": ["May upgrade to [Warrior] through ruins-like effects", "Never appears as a Barbarian unit", 
 			"[+100]% Strength <vs [Barbarian] units> <when fighting in [Friendly Land] tiles>", "[-50]% Strength <when fighting in [Foreign Land] tiles>", 
-			"[-75]% maintenance costs", "[-2] Movement <in [Foreign Land] tiles>","[-100]% weight to this choice for AI decisions"],
+			"[-75]% maintenance costs", "[-2] Movement <in [Foreign Land] tiles>","[-75]% weight to this choice for AI decisions"],
 		"upgradesTo": "Citizen Militia",
 		"obsoleteTech": "Mathematics",
 		"attackSound": "nonmetalhit"
