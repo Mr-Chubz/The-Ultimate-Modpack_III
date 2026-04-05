@@ -22,6 +22,7 @@
         "startingGold": 10,
         "startingCulture": 100,
         "settlerPopulation": 1,
+		"uniques": ["Every major Civilization gains a spy once a civilization enters this era"],
         "baseUnitBuyCost": 200,
         "embarkDefense": 4,
         "startPercent": 10,
