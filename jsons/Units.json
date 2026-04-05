@@ -10,7 +10,7 @@
 		"movement": 2,
 		"uniques": ["Can build [Land] improvements on tiles","[+50]% weight to this choice for AI decisions"],
 		"upgradesTo": "Architect",
-		"cost": 70
+		"cost": 40
 	},
 	{
 		"name": "Settler",
